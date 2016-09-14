@@ -12,9 +12,11 @@
 
 	<div class="container">
 
+		{.section website}
 		<header class="header">
-			<h1 class="site-title"><a href="/">Suited Magazine</a></h1>
+			<h1 class="site-title"><a href="/">{siteTitle}</a></h1>
 		</header>
+		{.end}
 
 		<main class="content">
 			<div>
