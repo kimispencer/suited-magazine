@@ -18,6 +18,12 @@
 			{.end}
 		</header>
 
+		<!-- navigation hook-up
+			* template: /blocks/navigation.block
+			* navigationId -> comes from template.conf, pages are added to nav on Squarespace admin
+		-->
+		<squarespace:navigation navigationId="mainNav" template="navigation" />
+		
 		<main class="content">
 			<section id="page" role="main" data-content-field="main-content">
 				{squarespace.main-content}
@@ -27,7 +33,6 @@
 	</div>
 
 	<!--Injection point for tracking scripts and user content from the code injection tab.-->
-	{squarespace-footers}
-
+	{squarespace-footers}	
 	</body>
 </html>
