@@ -26,62 +26,7 @@
 		
 		<main class="content">
 			<section id="page" role="main" data-content-field="main-content">
-				<!-- {squarespace.main-content} -->
-
-<section class="home">
-	<div class="page" id="CurrentIssue">
-		<div class="flex-col">
-			<div class="half-span">
-				<h2 class="title">Issue N<span class="superscript">0</span>4</h2>
-				<p class="title uppercase">fall/winter 2016</p>
-				<p class="paragraph">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
-
-				<h4 class="title border-bottom">Explore this issue</h4>
-				<p class="title uppercase">Featuring</p>
-
-				<h2 class="title">Ghetto Gastro</h2>
-				<h2 class="title">Issey Miyake</h2>
-				<h2 class="title">Nehera</h2>
-				<h2 class="title">Joe Corre</h2>
-				<h2 class="title">Rosie Lowe</h2>
-				<h2 class="title">Marlowe</h2>
-			</div>
-			<div class="half-span">
-				<div class="responsive-ratio-img">
-					<!-- <div class="bg-img" style={magazineBg} id="CurrentIssueImg"> -->`
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-
-	<div class="page black-bg" id="Bespoke">
-		<div class="flex-col">
-			<div class="half-span">
-				<h4 class="title uppercase">Feature</h4>
-				<h1 class="title">Bespoken Menswear</h1>
-				<p class="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
-				<h4 class="title border-bottom">Read More</h4>
-				<!-- <div class="square bg-img" id="BespokeImg" style={magBg}></div> -->
-			</div>
-			<!-- <div class="half-span bg-img" style={magBg}></div> -->
-		</div>
-	</div>
-
-	<div class="page" id="Fashion">
-		<div class="flex-col">
-			<div class="half-span">
-				<!-- <div class="large-square bg-img" style={magBg}></div> -->
-			</div>
-			<div class="half-span">
-				<p>hm... is this a Feature component? (image w/ hover overlay, click to Article)</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-
+				{squarespace.main-content}
 			</section>
 		</main>
 
