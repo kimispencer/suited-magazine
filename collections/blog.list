@@ -1,6 +1,7 @@
 {.repeated section items}
 	<!--WRAPPER-->
 	<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+		<h1>blog.list</h1>
 		<!--POST TILE-->
 		<h1 class="title" data-content-field="title">
 			{.passthrough?}

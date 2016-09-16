@@ -1,18 +1,17 @@
 {.section item}
-   <!--WRAPPER-->
-   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+<!--WRAPPER-->
+<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+	<h1>blog.item</h1>
+	<!--POST TILE-->
+	<h1 class="title" data-content-field="title">
+		{.passthrough?}
+		<a href="{sourceUrl}" target="_blank">{title}</a>
+		{.or}
+		<a href="{fullUrl}">{title}</a>
+		{.end}
+	</h1>
 
-	  <!--POST TILE-->
-	  <h1 class="title" data-content-field="title">
-		 {.passthrough?}
-			 <a href="{sourceUrl}" target="_blank">{title}</a>
-		 {.or}
-			 <a href="{fullUrl}">{title}</a>
-		 {.end}
-	  </h1>
-
-	  <!--MAIN CONTENT-->
-	  {body}
-	  
-   </article>
+	<!--MAIN CONTENT-->
+	{body}
+</article>
 {.end}
