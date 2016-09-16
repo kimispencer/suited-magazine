@@ -26,6 +26,7 @@
 		
 		<main class="content">
 			<section id="page" role="main" data-content-field="main-content">
+				<h1>hello homepage</h1>
 				{squarespace.main-content}
 			</section>
 		</main>
