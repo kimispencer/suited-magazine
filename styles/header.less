@@ -16,6 +16,18 @@
 			fill: @white;
 		}
 	}
+	.close-nav {
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		right: 0;
+
+		padding: 15px;			// !!! use calc() instead of hard coded value
+
+		&#Open {
+			position: fixed;
+		}
+	}
 
 	nav {
 		width: 100%;
@@ -44,7 +56,9 @@
 				fill: @black;
 			}
 		}
-
+		.close-nav {
+			display: none;
+		}
 		nav {
 			width: calc(100vw ~'-' @gutter*2);
 			margin-left: auto;
