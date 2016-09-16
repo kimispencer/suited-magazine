@@ -1,0 +1,52 @@
+<section className="home">
+	<div className="page" id="CurrentIssue">
+		<div className="flex-col">
+			<div className="half-span">
+				<h2 className="title">Issue N<span className="superscript">0</span>4</h2>
+				<p className="title uppercase">fall/winter 2016</p>
+				<p className="paragraph">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
+
+				<h4 className="title border-bottom">Explore this issue</h4>
+				<p className="title uppercase">Featuring</p>
+
+				<h2 className="title">Ghetto Gastro</h2>
+				<h2 className="title">Issey Miyake</h2>
+				<h2 className="title">Nehera</h2>
+				<h2 className="title">Joe Corre</h2>
+				<h2 className="title">Rosie Lowe</h2>
+				<h2 className="title">Marlowe</h2>
+			</div>
+			<div className="half-span">
+				<div className="responsive-ratio-img">
+					<!-- <div className="bg-img" style={magazineBg} id="CurrentIssueImg"> -->
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+
+	<div className="page black-bg" id="Bespoke">
+		<div className="flex-col">
+			<div className="half-span">
+				<h4 className="title uppercase">Feature</h4>
+				<h1 className="title">Bespoken Menswear</h1>
+				<p className="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+				<h4 className="title border-bottom">Read More</h4>
+				<!-- <div className="square bg-img" id="BespokeImg" style={magBg}></div> -->
+			</div>
+			<!-- <div className="half-span bg-img" style={magBg}></div> -->
+		</div>
+	</div>
+
+	<div className="page" id="Fashion">
+		<div className="flex-col">
+			<div className="half-span">
+				<!-- <div className="large-square bg-img" style={magBg}></div> -->
+			</div>
+			<div className="half-span">
+				<p>hm... is this a Feature component? (image w/ hover overlay, click to Article)</p>
+			</div>
+		</div>
+	</div>
+</section>
