@@ -16,8 +16,17 @@ time, mark, audio, video {
 	border: 0;
 	vertical-align: baseline;
 }
-ol, ul {
+ol, ul, li {
 	list-style: none;
+}
+a {
+	text-decoration: none;
+	
+	&:active,
+	&:focus,
+	&:hover {
+		text-decoration: none;
+	}
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
