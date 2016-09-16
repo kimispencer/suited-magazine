@@ -1,0 +1,44 @@
+.features {
+	.features-list {
+		.flexbox();
+		.flex-wrap(wrap);
+		.justify-content(center);
+
+		.feature-container {
+			position: relative;
+			width: 450px;
+			height: 450px;
+			margin: @gutter;
+
+			.feature, .feature-img {
+				.transition(opacity .5s ease-in-out);
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+			.feature {
+				background-color: black;
+				color: white;
+
+				.flexbox();
+				.flex-flow(column);
+			}
+			
+			/* hover behavior */
+			.feature {
+				opacity: 1;
+			}
+			&:hover {
+				.feature-img {
+					opacity: 0;
+				}
+				.feature {
+					opacity: 1;
+				}
+			}
+		}
+
+	}
+}
