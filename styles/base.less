@@ -13,7 +13,8 @@
 }
 /* just a page container */
 .page {
-	border: 2px solid green;
+	border: 2px solid grey;
+
 	padding-top: @header_height;
 	min-height: calc(100vh ~'-' @header_height ~'-' @gutter);
 	height: auto;
@@ -89,6 +90,12 @@
 		height: 100%;
 		.flex-flow(row);
 	}
+}
+.flex-col-unresponsive {
+	.flexbox();
+	.flex-flow(column);
+	height: auto;
+	width: 100%;
 }
 
 /* for text on desktop */

@@ -1,5 +1,5 @@
 <div class="page">
-	<h1>Suited exclusives and a sneak peak into our cover story from each issue</h1>
+	<h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>
 	<section class="feature-list">
 		{.repeated section items}
 			<!-- {categories} -->

@@ -1,7 +1,7 @@
 @font-face {
 	font-family: 'gascognets-xlightregular';
-	src: url('/fonts/gascognets-xlight-webfont.woff2') format('woff2'),
-	url('/fonts/gascognets-xlight-webfont.woff') format('woff');
+	src: url('/assets/gascognets-xlight-webfont.woff2') format('woff2'),
+	url('/assets/gascognets-xlight-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,6 +26,20 @@ h3 {
 h4 {
 	font-size: @header_four;	
 }
+h5 {
+	font-size: 1.2em;
+}
 p {
 	font-size: 1em;
+}
+
+/* superscript (to the power of text, etc.) */
+.superscript {
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 0.5em;
+}
+
+.uppercase {
+	text-transform: uppercase;
 }

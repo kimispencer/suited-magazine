@@ -1,28 +1,46 @@
 <section class="home">
-	<div class="page" id="CurrentIssue">
-		<div class="flex-col">
+	<div class="page" id="Landing">
+		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
-				<h2 class="title">Issue N<span class="superscript">0</span>4</h2>
+				<h4 class="title">Issue N<span class="superscript">0</span>4</h4>
 				<p class="title uppercase">fall/winter 2016</p>
 				<p class="paragraph">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
 
-				<h4 class="title border-bottom">Explore this issue</h4>
 				<p class="title uppercase">Featuring</p>
 
-				<h2 class="title">Ghetto Gastro</h2>
-				<h2 class="title">Issey Miyake</h2>
-				<h2 class="title">Nehera</h2>
-				<h2 class="title">Joe Corre</h2>
-				<h2 class="title">Rosie Lowe</h2>
-				<h2 class="title">Marlowe</h2>
+				<ul class="featuring-list">
+					<li><h5 class="title">Ghetto Gastro</h5></li>
+					<li><h5 class="title">Issey Miyake</h5></li>
+					<li><h5 class="title">Nehera</h5></li>
+					<li><h5 class="title">Joe Corre</h5></li>
+					<li><h5 class="title">Rosie Lowe</h5></li>
+					<li><h5 class="title">Marlowe</h5></li>
+				</ul>
+
+				<h4 class="title border-bottom">Explore this issue</h4>
 			</div>
 			<div class="half-span">
 				<!-- {/*  <img src={this.state.magazineImg} id="CurrentIssueImg" /> */} -->
 				<div class="responsive-ratio-img">
-					<!-- <div class="bg-img" style={magazineBg} id="CurrentIssueImg"> -->
+					<div class="bg-img" style="background-image: url(/assets/issue4.png);" id="CurrentIssueImg">
 					</div>
 				</div>
 				
+			</div>
+		</div>
+		<div class="flex-col-unresponsive" id="Events">
+			<h4 class="title">Upcoming Suited Events</h4>
+			<div class="flex-col">
+				<div class="half-span">
+					<div class="bg-img event-img" style="background: grey;"></div> 
+					<p class="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+					<p class="uppercase paragraph">Buy Tickets</p>
+				</div>
+				<div class="half-span">
+					<div class="bg-img event-img" style="background: grey;"></div>
+					<p class="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+					<p class="uppercase paragraph">Buy Tickets</p>
+				</div>
 			</div>
 		</div>
 	</div>
