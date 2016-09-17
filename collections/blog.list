@@ -11,9 +11,8 @@
 					<div style="background-image: url({assetUrl});" class="bg-img blog-img"></div>
 					<div class="blog-overlay-text">
 						<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-							<!--POST TILE-->
-							<h4 class="title" data-content-field="title">{title}</h4>
 							{.section customContent}
+								<p class="paragraph">Issue N<span class="superscript">0</span>{issue}</p>
 								<p class="title uppercase">{subject}</p>
 							{.end}
 							<p class="title uppercase">{excerpt}</p>
@@ -21,8 +20,8 @@
 					</div>
 				</section>
 				<div class="blog-sub-text">
-					<h4 class="title" data-content-field="title">{title}</h4>
 					{.section customContent}
+						<p class="paragraph">Issue N<span class="superscript">0</span>{issue}</p>
 						<p class="title uppercase">{subject}</p>
 					{.end}
 					<p class="title uppercase">{excerpt}</p>
