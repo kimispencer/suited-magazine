@@ -5,22 +5,25 @@
 		<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 			<div class="page-hero" style="background-image:url({assetUrl})"></div>
 
-			<p class="title uppercase">{categories}</p>
-			<h2 class="title" data-content-field="title">{title}</h2>
-			{.section customContent}
-			<p class="title uppercase">{subject}</p>
-			{.end}
-
-			<!--MAIN CONTENT-->
-			{body}
-
-			<!-- CREDITS -->
-			<div class="credits">
-				<p class="title uppercase">Credits</p>
+			<div class="padded-full-span">
+				<p class="title uppercase">{categories}</p>
+				<h2 class="title" data-content-field="title">{title}</h2>
 				{.section customContent}
-				<p class="paragraph">Photography {photographer}</p>
-				<p class="paragraph">Words {author}</p>
+				<p class="title uppercase">{subject}</p>
 				{.end}
+
+				<!--MAIN CONTENT-->
+				{body}
+
+				<!-- CREDITS -->
+				<div class="credits">
+					<p class="title uppercase credit-title">Credits</p>
+					{.section customContent}
+					<p class="paragraph credit-tag">Photography <span class="uppcase">{photographer}</span></p>
+					<p class="paragraph credit-tag">Words {author}</p>
+					</div>
+					{.end}
+				</div>
 			</div>
 		</article>
 		{.end}

@@ -98,11 +98,16 @@
 	width: 100%;
 }
 
-/* for text on desktop */
+/* padded spans */
+.padded-full-span {
+	border: 1px dashed grey;
+	max-width: calc(100vw ~'-' @gutter*2);
+	margin-left: auto;
+	margin-right: auto;
+}
 @media @desktop {
 	.padded-full-span {
 		width: 800px; //$desktop-text-width;
-		max-width: calc(100vw ~'-' @gutter*2);
 	}
 }
 

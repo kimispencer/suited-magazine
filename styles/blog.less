@@ -60,34 +60,42 @@
 
 #Article {
 	article {
-
-	}
-	nav.pagination {
-		border: 1px dashed blue;
-		position: relative;
-		.prev-item, .next-item {
-			position: absolute;
-			top: 0;
-		}
-		.prev-item {
-			left: 0;
-		}
-		.next-item {
-			right: 0;
-		}
-		.pagination-container {
+		.credits {
 			border: 1px dashed red;
-			float: left;
-			.thumb {
-				height: 75px;
-				width: 75px;
+			width: 100%;
+			.align-items(flex-start);
+			.credit-title {
+
+			}
+			.credit-tag {
+				margin-right: @gutter;
 			}
 		}
 	}
 }
-@media @desktop {
-	.article {
-		nav.pagination {
+
+nav.pagination {
+	border: 1px dashed blue;
+	position: relative;
+	.prev-item, .next-item {
+		position: absolute;
+		top: 0;
+	}
+	.prev-item {
+		left: 0;
+	}
+	.next-item {
+		right: 0;
+	}
+	.pagination-container {
+		border: 1px dashed red;
+		float: left;
+		.thumb {
+			height: 75px;
+			width: 75px;
 		}
 	}
+}
+
+@media @desktop {
 }
