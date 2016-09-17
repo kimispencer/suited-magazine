@@ -2,19 +2,18 @@
 
 	<div class="page">
 		{.section item}
-		<!--WRAPPER-->
-		<section class="feature-item">
-			<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-				<div class="page-hero" style="background-image:url({assetUrl})"></div>
+		<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+			<div class="page-hero" style="background-image:url({assetUrl})"></div>
 
-				<p class="title uppercase">{categories}</p>
-				<h2 class="title" data-content-field="title">{title}</h2>
-				<p class="title uppercase">{customContent.author}</p>
+			<p class="title uppercase">{categories}</p>
+			<h2 class="title" data-content-field="title">{title}</h2>
+			{.section customContent}
+				<p class="title uppercase">{author}</p>
+			{.end}
 
-				<!--MAIN CONTENT-->
-				{body}
-			</article>
-		</section>
+			<!--MAIN CONTENT-->
+			{body}
+		</article>
 		{.end}
 	</div>
 
