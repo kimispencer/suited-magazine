@@ -12,7 +12,7 @@
 							<!--POST TILE-->
 							<h4 class="title" data-content-field="title">{title}</h4>
 							{.section customContent}
-								<p class="title uppercase">{author}</p>
+								<p class="title uppercase">{subject}</p>
 							{.end}
 						</article>
 					</div>
@@ -20,7 +20,7 @@
 				<div class="blog-sub-text">
 					<h4 class="title" data-content-field="title">{title}</h4>
 					{.section customContent}
-						<p class="title uppercase">{author}</p>
+						<p class="title uppercase">{subject}</p>
 					{.end}
 				</div>
 			</a>
