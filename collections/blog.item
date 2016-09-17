@@ -1,25 +1,45 @@
-<div class="page">
-{.section item}
-<!--WRAPPER-->
-<section class="feature-item">
-	<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-		<div class="page-hero" style="background-image:url({assetUrl})"></div>
+<section class="article">
 
-		<!--POST TILE-->
-		<h1 class="title" data-content-field="title">{title}</h1>
+	<div class="page">
+		{.section item}
+		<!--WRAPPER-->
+		<section class="feature-item">
+			<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+				<div class="page-hero" style="background-image:url({assetUrl})"></div>
 
-		<!--MAIN CONTENT-->
-		{body}
-	</article>
+				<p class="title uppercase">{categories}</p>
+				<!--POST TILE-->
+				<h2 class="title" data-content-field="title">{title}</h2>
+
+				<!--MAIN CONTENT-->
+				{body}
+			</article>
+		</section>
+		{.end}
+	</div>
+
+	<!--PAGINATION-->
+
+	{.section pagination}
+	<nav class="pagination">
+		{.section prevItem}
+		<a class="prev-item" href="{fullUrl}">
+			<div class="pagination-container">
+				<p>&larr; Previous</p>
+				<p>{title}</p>
+				<img class="thumb" src="{assetUrl}" />
+			</div>
+		</a>{.end}
+		{.section nextItem}
+		<a class="next-item" href="{fullUrl}">
+			<div class="pagination-container">
+				<p>Next &rarr;</p>
+				<p>{title}</p>
+				<img class="thumb" src="{assetUrl}" />
+			</div>
+		</a>
+		{.end}
+	</nav>
+	{.end}
+
 </section>
-{.end}
-</div>
-
-<!--PAGINATION-->
-
-{.section pagination}
-  <nav class="pagination">
-      {.section prevItem}<a class="prev-item" href="{fullUrl}">&larr; {title}</a>{.end}
-      {.section nextItem}<a class="next-item" href="{fullUrl}">{title} &rarr;</a>{.end}
-  </nav>
-{.end}

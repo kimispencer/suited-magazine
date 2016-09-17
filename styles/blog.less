@@ -1,54 +1,87 @@
-.blog-list {
-	.justify-content(center);
-	.align-items(center);
-}
-.blog-list-item {
-	position: relative;
-	width: 250px;
-	height: 250px;
-	max-width: calc(100vw ~'-' @gutter*2);
-	margin-left: auto;
-	margin-right: auto;
-	margin: @gutter;
-
-	.blog-overlay-text, .blog-img {
-		.transition(opacity .5s ease-in-out);
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-	.blog-overlay-text {
-		background-color: @black;
-		color: @white;
-
-		.flexbox();
-		.flex-flow(column);
-		.align-items(center);
+.article-list {
+	.blog-list {
 		.justify-content(center);
+		.align-items(center);
 	}
-	
-	/* hover behavior is desktop only*/
-	.blog-overlay-text {
-		opacity: 0;
+	.blog-list-item {
+		position: relative;
+		width: 250px;
+		height: 250px;
+		max-width: calc(100vw ~'-' @gutter*2);
+		margin-left: auto;
+		margin-right: auto;
+		margin: @gutter;
+
+		.blog-overlay-text, .blog-img {
+			.transition(opacity .5s ease-in-out);
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.blog-overlay-text {
+			background-color: @black;
+			color: @white;
+
+			.flexbox();
+			.flex-flow(column);
+			.align-items(center);
+			.justify-content(center);
+		}
+
+		/* hover behavior is desktop only*/
+		.blog-overlay-text {
+			opacity: 0;
+		}
+		.blog-sub-text {
+			opacity: 1;
+		}
 	}
-	.blog-sub-text {
-		opacity: 1;
+	@media @desktop {
+		.blog-list-item {
+			&:hover {
+				.blog-overlay-text {
+					opacity: 1;
+				}
+				.blog-img {
+					opacity: 0;
+				}
+			}
+		}
+		.blog-sub-text {
+			opacity: 0;
+		}
 	}
 }
-@media @desktop {
-	.blog-list-item {
-		&:hover {
-			.blog-overlay-text {
-				opacity: 1;
-			}
-			.blog-img {
-				opacity: 0;
+
+.article {
+	nav.pagination {
+		border: 1px dashed blue;
+		position: relative;
+		.prev-item, .next-item {
+			position: absolute;
+			top: 0;
+		}
+		.prev-item {
+			left: 0;
+		}
+		.next-item {
+			right: 0;
+		}
+		.pagination-container {
+			border: 1px dashed red;
+			float: left;
+			.thumb {
+				height: 75px;
+				width: 75px;
 			}
 		}
 	}
-	.blog-sub-text {
-		opacity: 0;
+}
+@media @desktop {
+	.article {
+		nav.pagination {
+		}
 	}
 }
