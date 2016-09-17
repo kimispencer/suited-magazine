@@ -1,4 +1,4 @@
-<section class="home">
+<section id="Home">
 	<div class="page" id="Landing">
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">

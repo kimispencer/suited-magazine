@@ -1,4 +1,4 @@
-<section class="article">
+<section id="Article">
 
 	<div class="page">
 		{.section item}
@@ -8,18 +8,20 @@
 			<p class="title uppercase">{categories}</p>
 			<h2 class="title" data-content-field="title">{title}</h2>
 			{.section customContent}
-				<p class="title uppercase">{subject}</p>
+			<p class="title uppercase">{subject}</p>
 			{.end}
 
 			<!--MAIN CONTENT-->
 			{body}
 
 			<!-- CREDITS -->
-			<p class="title uppercase">Credits</p>
-			{.section customContent}
+			<div class="credits">
+				<p class="title uppercase">Credits</p>
+				{.section customContent}
 				<p class="paragraph">Photography {photographer}</p>
 				<p class="paragraph">Words {author}</p>
-			{.end}
+				{.end}
+			</div>
 		</article>
 		{.end}
 	</div>
