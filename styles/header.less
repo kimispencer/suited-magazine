@@ -1,4 +1,6 @@
+/* just a container */
 .header {
+	/* icons */
 	svg.logo {
 		path {
 			fill: @white;
@@ -16,6 +18,7 @@
 		padding: 15px;			// !!! use calc() instead of hard coded value
 
 	}
+	/* mobile fixed top header w/ logo & hamburger*/
 	.mobile-header {
 		background-color: rgba(255,255,255,0.5);
 		position: fixed;
@@ -33,7 +36,9 @@
 			}
 		}
 	}
+	/* primary nav -- so desktop horizontal header + slide out mobile nav */
 	.nav-header {
+		border: 1px dashed grey;
 		position: fixed;
 		z-index: 1;
 		top: 0;
@@ -78,12 +83,14 @@
 				fill: @black;
 			}
 		}
+		/* hide mobile icons */
 		.close-nav {
 			display: none;
 		}
 		.mobile-header {
 			display: none;
 		}
+		/* horizontal nav header */
 		.nav-header {
 			height: @header_height;
 			background: @white;

@@ -1,3 +1,4 @@
+<!-- horizontal fixed mobile header -->
 <section class="mobile-header">
 	<a href="/">
 		<svg class="logo" width="91px" height="24px" viewBox="28 23 91 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -31,6 +32,7 @@
 				</svg>
 			</a>
 		</span>
+		<!-- main nav content (links) -->
 		<span class="main-nav">
 			{.repeated section items}
 			<li>
@@ -43,6 +45,7 @@
 			</li>
 			{.end}
 		</span>
+		<!-- cart -->
 		<span class="cart-nav">Purchase</span>
 	</nav>
 </section>
