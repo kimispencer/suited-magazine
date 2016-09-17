@@ -37,10 +37,10 @@
 			{.repeated section items}
 			<li>
 				{.section collection}
-				<a href="{fullUrl}">{navigationTitle}</a>
+				<a href="{fullUrl}" class="{.section active} active-link{.end}">{navigationTitle}</a>
 				{.end}
 				{.section externalLink}
-				<a href={url} {.section newWindow} target="_blank" {.end}>{title}</a>
+				<a href={url} {.section newWindow} target="_blank" {.end} class="{.section active} active-link{.end}">{title}</a>
 				{.end}
 			</li>
 			{.end}
