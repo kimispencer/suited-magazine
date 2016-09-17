@@ -8,8 +8,8 @@
 				<div class="page-hero" style="background-image:url({assetUrl})"></div>
 
 				<p class="title uppercase">{categories}</p>
-				<!--POST TILE-->
 				<h2 class="title" data-content-field="title">{title}</h2>
+				<p class="title uppercase">{customContent.author}</p>
 
 				<!--MAIN CONTENT-->
 				{body}
