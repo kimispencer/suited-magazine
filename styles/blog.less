@@ -1,5 +1,6 @@
 .blog-list {
-
+	.justify-content(center);
+	.align-items(center);
 }
 .blog-list-item {
 	position: relative;
@@ -10,7 +11,7 @@
 	margin-right: auto;
 	margin: @gutter;
 
-	.blog-text, .blog-img {
+	.blog-overlay-text, .blog-img {
 		.transition(opacity .5s ease-in-out);
 		position: absolute;
 		top: 0;
@@ -18,7 +19,7 @@
 		width: 100%;
 		height: 100%;
 	}
-	.blog-text {
+	.blog-overlay-text {
 		background-color: @black;
 		color: @white;
 
@@ -28,20 +29,26 @@
 		.justify-content(center);
 	}
 	
-	/* hover behavior */
-	.blog-text {
+	/* hover behavior is desktop only*/
+	.blog-overlay-text {
+		opacity: 0;
+	}
+	.blog-sub-text {
 		opacity: 1;
 	}
 }
 @media @desktop {
 	.blog-list-item {
 		&:hover {
-			.blog-text {
-				opacity: 0;
-			}
-			.blog-img {
+			.blog-overlay-text {
 				opacity: 1;
 			}
+			.blog-img {
+				opacity: 0;
+			}
 		}
+	}
+	.blog-sub-text {
+		opacity: 0;
 	}
 }

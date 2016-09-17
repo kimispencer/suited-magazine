@@ -2,17 +2,19 @@
 	<h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>
 	<section class="blog-list flex-col">
 		{.repeated section items}
-
 			<a href="{fullUrl}">
 			<section class="blog-list-item">
 				<div style="background-image: url({assetUrl});" class="bg-img blog-img"></div>
-				<div class="blog-text">
+				<div class="blog-overlay-text">
 					<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 						<!--POST TILE-->
 						<h4 class="title" data-content-field="title">{title}</h4>
 					</article>
 				</div>
 			</section>
+			<div class="blog-sub-text">
+				<h4 class="title" data-content-field="title">{title}</h4>
+			</div>
 			</a>
 		{.end}
 
