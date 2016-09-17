@@ -18,6 +18,7 @@
 			<p class="title uppercase">Credits</p>
 			{.section customContent}
 				<p class="paragraph">Photography {photographer}</p>
+				<p class="paragraph">Words {author}</p>
 			{.end}
 		</article>
 		{.end}
