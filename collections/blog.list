@@ -1,38 +1,19 @@
 <div class="page">
 	<h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>
-	<section class="feature-list">
+	<section class="blog-list">
 		{.repeated section items}
-			<!-- {categories} -->
+
 			<a href="{fullUrl}">
-			<section class="feature-list-item">
-				<!--WRAPPER-->
-				<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-					<!--POST TILE-->
-					<h1 class="title" data-content-field="title">{title}</h1>
-
-						<!-- {.passthrough?}
-						<a href="{sourceUrl}" target="_blank"></a>
-						{.or}
-						<a href="{fullUrl}">{title}</a>
-						{.end} -->
-					
-
-					<img src="{assetUrl}" />
-
-					<!--EXCERPT OR null-->
-					{.if excerpt}
-					{excerpt}
-					<a class="link" href="{fullUrl}">Read More</a>
-					{.or}
-					<a class="link" href="{fullUrl}">Read More</a>
-					<!--MAIN CONTENT-->
-					<!-- {body} -->
-					{.end}
-				</article>
+			<section class="blog-list-item">
+				<div style="background-image: url({assetUrl});" class="bg-img blog-img"></div>
+				<div class="blog-text">
+					<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+						<!--POST TILE-->
+						<h4 class="title" data-content-field="title">{title}</h4>
+					</article>
+				</div>
 			</section>
 			</a>
-		{.or}
-			No articles yet.
 		{.end}
 
 	</section>
