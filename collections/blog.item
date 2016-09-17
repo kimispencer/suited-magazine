@@ -3,7 +3,8 @@
 <!--WRAPPER-->
 <section class="feature-item">
 	<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-		<h1>blog.item</h1>
+		<div class="page-hero" style="background-image:url({assetUrl})"></div>
+
 		<!--POST TILE-->
 		<h1 class="title" data-content-field="title">
 			{.passthrough?}

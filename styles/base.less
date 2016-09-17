@@ -6,7 +6,7 @@
 }
 /* page hero */
 .page-hero {
-	height: 100vh;
+	height: calc(100vh ~'-' @header_height);
 	width: 100vw;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -14,7 +14,7 @@
 /* just a page container */
 .page {
 	border: 2px solid green;
-	padding-top: calc(@header_height ~'+' @gutter);
+	padding-top: @header_height;
 	min-height: calc(100vh ~'-' @header_height ~'-' @gutter);
 	height: auto;
 
