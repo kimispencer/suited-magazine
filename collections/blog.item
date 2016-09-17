@@ -17,8 +17,8 @@
 
 				<!-- CREDITS -->
 				<div class="credits">
-					<p class="title uppercase credit-title">Credits</p>
 					{.section customContent}
+					<p class="title uppercase credit-title">Credits</p>
 					<p class="paragraph credit-tag">Photography <span class="uppcase">{photographer}</span></p>
 					<p class="paragraph credit-tag">Words {author}</p>
 					</div>
