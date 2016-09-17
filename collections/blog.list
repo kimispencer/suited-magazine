@@ -16,6 +16,7 @@
 							{.section customContent}
 								<p class="title uppercase">{subject}</p>
 							{.end}
+							<p class="title uppercase">{excerpt}</p>
 						</article>
 					</div>
 				</section>
@@ -24,6 +25,7 @@
 					{.section customContent}
 						<p class="title uppercase">{subject}</p>
 					{.end}
+					<p class="title uppercase">{excerpt}</p>
 				</div>
 			</a>
 			{.end}
