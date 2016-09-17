@@ -1,28 +1,36 @@
 <div class="page">
+	<h1>Suited exclusives and a sneak peak into our cover story from each issue</h1>
 	<section class="feature-list">
 		{.repeated section items}
+			<!-- {categories} -->
+			<a href="{fullUrl}">
 			<section class="feature-list-item">
 				<!--WRAPPER-->
 				<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 					<!--POST TILE-->
-					<h1 class="title" data-content-field="title">
-						{.passthrough?}
-						<a href="{sourceUrl}" target="_blank">{title}</a>
+					<h1 class="title" data-content-field="title">{title}</h1>
+
+						<!-- {.passthrough?}
+						<a href="{sourceUrl}" target="_blank"></a>
 						{.or}
 						<a href="{fullUrl}">{title}</a>
-						{.end}
-					</h1>
+						{.end} -->
+					
 
-					<!--EXCERPT OR BODY-->
+					<img src="{assetUrl}" />
+
+					<!--EXCERPT OR null-->
 					{.if excerpt}
 					{excerpt}
 					<a class="link" href="{fullUrl}">Read More</a>
 					{.or}
+					<a class="link" href="{fullUrl}">Read More</a>
 					<!--MAIN CONTENT-->
-					{body}
+					<!-- {body} -->
 					{.end}
 				</article>
 			</section>
+			</a>
 		{.or}
 			No articles yet.
 		{.end}
