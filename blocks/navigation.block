@@ -46,6 +46,8 @@
 			{.end}
 		</span>
 		<!-- cart -->
-		<!-- <span class="cart-nav">Purchase</span> -->
+		<span class="cart-nav">
+			<!-- Purchase -->
+		</span>
 	</nav>
 </section>
