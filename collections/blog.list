@@ -12,7 +12,9 @@
 					<div class="blog-overlay-text">
 						<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 							{.section customContent}
+								{.if issue}
 								<p class="paragraph">Issue N<span class="superscript">0</span>{issue}</p>
+								{.end}
 								<p class="title uppercase">{subject}</p>
 							{.end}
 							<p class="title uppercase">{excerpt}</p>

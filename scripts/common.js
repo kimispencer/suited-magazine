@@ -1,14 +1,23 @@
+/* nav/header stuff */
 $('.open-nav').on('click', function() {
 	$('.nav-header').addClass('open');
-	console.log('open nav')
 });
-$('.close-nav').on('click', function() {
+$('.close-nav, .main-nav li').on('click', function() {
 	$('.nav-header').removeClass('open');
-	console.log('close nav')
 });
 
+/* dom ready */
 $(document).ready(function() {
+	// set CurrentIssue Image to be top on mobile
 	if($(window).width() < 1024) {
 		$('#CurrentIssueImg').closest('.half-span').prependTo('#CurrentIssue');		
 	}
+});
+
+$(window).load(function() {
+	show();
+	function show() {
+		$('.loader').hide();
+		$('body').fadeIn();
+	};
 });

@@ -1,27 +1,52 @@
 #Home {
-	.featuring-list {
-		border: 1px dashed red;
-		li {
-			float: left;
-			margin-right: @gutter;
+	background-color: #E0E0E0;
+	#CurrentIssue {
+		margin-top: @gutter;
+		#IssueNo {
+			margin-bottom: @gutter/2;
+		}
+		#IssueSeason {
+			margin-bottom: @gutter;
+		}
+		.featuring-container {
+			margin: @gutter*2 0;
+		}
+		.bg-img#CurrentIssueImg {
+			.box-shadow(~"-10px 10px 5px rgba(0,0,0,0.2)");
+			width: 666px;
+			height: 936px;
+			max-width: calc(100vw ~'-' @gutter*2);
+			max-height: 80vh;
+		}
+		.featuring-list {
+			margin-top: @gutter/2;
+			li {
+				float: left;
+				margin-right: @gutter;
+			}
 		}
 	}
-	.bg-img#CurrentIssueImg {
-		width: 666px;
-		height: 936px;
-		max-width: 100vw;
-		max-height: 100vh;
-	}
-	.event-img {
-		width: 400px;
-		height: 250px;
+	#Events {
+		margin-top: @gutter;
+		text-align: left;
+		.event-img {
+			width: 20vw;
+			height: 15vh;
+		}
 	}
 }
 @media @desktop {
-	.bg-img#CurrentIssueImg {
-		/* inside a horizontal half-span */
-		max-width: 30vw;
-		max-height: 70vh;
-		.box-shadow(~"-10px, 10px, 5px, rgba(0,0,0,0.2)");
+	#Home {
+		#CurrentIssue {
+			margin-top: 0;
+			height: calc(100vh ~'-' @header_height);
+			.bg-img#CurrentIssueImg {
+				/* inside a horizontal half-span */
+				max-width: 30vw;
+				max-height: 70vh;
+				max-width: 30vw;
+				max-height: 80vh;
+			}
+		}
 	}
 }

@@ -2,22 +2,24 @@
 	<div class="page" id="Landing">
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
-				<h4 class="title">Issue N<span class="superscript">0</span>4</h4>
-				<p class="title uppercase">fall/winter 2016</p>
-				<p class="paragraph">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
+				<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>4</h4>
+				<p class="title uppercase" id="IssueSeason">fall/winter 2016</p>
+				<p class="paragraph">This is a summary of the issue lorem ipsum dolor sit amet<br />adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
 
-				<p class="title uppercase">Featuring</p>
+				<div class="featuring-container">
+					<p class="title uppercase">Featuring</p>
+					<ul class="featuring-list">
+						<li><h5 class="title">Ghetto Gastro</h5></li>
+						<li><h5 class="title">Issey Miyake</h5></li>
+						<li><h5 class="title">Nehera</h5></li>
+						<br />
+						<li><h5 class="title">Joe Corre</h5></li>
+						<li><h5 class="title">Rosie Lowe</h5></li>
+						<li><h5 class="title">Marlowe</h5></li>
+					</ul>
+				</div>
 
-				<ul class="featuring-list">
-					<li><h5 class="title">Ghetto Gastro</h5></li>
-					<li><h5 class="title">Issey Miyake</h5></li>
-					<li><h5 class="title">Nehera</h5></li>
-					<li><h5 class="title">Joe Corre</h5></li>
-					<li><h5 class="title">Rosie Lowe</h5></li>
-					<li><h5 class="title">Marlowe</h5></li>
-				</ul>
-
-				<h4 class="title border-bottom">Explore this issue</h4>
+				<h4 class="title link-border">Explore this issue</h4>
 			</div>
 			<div class="half-span">
 				<!-- {/*  <img src={this.state.magazineImg} id="CurrentIssueImg" /> */} -->
@@ -28,7 +30,7 @@
 				
 			</div>
 		</div>
-		<div class="flex-col-unresponsive" id="Events">
+		<div class="flex-col-unresponsive padded-full-span" id="Events">
 			<h4 class="title">Upcoming Suited Events</h4>
 			<div class="flex-col">
 				<div class="half-span">
