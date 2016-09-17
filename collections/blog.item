@@ -13,15 +13,15 @@
 
 			<!--MAIN CONTENT-->
 			{body}
+
+			<!-- CREDITS -->
+			<p class="title uppercase">Credits</p>
+			{.section customContent}
+				<p class="paragraph">Photography {photographer}</p>
+			{.end}
 		</article>
 		{.end}
 	</div>
-
-	<!-- CREDITS -->
-	<p class="title uppercase">Credits</p>
-	{.section customContent}
-		<p class="paragraph">Photography {photographer}</p>
-	{.end}
 
 	<!--PAGINATION-->
 
