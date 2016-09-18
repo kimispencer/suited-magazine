@@ -1,1 +1,5 @@
-<h1>about</h1>
+<section id="About">
+	<div class="page">
+		<h1>about</h1>
+	</div>
+</section>
