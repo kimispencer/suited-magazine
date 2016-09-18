@@ -45,5 +45,24 @@ p {
 }
 
 .link-border {
-	border-bottom: 1px solid @black;
+	cursor: pointer;
+	position: relative;
+	padding-bottom: @gutter/2;
+	display: inline-block;
+	&:before {
+		.transition(all 250ms ease);
+		content : "";
+		position: absolute;
+		left    : 25%;
+		bottom  : 0;
+		height  : 1px;
+		width   : 50%;
+		border-bottom:1px solid @black;
+	}
+	&:hover {
+		&:before {
+			left: 0;
+			width: 100%;
+		}
+	}
 }
