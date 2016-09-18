@@ -3,14 +3,15 @@ footer {
 	min-height: 200px;
 	height: auto;
 	width: 100vw;
-	padding: @gutter 0;
+	padding-top: @gutter*4;
+	padding-bottom: @gutter;
 	margin-top: @gutter;
 	.flexbox();
 	.flex-flow(column);
 	.justify-content(center);
 	.align-items(center);
 	#FooterSignup {
-
+		margin-bottom: @gutter*4;
 	}
 	#FooterInfo {
 		.flexbox();
@@ -38,6 +39,11 @@ footer {
 			.justify-content(center);
 		}
 	}
+	#CopyRight {
+		margin-top: @gutter*2;
+		width: 100%;
+		max-width: calc(100vw ~'-' @gutter*2);
+	}
 }
 
 @media @desktop {
@@ -47,6 +53,9 @@ footer {
 				margin-top: 0;
 				margin-left: @gutter*2;
 			}
+		}
+		#CopyRight {
+			text-align: left;
 		}
 	}
 }
