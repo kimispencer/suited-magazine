@@ -76,20 +76,21 @@
 
 nav.pagination {
 	border: 1px dashed blue;
-	width: 100%;
-	position: relative;
+	/*position: relative;*/
 	.prev-item, .next-item {
-		position: absolute;
-		top: 0;
+		/*position: absolute;*/
+		/*top: 0;*/
 	}
 	.prev-item {
-		left: 0;
+		/*left: 0;*/
+		float: left;
 		.pagination-container {
 			text-align: left;
 		}
 	}
 	.next-item {
-		right: 0;
+		/*right: 0;*/
+		float: right;
 		.pagination-container {
 			text-align: right;
 		}
@@ -102,7 +103,4 @@ nav.pagination {
 			width: 75px;
 		}
 	}
-}
-
-@media @desktop {
 }
