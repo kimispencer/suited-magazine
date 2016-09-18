@@ -1,0 +1,169 @@
+/*
+	* squarespace overrides
+*/
+.sqs-block, .sqs-row {
+	padding: 0;
+	margin: 0;
+}
+.sqs-gallery-container {
+	.meta-inside {
+		padding: @gutter/4;
+		.meta-title {
+			font-size: 12px;
+		}
+	}
+}
+
+/* page loader */
+.loader { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9999; background: url('http://bradsknutson.com/wp-content/uploads/2013/04/page-loader.gif') 50% 50% no-repeat rgb(249,249,249); }
+
+.container { }
+
+.content {
+	max-width: 100vw;
+	overflow: hidden;
+	text-align: center;
+}
+/* page hero */
+.page-hero {
+	height: calc(100vh ~'-' @header_height);
+	width: 100vw;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+/* just a page container */
+.page {
+	margin-top: @header_height;
+	min-height: calc(100vh ~'-' @header_height);
+	height: auto;
+
+	width: 100vw;
+	.flexbox();
+	.flex-flow(column);
+	.justify-content(center);
+	.align-items(center);
+}
+@media @desktop {
+	.overlay {
+		padding-top: calc(@header_height ~'+' @gutter);
+		min-height: calc(100vh ~'-' @header_height ~'-' @gutter);
+	}
+}
+/* overlay can be over ANYTHING */
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	.flexbox();
+	.flex-flow(column);
+	.justify-content(center);
+	.align-items(center);
+}
+@media @desktop {
+	.overlay { 
+		&.left {
+			width: 50%;
+			left: 0;
+			right: auto;
+		}
+		&.right {
+			width: 50%;
+			right: 0;
+			left: auto;
+		}
+	}
+}
+.bg-img {
+	background-size: cover;
+	background-position: 50% 50%;
+	&.square {
+		width: 200px;
+		height: 200px;
+	}
+	&.medium-square {
+		height: 450px;
+		width: 250px;
+		max-width: calc(50vw ~'-' @gutter*2);
+		max-height: 40vh;
+	}
+	&.large-square {
+		height: 900px;
+		width: 600px;
+		max-width: calc(100vw ~'-' @gutter*2);
+		max-height: 80vh;
+	}
+}
+
+/* 
+* general flex rules 
+* MOBILE FIRST
+*/
+.flex-row {
+	.flexbox();
+	.flex-flow(row);
+	height: auto;
+	width: 100%;
+}
+@media @desktop {
+	.flex-row {
+		height: 100%;
+		.flex-flow(column);
+	}
+}
+
+.flex-col {
+	.flexbox();
+	.flex-flow(column);
+	height: auto;
+	width: 100%;
+}
+@media @desktop {
+	.flex-col {
+		height: 100%;
+		.flex-flow(row);
+	}
+}
+.flex-col-unresponsive {
+	.flexbox();
+	.flex-flow(column);
+	height: auto;
+	width: 100%;
+}
+
+/* padded spans */
+.padded-full-span {
+	width: 100%;
+	max-width: calc(100vw ~'-' @gutter*2);
+	margin-left: auto;
+	margin-right: auto;
+}
+@media @desktop {
+	.padded-full-span {
+		width: 800px; //$desktop-text-width;
+	}
+	.half-span {
+		.padded-full-span {
+			width: 500px;
+		}
+	}
+}
+
+/* general span logic */
+.half-span {
+	height: auto;
+	width: auto;
+	.flexbox();
+	.flex-flow(column);
+	.justify-content(center);
+	.align-items(center);
+	&.bg-img {
+		min-height: 50vh;
+	}
+}
+@media @desktop {
+	.half-span {
+		width: 50%;
+	}
+}
