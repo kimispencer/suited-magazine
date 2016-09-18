@@ -76,6 +76,7 @@
 
 nav.pagination {
 	border: 1px dashed blue;
+	width: 100%;
 	position: relative;
 	.prev-item, .next-item {
 		position: absolute;
@@ -83,9 +84,15 @@ nav.pagination {
 	}
 	.prev-item {
 		left: 0;
+		.pagination-container {
+			text-align: left;
+		}
 	}
 	.next-item {
 		right: 0;
+		.pagination-container {
+			text-align: right;
+		}
 	}
 	.pagination-container {
 		border: 1px dashed red;
