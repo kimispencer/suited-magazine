@@ -4,7 +4,7 @@
 		<div class="padded-full-span">
 			<h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>
 		</div>
-		<section class="blog-list flex-col">
+		<section class="blog-list flex-col padded-full-span">
 			{.repeated section items}
 			<a href="{fullUrl}">
 				<section class="blog-list-item">
