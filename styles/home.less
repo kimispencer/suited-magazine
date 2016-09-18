@@ -6,8 +6,13 @@
 			border-right: 1px solid @black;
 			height: 100px;
 			position: absolute;
-			bottom: @gutter*2;
+			bottom: -100px;
 			left: 50vw;
+		}
+		.half-span {
+			&#CurrentIssueImgContainer {
+				margin-bottom: 150px;
+			}
 		}
 		#IssueNo {
 			margin-bottom: @gutter/2;
@@ -77,6 +82,14 @@
 		#CurrentIssue {
 			margin-top: 0;
 			height: calc(100vh ~'-' @header_height);
+			.vertical-border {
+				bottom: @gutter*2;
+			}
+			.half-span {
+				&#CurrentIssueImgContainer {
+					margin-bottom: 0;
+				}
+			}
 			.bg-img#CurrentIssueImg {
 				/* inside a horizontal half-span */
 				max-width: 30vw;
