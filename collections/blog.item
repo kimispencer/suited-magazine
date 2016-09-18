@@ -6,14 +6,18 @@
 			<div class="page-hero" style="background-image:url({assetUrl})"></div>
 
 			<div class="padded-full-span">
-				<p class="title uppercase">{categories}</p>
-				<h2 class="title" data-content-field="title">{title}</h2>
-				{.section customContent}
-				<p class="title uppercase">{subject}</p>
-				{.end}
+				<div class="article-intro">
+					<p class="title uppercase">{categories}</p>
+					<h2 class="title" data-content-field="title">{title}</h2>
+					{.section customContent}
+					<p class="title uppercase">{subject}</p>
+					{.end}
+				</div>
 
 				<!--MAIN CONTENT-->
+				<div class="article-body">
 				{body}
+				</div>
 
 				<!-- CREDITS -->
 				<div class="credits">

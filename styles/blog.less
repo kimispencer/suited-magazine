@@ -60,10 +60,19 @@
 
 #Article {
 	article {
+		.article-intro {
+			margin: @gutter*4 auto;
+		}
+		.article-body {
+			p {
+				margin-bottom: @gutter*4;
+			}
+		}
 		.credits {
-			border: 1px dashed red;
+			margin-bottom: @gutter*4;
 			width: 100%;
 			.align-items(flex-start);
+			text-align: left;
 			.credit-title {
 
 			}
@@ -75,28 +84,21 @@
 }
 
 nav.pagination {
-	border: 1px dashed blue;
-	/*position: relative;*/
 	.prev-item, .next-item {
-		/*position: absolute;*/
-		/*top: 0;*/
 	}
 	.prev-item {
-		/*left: 0;*/
 		float: left;
 		.pagination-container {
 			text-align: left;
 		}
 	}
 	.next-item {
-		/*right: 0;*/
 		float: right;
 		.pagination-container {
 			text-align: right;
 		}
 	}
 	.pagination-container {
-		border: 1px dashed red;
 		float: left;
 		.thumb {
 			height: 75px;
