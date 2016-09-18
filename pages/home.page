@@ -4,7 +4,7 @@
 			<div class="half-span">
 				<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>4</h4>
 				<p class="title uppercase" id="IssueSeason">fall/winter 2016</p>
-				<p class="paragraph">This is a summary of the issue lorem ipsum dolor sit amet<br />adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
+				<p class="paragraph padded-full-span" id="IssueCopy">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
 
 				<div class="featuring-container">
 					<p class="title uppercase">Featuring</p>
@@ -21,6 +21,7 @@
 
 				<h4 class="title link-border">Explore this issue</h4>
 			</div>
+			<div class="vertical-border"></div>
 			<div class="half-span">
 				<!-- {/*  <img src={this.state.magazineImg} id="CurrentIssueImg" /> */} -->
 				<div class="responsive-ratio-img">
@@ -30,30 +31,30 @@
 				
 			</div>
 		</div>
-		<div class="flex-col-unresponsive padded-full-span" id="Events">
-			<h4 class="title">Upcoming Suited Events</h4>
-			<div class="flex-col">
-				<div class="half-span">
+		<div class="flex-col-unresponsive" id="Events">
+			<h4 class="title event-title">Upcoming Suited Events</h4>
+			<div class="flex-col event-block-container">
+				<div class="event-block">
 					<div class="bg-img event-img" style="background: grey;"></div> 
-					<p class="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
-					<p class="uppercase paragraph">Buy Tickets</p>
+					<p class="paragraph event-copy">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+					<p class="uppercase paragraph event-link">Buy Tickets</p>
 				</div>
-				<div class="half-span">
+				<div class="event-block">
 					<div class="bg-img event-img" style="background: grey;"></div>
-					<p class="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
-					<p class="uppercase paragraph">Buy Tickets</p>
+					<p class="paragraph event-copy">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+					<p class="uppercase paragraph event-link">Buy Tickets</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="page black-bg" id="Bespoke">
+	<div class="page black-bg" id="Bespoken">
 		<div class="flex-col">
 			<div class="half-span">
 				<h4 class="title uppercase">Feature</h4>
-				<h1 class="title">Bespoken Menswear</h1>
-				<p class="paragraph">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
-				<h4 class="title border-bottom">Read More</h4>
+				<h1 class="title" id="BespokenTitle">Bespoken Menswear</h1>
+				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+				<h4 class="title link-border">Read More</h4>
 				<!-- <div class="square bg-img" id="BespokeImg" style={magBg}></div> -->
 			</div>
 			<!-- <div class="half-span bg-img" style={magBg}></div> -->
