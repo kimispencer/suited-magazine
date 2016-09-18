@@ -49,6 +49,13 @@
 	.justify-content(center);
 	.align-items(center);
 }
+@media @desktop {
+	.page {
+		&.padded-top {
+			margin-top: calc(@header_height ~'+' @gutter*2);
+		}
+	}
+}
 /* overlay can be over ANYTHING */
 .overlay {
 	position: absolute;

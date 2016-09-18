@@ -1,5 +1,5 @@
 <section id="Magazine">
-	<div class="page">
+	<div class="page padded-top">
 		<div class="padded-full-span">
 			<div class="flex-col">
 				<img id="CurrentIssueImg" src="/assets/issue4.png" />
