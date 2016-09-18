@@ -22,7 +22,7 @@
 				<h4 class="title link-border">Explore this issue</h4>
 			</div>
 			<div class="vertical-border"></div>
-			<div class="half-span" id="CurrentIssueImgContainer">
+			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
 				<!-- {/*  <img src={this.state.magazineImg} id="CurrentIssueImg" /> */} -->
 				<div class="responsive-ratio-img">
 					<div class="bg-img" style="background-image: url(/assets/issue4.png);" id="CurrentIssueImg">
@@ -74,7 +74,7 @@
 			<div class="half-span">
 				<div class="medium-square bg-img" style="background-image: url(/assets/img_1.png);"></div>
 			</div>
-			<div class="half-span">
+			<div class="half-span vertical-first">
 				<div class="large-square bg-img" style="background-image: url(/assets/img_0.png);"></div>
 			</div>
 		</div>

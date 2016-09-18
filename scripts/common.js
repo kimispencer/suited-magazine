@@ -10,7 +10,9 @@ $('.close-nav, .main-nav li').on('click', function() {
 $(document).ready(function() {
 	// set CurrentIssue Image to be top on mobile
 	if($(window).width() < 1024) {
-		$('#CurrentIssueImg').closest('.half-span').prependTo('#CurrentIssue');		
+		$('.vertical-first').each(function() {
+			$(this).prependTo($(this).parent());
+		});
 	}
 });
 
