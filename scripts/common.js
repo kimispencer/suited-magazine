@@ -14,6 +14,9 @@ $(document).ready(function() {
 			$(this).prependTo($(this).parent());
 		});
 	}
+	if($('#Home').length > 0) {
+		$('body').css('background-color', '#E0E0E0');
+	}
 });
 
 $(window).load(function() {
