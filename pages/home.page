@@ -52,22 +52,30 @@
 		<div class="flex-col">
 			<div class="half-span">
 				<h4 class="title uppercase">Feature</h4>
-				<h1 class="title" id="BespokenTitle">Bespoken Menswear</h1>
+				<h2 class="title" id="BespokenTitle">Bespoken Menswear</h2>
 				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
 				<h4 class="title link-border">Read More</h4>
-				<!-- <div class="square bg-img" id="BespokeImg" style={magBg}></div> -->
+				<div class="square bg-img" id="BespokenThumbImg" style="background-image: url(/assets/bespoken_thumb.png);"></div>
 			</div>
-			<!-- <div class="half-span bg-img" style={magBg}></div> -->
+			<div class="half-span bg-img" id="BespokenMainImg" style="background-image: url(/assets/bespoken_main.png);"></div>
 		</div>
 	</div>
 
-	<div class="page" id="Fashion">
+	<div class="page" id="Articles">
 		<div class="flex-col">
 			<div class="half-span">
-				<!-- <div class="large-square bg-img" style={magBg}></div> -->
+				<div class="large-square bg-img" style="background-image: url(/assets/img_0.png);"></div>
 			</div>
 			<div class="half-span">
-				<p>hm... is this a Feature component? (image w/ hover overlay, click to Article)</p>
+				<div class="medium-square bg-img" style="background-image: url(/assets/img_1.png);"></div>
+			</div>
+		</div>
+		<div class="flex-col">
+			<div class="half-span">
+				<div class="medium-square bg-img" style="background-image: url(/assets/img_1.png);"></div>
+			</div>
+			<div class="half-span">
+				<div class="large-square bg-img" style="background-image: url(/assets/img_0.png);"></div>
 			</div>
 		</div>
 	</div>

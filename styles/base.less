@@ -15,7 +15,7 @@
  }
  /* just a page container */
  .page {
- 	padding-top: @header_height;
+ 	margin-top: @header_height;
  	min-height: calc(100vh ~'-' @header_height);
  	height: auto;
 
@@ -60,6 +60,22 @@
  .bg-img {
  	background-size: cover;
  	background-position: 50% 50%;
+ 	&.square {
+ 		width: 200px;
+ 		height: 200px;
+ 	}
+ 	&.medium-square {
+ 		height: 450px;
+ 		width: 250px;
+ 		max-width: calc(50vw ~'-' @gutter*2);
+ 		max-height: 40vh;
+ 	}
+ 	&.large-square {
+ 		height: 900px;
+ 		width: 600px;
+ 		max-width: calc(100vw ~'-' @gutter*2);
+ 		max-height: 80vh;
+ 	}
  }
 
 /* 

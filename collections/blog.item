@@ -21,36 +21,34 @@
 					<p class="title uppercase credit-title">Credits</p>
 					<p class="paragraph credit-tag">Photography <span class="uppcase">{photographer}</span></p>
 					<p class="paragraph credit-tag">Words {author}</p>
-					</div>
-					{.end}
 				</div>
+				{.end}
 			</div>
 		</article>
 		{.end}
-	</div>
-
-	<!--PAGINATION-->
-
-	{.section pagination}
-	<nav class="pagination">
-		{.section prevItem}
-		<a class="prev-item" href="{fullUrl}">
-			<div class="pagination-container">
-				<p>&larr; Previous</p>
-				<p>{title}</p>
-				<img class="thumb" src="{assetUrl}" />
-			</div>
-		</a>{.end}
-		{.section nextItem}
-		<a class="next-item" href="{fullUrl}">
-			<div class="pagination-container">
-				<p>Next &rarr;</p>
-				<p>{title}</p>
-				<img class="thumb" src="{assetUrl}" />
-			</div>
-		</a>
+		<!--PAGINATION-->
+		{.section pagination}
+		<nav class="pagination padded-full-span">
+			{.section prevItem}
+			<a class="prev-item" href="{fullUrl}">
+				<div class="pagination-container">
+					<p>&larr; Previous</p>
+					<p>{title}</p>
+					<img class="thumb" src="{assetUrl}" />
+				</div>
+			</a>{.end}
+			{.section nextItem}
+			<a class="next-item" href="{fullUrl}">
+				<div class="pagination-container">
+					<p>Next &rarr;</p>
+					<p>{title}</p>
+					<img class="thumb" src="{assetUrl}" />
+				</div>
+			</a>
+			{.end}
+		</nav>
 		{.end}
-	</nav>
-	{.end}
+
+	</div>
 
 </section>

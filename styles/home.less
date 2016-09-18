@@ -41,7 +41,6 @@
 	}
 	#Events {
 		margin-top: @gutter*4;
-		margin-bottom: @gutter*4;
 		text-align: left;
 
 		.event-block {
@@ -69,11 +68,24 @@
 		}
 	}
 	#Bespoken {
+		padding-top: @gutter*2;
 		#BespokenTitle {
 			margin-bottom: @gutter*2;
 		}
 		.link-border {
 			margin-top: @gutter*2;
+		}
+		#BespokenThumbImg {
+			margin-top: @gutter*2;
+			margin-bottom: @gutter*2;
+		}
+		#BespokenMainImg {
+			height: 100vh;
+		}
+	}
+	#Articles {
+		.half-span {
+			margin: @gutter 0;
 		}
 	}
 }
@@ -118,6 +130,14 @@
 			.event-img, .event-copy, .event-link {
 				margin-left: 0;
 			}
+		}
+		#Bespoken {
+			padding-top: 0;
+		}
+		#Articles {
+			max-width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 }
