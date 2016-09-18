@@ -40,7 +40,7 @@
 				<div class="pagination-container">
 					<p>&larr; Previous</p>
 					<p>{title}</p>
-					<img class="thumb" src="{assetUrl}" />
+					<div class="bg-img thumb" style="background-image: url({assetUrl});"></div>
 				</div>
 			</a>{.end}
 			{.section nextItem}
@@ -48,7 +48,7 @@
 				<div class="pagination-container">
 					<p>Next &rarr;</p>
 					<p>{title}</p>
-					<img class="thumb" src="{assetUrl}" />
+					<div class="bg-img thumb" style="background-image: url({assetUrl});"></div>
 				</div>
 			</a>
 			{.end}
