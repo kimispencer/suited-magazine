@@ -3,7 +3,9 @@
 	<div class="page">
 		{.section item}
 		<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
-			<div class="page-hero" style="background-image:url({assetUrl})"></div>
+			{.section customContent}
+			<div class="page-hero" style="background-image:url({hero.assetUrl})"></div>
+			{.end}
 
 			<div class="padded-full-span">
 				<div class="article-intro">
