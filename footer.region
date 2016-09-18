@@ -2,7 +2,7 @@
 		<div id="FooterSignup">
 			<h4 class="title">Subscribe to Suited's monthly newsletter</h4>
 			<form>
-				<input type="email" />
+				<input type="email" placeholder="Email" />
 			</form>
 			<!-- <input type="email" /> -->
 		</div>
