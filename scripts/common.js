@@ -14,6 +14,9 @@ $(document).ready(function() {
 			$(this).prependTo($(this).parent());
 		});
 	}
+	if($('#Home').length > 0) {
+		$('body').css('background-color', '#E0E0E0');
+	}
 });
 
 $(window).load(function() {
@@ -22,4 +25,15 @@ $(window).load(function() {
 		$('.loader').hide();
 		$('body').fadeIn();
 	};
+});
+
+$(document).on('scroll', function() {
+	// desktop horizontal header bg on scroll change
+	if($(this).scrollTop() < 1) {
+		$('.nav-header').addClass('transparent');
+	} else {
+		if($('.nav-header').hasClass('transparent')) {
+			$('.nav-header').removeClass('transparent');
+		}
+	}
 });

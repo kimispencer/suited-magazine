@@ -1,10 +1,10 @@
 <section id="ArticleList">
 
-	<div class="page">
+	<div class="page padded-top">
 		<div class="padded-full-span">
 			<h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>
 		</div>
-		<section class="blog-list flex-col padded-full-span">
+		<section class="blog-list flex-col">
 			{.repeated section items}
 			<a href="{fullUrl}">
 				<section class="blog-list-item">

@@ -2,6 +2,9 @@
 	.blog-list {
 		.justify-content(center);
 		.align-items(center);
+		.flex-wrap(wrap);
+		max-width: calc(100vw ~'-' @gutter*2);
+		margin: 0 auto;
 	}
 	.blog-list-item {
 		position: relative;
@@ -65,10 +68,12 @@
 		}
 		.article-body {
 			.sqs-block {
-				margin-bottom: @gutter*4;
 				p {
 					margin-bottom: @gutter*4;
 				}
+			}
+			.gallery-block, .video-block {
+				margin-bottom: @gutter*4;
 			}
 		}
 		.credits {

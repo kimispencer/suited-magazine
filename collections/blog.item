@@ -4,7 +4,12 @@
 		{.section item}
 		<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 			{.section customContent}
-			<div class="page-hero" style="background-image:url({hero.assetUrl})"></div>
+			<div class="page-hero" style="background-image:url({hero.assetUrl})">
+				<div class="overlay {overlayPosition}" style="color:{overlayColor};">
+					<h1 class="title">{title}</h1>
+					<h3 class="title">{excerpt}</h3>
+				</div>
+			</div>
 			{.end}
 
 			<div class="padded-full-span">

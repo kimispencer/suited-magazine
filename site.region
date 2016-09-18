@@ -6,7 +6,7 @@
 
 	<!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
 	{squarespace-headers}
-	
+
 	<!-- grabbed a copy of the old compiled CSS -->
 	<!-- <link rel="stylesheet" type="text/css" href="/assets/styles.css"></style> -->
 </head>
@@ -16,9 +16,6 @@
 	<div class="container">
 
 		<header class="header">
-			{.section website}
-			<!-- <h1 class="site-title"><a href="/">{siteTitle}</a></h1> -->
-			{.end}
 			<squarespace:navigation navigationId="mainNav" template="navigation" />
 		</header>
 		
@@ -30,13 +27,16 @@
 
 	</div>
 
-	<div class="loader"></div>
+	<!-- <div class="loader"></div> -->
+	
 	<!--Injection point for tracking scripts and user content from the code injection tab.-->
 	{squarespace-footers}
+	<!-- jQuery CDN -->
 	<script   
 		src="https://code.jquery.com/jquery-2.2.4.min.js"
 		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   
 		crossorigin="anonymous"></script>
+	<!-- common scripts -->
 	<squarespace:script src="common.js" combo="true" />
 </body>
 </html>
