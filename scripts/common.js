@@ -26,3 +26,14 @@ $(window).load(function() {
 		$('body').fadeIn();
 	};
 });
+
+$(document).on('scroll', function() {
+	// desktop horizontal header bg on scroll change
+	if($(this).scrollTop() < 1) {
+		$('.nav-header').addClass('transparent');
+	} else {
+		if($('.nav-header').hasClass('transparent')) {
+			$('.nav-header').removeClass('transparent');
+		}
+	}
+});
