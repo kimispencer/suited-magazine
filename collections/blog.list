@@ -9,15 +9,15 @@
 			<a href="{fullUrl}">
 				<section class="blog-list-item">
 					<div style="background-image: url({assetUrl});" class="bg-img blog-img"></div>
-					<div class="blog-overlay-text">
+					<div class="blog-overlay-text black-bg">
 						<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 							{.section customContent}
 								{.if issue}
 								<p class="paragraph">Issue N<span class="superscript">0</span>{issue}</p>
 								{.end}
-								<p class="title uppercase">{subject}</p>
+								<p class="title uppercase" id="Subject">{subject}</p>
 							{.end}
-							<p class="title uppercase">{excerpt}</p>
+							<p class="title link-border">{title}</p>
 						</article>
 					</div>
 				</section>
