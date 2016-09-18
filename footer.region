@@ -1,6 +1,9 @@
 	<footer>
 		<div id="FooterSignup">
 			<h4 class="title">Subscribe to Suited's monthly newsletter</h4>
+			<form>
+				<input type="email" />
+			</form>
 			<!-- <input type="email" /> -->
 		</div>
 		<div id="FooterInfo">
