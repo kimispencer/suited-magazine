@@ -6,7 +6,7 @@
 
 	<!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
 	{squarespace-headers}
-	
+
 	<!-- grabbed a copy of the old compiled CSS -->
 	<!-- <link rel="stylesheet" type="text/css" href="/assets/styles.css"></style> -->
 </head>
@@ -29,8 +29,12 @@
 		</main>
 
 	</div>
+	<footer>
+	footer
+	</footer>
 
-	<div class="loader"></div>
+	<!-- <div class="loader"></div> -->
+	
 	<!--Injection point for tracking scripts and user content from the code injection tab.-->
 	{squarespace-footers}
 	<script   
