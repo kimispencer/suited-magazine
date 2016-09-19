@@ -23,12 +23,9 @@
 			</div>
 			<div class="vertical-border"></div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
-				<!-- {/*  <img src={this.state.magazineImg} id="CurrentIssueImg" /> */} -->
-				<div class="responsive-ratio-img">
-					<div class="bg-img" style="background-image: url(/assets/issue4.png);" id="CurrentIssueImg">
-					</div>
+				<div class="magazine-container">
+					<div class="bg-img magazine" style="background-image: url(/assets/issue4.png);" id="CurrentIssueImg"></div>
 				</div>
-				
 			</div>
 		</div>
 		<div class="flex-col-unresponsive" id="Events">

@@ -2,11 +2,7 @@
 	#CurrentIssue {
 		margin-top: @gutter;
 		.vertical-border {
-			border-right: 1px solid @black;
-			height: 100px;
-			position: absolute;
-			bottom: -100px;
-			left: 50vw;
+			display: none;
 		}
 		.half-span {
 			&#CurrentIssueImgContainer {
@@ -22,12 +18,8 @@
 		.featuring-container {
 			margin: @gutter*2 0;
 		}
-		.bg-img#CurrentIssueImg {
+		.magazine#CurrentIssueImg {
 			.box-shadow(~"-10px 10px 5px rgba(0,0,0,0.2)");
-			width: 666px;
-			height: 936px;
-			max-width: calc(100vw ~'-' @gutter*2);
-			max-height: 80vh;
 			margin-bottom: @gutter*3;
 		}
 		.featuring-list {
@@ -94,6 +86,10 @@
 			margin-top: 0;
 			height: calc(100vh ~'-' @header_height);
 			.vertical-border {
+				border-right: 1px solid @black;
+				height: 100px;
+				position: absolute;
+				left: 50vw;
 				bottom: @gutter*2;
 			}
 			.half-span {
@@ -101,12 +97,10 @@
 					margin-bottom: 0;
 				}
 			}
-			.bg-img#CurrentIssueImg {
-				/* inside a horizontal half-span */
-				max-width: 30vw;
-				max-height: 70vh;
-				max-width: 30vw;
-				max-height: 80vh;
+			.magazine-container {
+				width: 60%;
+			}
+			.magazine#CurrentIssueImg {
 				margin-bottom: 0;
 			}
 		}

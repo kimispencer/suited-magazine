@@ -23,6 +23,14 @@
 /* page loader */
 .loader { position: fixed; left: 0; top: 0; width: 100%; height: 100%; z-index: 9999; background: url('http://bradsknutson.com/wp-content/uploads/2013/04/page-loader.gif') 50% 50% no-repeat rgb(249,249,249); }
 
+/* responsive aspect ratio for magazine images */
+.magazine-container {
+	width: calc(100% ~'-' @gutter*4);
+	margin: 0 auto;
+}
+.magazine {
+	padding-top: 144%; // aspect ratio
+}
 
 /* layout styles */
 .container { }
