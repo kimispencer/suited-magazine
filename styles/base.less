@@ -53,6 +53,7 @@
 	.page {
 		&.padded-top {
 			margin-top: calc(@header_height ~'+' @gutter*2);
+			min-height: calc(100vh ~'-' @header_height ~'-' @gutter*2);
 		}
 	}
 }
