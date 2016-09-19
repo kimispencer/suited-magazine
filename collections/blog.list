@@ -10,9 +10,9 @@
 		<section class="blog-list flex-col">
 			{.repeated section items}
 			<a href="{fullUrl}">
-				<section class="blog-list-item">
-					<div style="background-image: url({assetUrl});" class="bg-img blog-img"></div>
-					<div class="blog-overlay-text black-bg">
+				<section class="blog-list-item hover-overlay">
+					<div style="background-image: url({assetUrl});" class="bg-img blog-img hover-overlay-top"></div>
+					<div class="blog-overlay-text black-bg hover-overlay-bottom">
 						<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 							{.section customContent}
 								{.if issue}

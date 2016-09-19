@@ -36,11 +36,6 @@
 				margin: @gutter auto;
 			}
 		}
-
-		/* hover behavior is desktop only*/
-		.blog-overlay-text {
-			opacity: 0;
-		}
 		.blog-sub-text {
 			opacity: 1;
 		}
@@ -49,16 +44,7 @@
 		.blog-list {
 			.align-items(flex-start);
 		}
-		.blog-list-item {
-			&:hover {
-				.blog-overlay-text {
-					opacity: 1;
-				}
-				.blog-img {
-					opacity: 0;
-				}
-			}
-		}
+		/* mobile only */
 		.blog-sub-text {
 			opacity: 0;
 		}
