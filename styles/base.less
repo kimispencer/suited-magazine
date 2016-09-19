@@ -93,11 +93,15 @@
 }
 
 .hover-overlay {
+	cursor: pointer;
+	position: relative;
 	.hover-overlay-top {
 		opacity: 1;
+		.transition(opacity .5s ease-in-out);
 	}
 	.hover-overlay-bottom {
 		opacity: 0;
+		.transition(opacity .5s ease-in-out);
 	}
 }
 @media @desktop {

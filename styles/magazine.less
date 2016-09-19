@@ -3,17 +3,23 @@
 		margin-top: @gutter*2;
 		border-top: 1px solid @black;
 	}
-	#CurrentIssueImg {
-		max-height: 70vh;
-		margin-bottom: @gutter*2;
+	#CurrentIssueImg, #CurrentIssueCopy {
+		margin: 0 auto;
 	}
-	@media @desktop {
-		#CurrentIssueImg {
-			max-height: 60vh;
-			max-width: 30vw;
-			margin-right: @gutter*2;
-			margin-bottom: 0;
+	.magazine {
+		margin-bottom: @gutter*3;
+		margin-left: auto;
+		margin-right: auto;
+		.magazine-subtext {
+			position: absolute;
+			left: 0;
+			bottom: -@gutter*1.5;
 		}
+	}
+	.magazine#CurrentIssueImg {
+		height: 70vh;
+		width: calc(100% ~'-' @gutter);
+		margin-bottom: @gutter*2;
 	}
 	#CurrentIssueCopy {
 		text-align: left;
@@ -32,22 +38,36 @@
 		}
 		#PastIssuesImgs {
 			.justify-content(space-between);
+			.magazine {
+				width: calc(100% ~'-' @gutter*2);
+				height: 500px;
+			}
 		}
 	}
-	.magazine-container {
-		width: 80%;
-		margin: @gutter/2 auto;
-	}
-	.magazine-img {
-		width: 100%;
-	}
-	@media @desktop {
-		.magazine-container {
-			width: 30%;
-			margin: 0;
+}
+
+@media @desktop {
+	#Magazine {
+		.magazine {
+			.magazine-subtext {
+				display: none;
+			}
 		}
-		.magazine-img {
-			margin-right: @gutter/2;
+		.magazine#CurrentIssueImg {
+			height: 70vh;
+			width: calc(60% ~'-' @gutter*2);
+		}
+		#CurrentIssueCopy {
+			width: calc(40% ~'-' @gutter*2);
+		}
+		#PastIssuesContainer {
+			#PastIssuesImgs {
+				.magazine {
+					width: 30%;
+					height: 350px;
+					margin-bottom: 0;
+				}
+			}
 		}
 	}
 }
