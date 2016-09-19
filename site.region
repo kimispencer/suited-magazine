@@ -20,22 +20,37 @@
 		</header>
 		
 		<main class="content">
-			<section id="page" role="main" data-content-field="main-content">
-				{squarespace.main-content}
-			</section>
+			{squarespace.main-content}
 		</main>
 
-	</div>
+		<!-- <div class="loader"></div> -->
+		<div class="modal-dialog">
+			<div class="close-modal">
+				<svg width="22px" height="21px" viewBox="373 19 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+					<g id="Group" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd" transform="translate(374.503040, 19.396949)">
+						<g transform="translate(-0.000000, 0.000000)" id="Shape" fill="#FFFFFF">
+							<path d="M18.5107887,19.1071127 C18.3199651,19.1071127 18.1294396,19.0343611 17.9836384,18.8888581 L0.466623462,1.37184316 C0.17531923,1.08083709 0.17531923,0.608846715 0.466623462,0.317840646 C0.757629532,0.0265364141 1.22991807,0.0265364141 1.52062598,0.317840646 L19.0376409,17.8348556 C19.3289452,18.1261598 19.3289452,18.597852 19.0376409,18.8888581 C18.8921379,19.0343611 18.7016124,19.1071127 18.5107887,19.1071127 L18.5107887,19.1071127 Z"></path>
+							<path d="M0.993773801,19.1071127 C0.802950149,19.1071127 0.612126497,19.0343611 0.466623462,18.8888581 C0.17531923,18.5975539 0.17531923,18.1258617 0.466623462,17.8348556 L17.9836384,0.317840646 C18.2749426,0.0265364141 18.7466349,0.0265364141 19.0376409,0.317840646 C19.3289452,0.608846715 19.3289452,1.08083709 19.0376409,1.37184316 L1.52062598,18.8888581 C1.37542111,19.0343611 1.18459745,19.1071127 0.993773801,19.1071127 L0.993773801,19.1071127 Z"></path>
+						</g>
+					</g>
+				</svg>
+			</div>
+			<div class="modal-content padded-full-span">
+				<h2>Modal Box</h2>
+				<p>This is a sample modal box that can be created using the powers of CSS3.</p>
+				<p>You could do a lot of things here like have a pop-up ad that shows when your website loads, or create a login/register form for users.</p>
+			</div>
+		</div>
 
-	<!-- <div class="loader"></div> -->
+	</div>
 	
 	<!--Injection point for tracking scripts and user content from the code injection tab.-->
 	{squarespace-footers}
 	<!-- jQuery CDN -->
 	<script   
-		src="https://code.jquery.com/jquery-2.2.4.min.js"
-		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   
-		crossorigin="anonymous"></script>
+	src="https://code.jquery.com/jquery-2.2.4.min.js"
+	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   
+	crossorigin="anonymous"></script>
 	<!-- common scripts -->
 	<squarespace:script src="common.js" combo="true" />
 </body>

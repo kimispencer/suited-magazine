@@ -6,6 +6,14 @@ $('.close-nav, .main-nav li').on('click', function() {
 	$('.nav-header').removeClass('open');
 });
 
+/* modal stuff */
+$('.open-modal').on('click', function() {
+	$('.modal-dialog').addClass('open');
+});
+$('.close-modal').on('click', function() {
+	$('.modal-dialog').removeClass('open');
+});
+
 /* dom ready */
 $(document).ready(function() {
 	// set CurrentIssue Image to be top on mobile
