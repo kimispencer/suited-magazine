@@ -5,7 +5,7 @@
 		</div>
 		<div class="padded-full-span">
 			<div class="flex-col">
-				<div class="bg-img hover-overlay magazine open-modal" id="CurrentIssueImg" style="background-image: url(/assets/issue4.png);">
+				<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="4" id="CurrentIssueImg" style="background-image: url(/assets/issue4.png);">
 					<div class="overlay black-bg hover-overlay-bottom">
 						<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>4</h3>
 					</div>
@@ -20,7 +20,7 @@
 			<div id="PastIssuesContainer">
 				<h4 class="title">Past Issues</h4>
 				<div class="flex-col" id="PastIssuesImgs">
-					<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/issue4.png);">
+					<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/issue4.png);">
 						<div class="overlay black-bg hover-overlay-bottom">
 							<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>3</h3>
 						</div>
