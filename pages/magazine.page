@@ -5,7 +5,7 @@
 		</div>
 		<div class="padded-full-span">
 			<div class="flex-col">
-				<div class="bg-img hover-overlay magazine" id="CurrentIssueImg" style="background-image: url(/assets/issue4.png);">
+				<div class="bg-img hover-overlay magazine open-modal" id="CurrentIssueImg" style="background-image: url(/assets/issue4.png);">
 					<div class="overlay black-bg hover-overlay-bottom">
 						<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>4</h3>
 					</div>
@@ -20,19 +20,19 @@
 			<div id="PastIssuesContainer">
 				<h4 class="title">Past Issues</h4>
 				<div class="flex-col" id="PastIssuesImgs">
-					<div class="bg-img hover-overlay magazine" style="background-image: url(/assets/issue4.png);">
+					<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/issue4.png);">
 						<div class="overlay black-bg hover-overlay-bottom">
 							<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>3</h3>
 						</div>
 						<p class="magazine-subtext">Issue N<span class="superscript">0</span>3</p>
 					</div>
-					<div class="bg-img hover-overlay magazine" style="background-image: url(/assets/issue4.png);">
+					<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/issue4.png);">
 						<div class="overlay black-bg hover-overlay-bottom">
 							<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>2</h3>
 						</div>
 						<p class="magazine-subtext">Issue N<span class="superscript">0</span>2</p>
 					</div>
-					<div class="bg-img hover-overlay magazine" style="background-image: url(/assets/issue4.png);">
+					<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/issue4.png);">
 						<div class="overlay black-bg hover-overlay-bottom">
 							<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>1</h3>
 						</div>

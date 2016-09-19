@@ -52,6 +52,27 @@
 
 #Article {
 	article {
+		.page-hero {
+			.overlay {
+				// default black text/svgs
+				color: @black;
+				svg {
+					* { fill: @black; }
+				}
+				&.white {
+					color: @white;
+					svg {
+						* { fill: @white; }
+					}
+				}
+				&.black {
+					color: @black;
+					svg {
+						* { fill: @black; }
+					}
+				}
+			}
+		}
 		.article-intro {
 			margin: @gutter*4 auto;
 		}
