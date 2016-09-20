@@ -20,6 +20,11 @@
 		z-index: 10;
 		opacity: 1;
 	}
+	.link-border {
+		&:before {
+			border-color: @white;
+		}
+	}
 	.close-modal {
 		cursor: pointer;
 		position: absolute;
@@ -43,6 +48,7 @@
 			}
 			.magazine-copy {
 				text-align: left;
+				margin-bottom: @gutter*2;
 			}
 			.also-included {
 				.also-included-container {
@@ -61,7 +67,6 @@
 				}
 				.magazine-container {
 					margin-left: 0;
-					margin-bottom: 0;
 				}
 				.also-included {
 					.also-included-container {

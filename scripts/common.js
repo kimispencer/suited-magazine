@@ -59,6 +59,8 @@ $('.open-modal').on('click', function() {
 							+ '<div class="magazine-container">'
 								+ '<div class="bg-img magazine" style="background-image: url(/assets/' + data.imgSrc + ');"></div>'
 							+ '</div>'
+							+ '<h4 class="title link-border">Purchase US</h4>'
+							// + '<h4 class="title link-border">Purchase International</h4>'
 						+ '</div>'
 						+ '<div class="magazine-copy">'
 							+ '<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>' + data.issue + '</h4>'
