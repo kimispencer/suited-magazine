@@ -1,7 +1,7 @@
 <section id="Article">
-
 	<div class="page">
 		{.section item}
+		<div class="page-category" data-current-category="{categories}" style="display:none;"></div>
 		<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 			{.section customContent}
 			<div class="page-hero" style="background-image:url({hero.assetUrl})">

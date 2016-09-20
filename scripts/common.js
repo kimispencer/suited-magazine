@@ -110,6 +110,14 @@ $(document).ready(function() {
 	if($('#Home').length > 0) {
 		$('body').css('background-color', '#E0E0E0');
 	}
+	// set current/active nav
+console.log($('.page-category').data('current-category'))
+	$('.main-nav li').each(function() {
+console.log($(this).data('nav-category'))
+		if($(this).data('nav-category') == $('.page-category').data('current-category')) {
+			$(this).addClass('link-border');
+		}
+	});
 });
 
 $(window).load(function() {

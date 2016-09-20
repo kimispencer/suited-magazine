@@ -35,14 +35,17 @@
 		<!-- main nav content (links) -->
 		<span class="main-nav">
 			{.repeated section items}
-			<li>
 				{.section collection}
-				<a href="{fullUrl}" class="{.section active} active-link{.end}">{navigationTitle}</a>
+				<li data-nav-category="{navigationTitle}">
+					<a href="{fullUrl}" class="{.section active} active-link{.end}">{navigationTitle}</a>
+				</li>
 				{.end}
 				{.section externalLink}
-				<a href={url} {.section newWindow} target="_blank" {.end} class="{.section active} active-link{.end}">{title}</a>
+				<li data-nav-category="{title}">
+					<a href={url} {.section newWindow} target="_blank" {.end} class="{.section active} active-link{.end}">{title}</a>
+				</li>
 				{.end}
-			</li>
+			
 			{.end}
 		</span>
 		<!-- cart -->

@@ -1,7 +1,7 @@
 <section id="ArticleList">
 
 	<div class="page padded-top full-span">
-		<div class="page-category">
+		<div class="page-category" data-current-category="{categoryFilter}">
 			<p>{categoryFilter}</p>
 		</div>
 		<div class="padded-full-span">
