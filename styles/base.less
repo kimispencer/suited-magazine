@@ -79,6 +79,16 @@
 	margin-top: @gutter;
 	margin-bottom: @gutter*2;
 }
+@media @desktop {
+	.page {
+		position: relative;
+		.page-category {
+			position: absolute;
+			top: 0;
+			left: -150px;
+		}
+	}
+}
 
 /* overlay can be over ANYTHING */
 .overlay {
