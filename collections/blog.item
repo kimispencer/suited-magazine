@@ -41,11 +41,36 @@
 				</div>
 
 				<!-- CREDITS -->
+				{.section customContent}
 				<div class="credits">
-					{.section customContent}
-					<p class="title uppercase credit-title">Credits</p>
-					<p class="paragraph credit-tag">Photography <span class="uppcase">{photographer}</span></p>
-					<p class="paragraph credit-tag">Words {author}</p>
+					{.if photographer}<p class="paragraph credit-tag">Photography <span class="uppercase">{photographer}</span></p>{.end}
+					{.if stylist}<p class="paragraph credit-tag">Styling <span class="uppercase">{stylist}</span></p>{.end}
+					{.if artwork}<p class="paragraph credit-tag">Artwork <span class="uppercase">{artwork}</span></p>{.end}
+					{.if author}<p class="paragraph credit-tag">Words <span class="uppercase">{author}</span></p>{.end}
+					<br />
+					{.if hair}<p class="paragraph credit-tag">Hair <span class="uppercase">{hair}</span></p>{.end}
+					{.if makeup}<p class="paragraph credit-tag">Makeup <span class="uppercase">{makeup}</span></p>{.end}
+					{.if hairMakeup}<p class="paragraph credit-tag">Hair & Makeup <span class="uppercase">{hairMakeup}</span></p>{.end}
+					{.if grooming}<p class="paragraph credit-tag">Grooming <span class="uppercase">{grooming}</span></p>{.end}
+					{.if manicurist}<p class="paragraph credit-tag">Manicurist <span class="uppercase">{manicurist}</span></p>{.end}
+					{.if photographyAssistant}<p class="paragraph credit-tag">Photography Assistant <span class="uppercase">{photographyAssistant}</span></p>{.end}
+					{.if photographyAssistants}<p class="paragraph credit-tag">Photography Assistants <span class="uppercase">{photographyAssistants}</span></p>{.end}
+					{.if lighting}<p class="paragraph credit-tag">Lighting <span class="uppercase">{lighting}</span></p>{.end}
+					{.if stylingAssistant}<p class="paragraph credit-tag">Styling Assistant <span class="uppercase">{stylingAssistant}</span></p>{.end}
+					{.if stylingAssistants}<p class="paragraph credit-tag">Styling Assistants <span class="uppercase">{stylingAssistants}</span></p>{.end}
+					{.if setDesign}<p class="paragraph credit-tag">Set Design <span class="uppercase">{setDesign}</span></p>{.end}
+					{.if propsStyling}<p class="paragraph credit-tag">Props Styling <span class="uppercase">{propsStyling}</span></p>{.end}
+					{.if makeupAssistant}<p class="paragraph credit-tag">Makeup Assistant <span class="uppercase">{makeupAssistant}</span></p>{.end}
+					{.if makeupAssistants}<p class="paragraph credit-tag">Makeup Assistants <span class="uppercase">{makeupAssistants}</span></p>{.end}
+					{.if castingDirector }<p class="paragraph credit-tag">Casting Director <span class="uppercase">{castingDirector}</span></p>{.end}
+					{.if digitalTech }<p class="paragraph credit-tag">Digital Tech <span class="uppercase">{digitalTech}</span></p>{.end}
+					{.if retouching }<p class="paragraph credit-tag">Retouching <span class="uppercase">{retouching}</span></p>{.end}
+					{.if model }<p class="paragraph credit-tag">Model <span class="uppercase">{model}</span></p>{.end}
+					{.if models }<p class="paragraph credit-tag">Models <span class="uppercase">{models}</span></p>{.end}
+					<br />
+					{.if allLooks }<p class="paragraph credit-tag">All looks {allLooks}</p>{.end}
+					{.if imagesCourtesyOf }<p class="paragraph credit-tag">All images courtesy of {imagesCourtesyOf}</p>{.end}
+					{.if specialThanks }<p class="paragraph credit-tag">Special thanks {specialThanks}</p>{.end}
 				</div>
 				{.end}
 			</div>
