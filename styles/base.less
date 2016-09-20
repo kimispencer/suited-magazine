@@ -80,40 +80,6 @@
 	margin-bottom: @gutter*2;
 }
 
-/* modals */
-.open-modal {
-	cursor: pointer;
-}
-.modal-dialog {
-	position: fixed;
-	z-index: -10;
-	top: 0;
-	left: 0;
-	min-height: 100vh;
-	width: 100vw;
-	background: @black;
-	color: @white;
-	opacity: 0;
-	.transition(opacity 200ms ease-in-out);
-	&.open {
-		z-index: 10;
-		opacity: 1;
-	}
-	.close-modal {
-		cursor: pointer;
-		position: absolute;
-		top: @gutter;
-		right: @gutter;
-	}
-	.modal-content {
-		margin-top: @header_height;
-		.flexbox();
-		.flex-flow(column);
-		.justify-content(center);
-		.align-items(center);
-	}
-}
-
 /* overlay can be over ANYTHING */
 .overlay {
 	position: absolute;

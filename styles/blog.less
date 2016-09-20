@@ -1,6 +1,19 @@
 @article_item_width: 250px;
 
 #ArticleList {
+	.page {
+		.justify-content(flex-start);
+	}
+	@media @desktop {
+		.page {
+			position: relative;
+			.page-category {
+				position: absolute;
+				top: 0;
+				left: -150px;
+			}
+		}
+	}
 	.blog-list {
 		.justify-content(center);
 		.align-items(center);
