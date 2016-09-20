@@ -1,16 +1,35 @@
 var modalData = {
 	magazine: [
 		{
+			issue: 1,
+			season: 'SPRING/SUMMER 2015',
+			imgSrc: 'issue1_00Cover.jpg',
+			copy: 'The individuals featured in this debut issue work with varied media and genres, but all live for the autonomy that results from superseding expectation. Photographed by Paul Jung, the subjects of our debut issue\'s champion cover story -- South Sudanese models Mari Malek, Mari Agory, Nykhor Paul and Atong Arjok—are raising their voices to effect change in their home country. Passionately dedicated to the needs of others, these women are opening up a dialogue not only among their fellow citizens but around the world.',
+			extra: {
+				"0": '',
+				"1" : 'foo',
+				"2" : 'bar'
+			}
+		},
+		{
 			issue: 3,
 			season: 'FALL/WINTER 2016',
 			copy: 'Beauty may be the ultimate enigma: infinite, immeasurable and timeless. Often found in the darker reaches of pain and suffering, it is in life and death, in struggle and triumph. Beauty\'s one constant is its sphinx-like inscrutability; no two people will see it the same way or find it in the same place. Beauty may be in the eye of the beholder, but it is also something held deep within ourselves. Yet the fact that beauty cannot be defined has not stopped an industry from trying, not only in categorizing our differences but homogenizing them, too. Our cover story, photographed by Nicholas Alan Cope, highlights Patricia Black, a woman who is unapologetically herself in embracing these differences. A curator and “stylist to the stylists,” she is in many ways the consummate insider, yet she remembers the feeling of being on the outside looking in, of wanting, as she puts it, to “belong in the room.” She has encouraged a much-needed realness in the industry, her dynamic energy a testament to a life lived true to herself. With this issue, we join Black in defining beauty on our own terms.',
-			extra: ' Beloved author, activist, therapist and muse to photographers like Robert Mapplethorpe and Peter Hujar, Robert Levithan exemplified the idea that beauty can be found in the truth, and in living a life true to oneself. Photographed by Zoltan Tombor. *With Robert\'s recent passing on May 13, 2016, we\'re honored to present this story in his loving memory. Six industry insiders—Linda Rodin, Poppy King, Chris Salgardo, Michelle Harper, Catherine Walsh and Linda Wells—challenge and reflect on what it means to be beautiful. Portraits by David Slijper.'
+			extra: {
+				"0": 'Stephen Cox and Daniel Silver of cult-cool menswear label Duckie Brown considers the duplicity and dual nature of quality versus quantity, alongside a glimpse of their SS15 collection photographed by Conan Thai. Photographer Paul Jung and designer Melitta Baumeister find solace and solidarity in their ongoing collaborations, most recently for Baumeister\'s SS15 collection, as it appears in this issue shot by Jung. The founders of Street Etiquette, Joshua Kissi and Travis Gumbs, provoke cultural conversations through their stylized storytelling. Photography by Matthew Pandolfe. Jules Hertling, the 90-year-old Brooklyn-bred tailor behind Hertling Trousers, still lives by the old adage: do a few select things, and do them well. Portrait by Conan Thai.',
+				"1" : 'foo',
+				"2" : 'bar'
+			}
 		},
 		{
 			issue: 4,
 			season: 'FALL/WINTER 2017',
 			copy: 'Beauty may be the ultimate enigma: infinite, immeasurable and timeless. Often found in the darker reaches of pain and suffering, it is in life and death, in struggle and triumph. Beauty\'s one constant is its sphinx-like inscrutability; no two people will see it the same way or find it in the same place. Beauty may be in the eye of the beholder, but it is also something held deep within ourselves. Yet the fact that beauty cannot be defined has not stopped an industry from trying, not only in categorizing our differences but homogenizing them, too. Our cover story, photographed by Nicholas Alan Cope, highlights Patricia Black, a woman who is unapologetically herself in embracing these differences. A curator and “stylist to the stylists,” she is in many ways the consummate insider, yet she remembers the feeling of being on the outside looking in, of wanting, as she puts it, to “belong in the room.” She has encouraged a much-needed realness in the industry, her dynamic energy a testament to a life lived true to herself. With this issue, we join Black in defining beauty on our own terms.',
-			extra: ' Beloved author, activist, therapist and muse to photographers like Robert Mapplethorpe and Peter Hujar, Robert Levithan exemplified the idea that beauty can be found in the truth, and in living a life true to oneself. Photographed by Zoltan Tombor. *With Robert\'s recent passing on May 13, 2016, we\'re honored to present this story in his loving memory. Six industry insiders—Linda Rodin, Poppy King, Chris Salgardo, Michelle Harper, Catherine Walsh and Linda Wells—challenge and reflect on what it means to be beautiful. Portraits by David Slijper.'
+			extra: {
+				"0": 'Stephen Cox and Daniel Silver of cult-cool menswear label Duckie Brown considers the duplicity and dual nature of quality versus quantity, alongside a glimpse of their SS15 collection photographed by Conan Thai. Photographer Paul Jung and designer Melitta Baumeister find solace and solidarity in their ongoing collaborations, most recently for Baumeister\'s SS15 collection, as it appears in this issue shot by Jung. The founders of Street Etiquette, Joshua Kissi and Travis Gumbs, provoke cultural conversations through their stylized storytelling. Photography by Matthew Pandolfe. Jules Hertling, the 90-year-old Brooklyn-bred tailor behind Hertling Trousers, still lives by the old adage: do a few select things, and do them well. Portrait by Conan Thai.',
+				"1" : 'foo',
+				"2" : 'bar'
+			}
 		}
 	],
 	contact: [
@@ -43,11 +62,27 @@ $('.open-modal').on('click', function() {
 		if(category == 'magazine') {
 			if(v['issue'] == id) {
 				$('.modal-content').html(
-					'<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>' + data.issue + '</h4>'
-					+ '<h5 class="title uppercase">' + data.season + '</h5>'
-					+ '<h5 class="title uppercase">In This Issue</h5>'
-					+ '<p class="paragraph">' + data.copy + '</p>'
-				);
+					'<div class="flex-col">'
+						+ '<div class="magazine-image">'
+							+ '<div class="magazine-container">'
+								+ '<div class="bg-img magazine" style="background-image: url(/assets/' + data.imgSrc + ');"></div>'
+							+ '</div>'
+						+ '</div>'
+						+ '<div class="magazine-copy">'
+							+ '<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>' + data.issue + '</h4>'
+							+ '<h5 class="title uppercase">' + data.season + '</h5>'
+							+ '<h5 class="title uppercase">In This Issue</h5>'
+							+ '<p class="paragraph">' + data.copy.replace("\n", "<br />") + '</p>'
+						+ '</div>'
+					+ '</div>'
+					+ '<br />'
+					+ '<h5 class="title uppercase">Also Included In This Issue</h5>'
+					+ '<div class="flex-col also-included">'
+						+ '<div class="also-included-container"><p class="paragraph">' + data.extra[0].replace("\n", "<br />") + '</p></div>'
+						+ '<div class="also-included-container"><p class="paragraph">' + data.extra[1].replace("\n", "<br />") + '</p></div>'
+						+ '<div class="also-included-container"><p class="paragraph">' + data.extra[2].replace("\n", "<br />") + '</p></div>'
+					+ '</div>'
+				).addClass('magazine-modal');
 				$('.modal-dialog').addClass('open');
 			}
 		}

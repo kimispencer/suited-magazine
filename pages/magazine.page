@@ -39,7 +39,7 @@
 						</div>
 					</div>
 					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/issue4.png);">
+						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="1" style="background-image: url(/assets/issue4.png);">
 							<div class="overlay black-bg hover-overlay-bottom">
 								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>1</h3>
 							</div>

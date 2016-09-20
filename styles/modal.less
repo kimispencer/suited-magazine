@@ -4,10 +4,13 @@
 }
 .modal-dialog {
 	position: fixed;
+	overflow-y: scroll;
+	padding: @gutter 0;
 	z-index: -10;
 	top: 0;
 	left: 0;
 	min-height: 100vh;
+	height: 100%;
 	width: 100vw;
 	background: @black;
 	color: @white;
@@ -31,6 +34,44 @@
 		.align-items(center);
 		.title {
 			margin-bottom: @gutter;
+		}
+		&.magazine-modal {
+			.magazine-container {
+				width: 300px;
+				max-width: calc(100vw ~'-' @gutter);
+				margin-bottom: @gutter;
+			}
+			.magazine-copy {
+				text-align: left;
+			}
+			.also-included {
+				.also-included-container {
+					margin: @gutter/2 0;
+				}
+			}
+		}
+	}
+}
+@media @desktop {
+	.modal-dialog {
+		.modal-content {
+			&.magazine-modal {
+				.magazine-image, .magazine-copy {
+					width: 50%;
+					border: 1px dashed red;
+				}
+				.magazine-container {
+					margin-left: 0;
+					margin-bottom: 0;
+				}
+				.also-included {
+					.also-included-container {
+						text-align: center;
+						width: 30%;
+						margin: 0 @gutter/2;
+					}
+				}
+			}
 		}
 	}
 }
