@@ -31,7 +31,7 @@
 					<p class="title uppercase">{categories}</p>
 					<h2 class="title" data-content-field="title">{title}</h2>
 					{.section customContent}
-					<p class="title">{subject}</p>
+					<p class="title uppercase">{subject}</p>
 					{.end}
 				</div>
 
