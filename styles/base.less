@@ -60,6 +60,23 @@
 		}
 	}
 }
+@media @desktop {
+	.page-hero { 
+		.overlay {
+			position: absolute;
+			&.left {
+				width: calc(50% ~'-' @gutter*2);
+				left: @gutter;
+				right: auto;
+			}
+			&.right {
+				width: calc(50% ~'-' @gutter*2);
+				right: @gutter;
+				left: auto;
+			}
+		}
+	}
+}
 /* just a page container */
 .page {
 	margin-top: @header_height;
@@ -109,21 +126,8 @@
 	.justify-content(center);
 	.align-items(center);
 }
-@media @desktop {
-	.overlay { 
-		&.left {
-			width: 50%;
-			left: 0;
-			right: auto;
-		}
-		&.right {
-			width: 50%;
-			right: 0;
-			left: auto;
-		}
-	}
-}
 
+/* overlay that appears on hover */
 .hover-overlay {
 	cursor: pointer;
 	position: relative;
