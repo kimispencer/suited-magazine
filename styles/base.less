@@ -39,6 +39,12 @@
 	max-width: 100vw;
 	overflow: hidden;
 	text-align: center;
+	padding-top: @header_height;
+}
+@media @desktop {
+	.content {
+		padding-top: 0;
+	}
 }
 /* page hero */
 .page-hero {
@@ -80,9 +86,9 @@
 /* just a page container */
 .page {
 	/*border: 1px dashed blue;*/
-	margin-top: @header_height;
 	min-height: calc(100vh ~'-' @header_height);
 	height: auto;
+	padding-top: @header_height;
 
 	width: 100vw;
 	.flexbox();
@@ -92,6 +98,7 @@
 }
 @media @desktop {
 	.page {
+		padding-top: 0;
 		&.padded-top {
 			margin-top: calc(@header_height ~'+' @gutter*2);
 			min-height: calc(100vh ~'-' @header_height ~'-' @gutter*2);

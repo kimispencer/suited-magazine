@@ -17,6 +17,20 @@
 		}
 	}
 }
+.white-bg {
+	background-color: @white;
+	color: @black;
+	.link-border {
+		&:before {
+			border-bottom: 1px solid @black;			
+		}
+	}
+}
 .white {
 	color: @white;
+	.link-border {
+		&:before {
+			border-bottom: 1px solid @white;
+		}
+	}
 }
