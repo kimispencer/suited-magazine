@@ -57,7 +57,7 @@
 		</div>
 	</div>
 
-	<div class="page" id="BespokenNehera">
+	<div class="page feature-page" id="BespokenNehera">
 		<div class="flex-col">
 			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(http://gdurl.com/dPJb);">
 				<h4 class="title uppercase">Feature</h4>
@@ -77,18 +77,46 @@
 	<div class="page padded-top" id="Articles">
 		<div class="flex-col">
 			<div class="half-span">
-				<div class="large-square bg-img" style="background-image: url(/assets/img_0.png);"></div>
+				<div class="hover-overlay">
+					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/alicia_kwade.jpg);"></div>
+					<div class="overlay black-bg hover-overlay-bottom">
+						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="title uppercase subject-title">Alicia Kwade</p>
+						<p class="title link-border">The Modern Philosopher</p>
+					</div>
+				</div>
 			</div>
 			<div class="half-span">
-				<div class="medium-square bg-img" style="background-image: url(/assets/img_1.png);"></div>
+				<div class="hover-overlay">
+					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/melo_x.jpg);"></div>
+					<div class="overlay black-bg hover-overlay-bottom">
+						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="title uppercase subject-title">MeLo-X</p>
+						<p class="title link-border">Brooklyn's Caribbean Soul</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="flex-col">
 			<div class="half-span">
-				<div class="medium-square bg-img" style="background-image: url(/assets/img_1.png);"></div>
+				<div class="hover-overlay">
+					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/manolo_campion.jpg);"></div>
+					<div class="overlay black-bg hover-overlay-bottom">
+						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="title uppercase subject-title">Manolo Campion</p>
+						<p class="title link-border">Shifting Harmony</p>
+					</div>
+				</div>
 			</div>
 			<div class="half-span vertical-first">
-				<div class="large-square bg-img" style="background-image: url(/assets/img_0.png);"></div>
+				<div class="hover-overlay">
+					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/aurora_james.jpg);"></div>
+					<div class="overlay black-bg hover-overlay-bottom">
+						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="title uppercase subject-title">Aurora James</p>
+						<p class="title link-border">Heart and Soles</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
