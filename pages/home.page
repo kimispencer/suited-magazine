@@ -45,16 +45,16 @@
 		</div>
 	</div>
 
-	<div class="page black-bg" id="GhettoGastro">
+	<div class="page black-bg feature-page" id="GhettoGastro">
 		<div class="flex-col">
 			<div class="half-span">
 				<h4 class="title uppercase">Feature</h4>
-				<h2 class="title" id="BespokenTitle">Bespoken Menswear</h2>
+				<h2 class="title feature-page-title" id="BespokenTitle">Ghetto Gastro</h2>
 				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
 				<h4 class="title link-border">Read More</h4>
-				<div class="square bg-img" id="BespokenThumbImg" style="background-image: url(/assets/bespoken_thumb.png);"></div>
+				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/ghettoGastro_thumb.png);"></div>
 			</div>
-			<div class="half-span bg-img" id="BespokenMainImg" style="background-image: url(/assets/bespoken_main.png);"></div>
+			<div class="half-span bg-img feature-page-mainImg" id="BespokenMainImg" style="background-image: url(/assets/ghettoGastro_main.png);"></div>
 		</div>
 	</div>
 
