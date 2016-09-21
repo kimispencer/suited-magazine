@@ -118,7 +118,7 @@ $(document).ready(function() {
 	}
 	// set current/active nav
 	$('.main-nav li').each(function() {
-		if($(this).data('nav-category') == $('.page-category').data('current-category')) {
+		if($(this).data('nav-category').toLowerCase() == $('.page-category').data('current-category').toLowerCase()) {
 			$(this).addClass('link-border');
 		}
 	});
