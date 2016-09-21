@@ -3,19 +3,25 @@ var modalData = {
 		{
 			issue: 1,
 			season: 'SPRING/SUMMER 2015',
-			imgSrc: 'issue1_00Cover.jpg',
+			imgSrc: '/magazines/issue1_cover.jpg',
 			copy: 'The individuals featured in this debut issue work with varied media and genres, but all live for the autonomy that results from superseding expectation. Photographed by Paul Jung, the subjects of our debut issue\'s champion cover story -- South Sudanese models Mari Malek, Mari Agory, Nykhor Paul and Atong Arjok—are raising their voices to effect change in their home country. Passionately dedicated to the needs of others, these women are opening up a dialogue not only among their fellow citizens but around the world.'
 		},
 		{
-			issue: 3,
+			issue: 2,
 			season: 'FALL/WINTER 2016',
-			imgSrc: 'issue1_00Cover.jpg',
+			imgSrc: '/magazines/issue2_cover.jpg',
+			copy: 'Beauty may be the ultimate enigma: infinite, immeasurable and timeless. Often found in the darker reaches of pain and suffering, it is in life and death, in struggle and triumph. Beauty\'s one constant is its sphinx-like inscrutability; no two people will see it the same way or find it in the same place. Beauty may be in the eye of the beholder, but it is also something held deep within ourselves. Yet the fact that beauty cannot be defined has not stopped an industry from trying, not only in categorizing our differences but homogenizing them, too. Our cover story, photographed by Nicholas Alan Cope, highlights Patricia Black, a woman who is unapologetically herself in embracing these differences. A curator and “stylist to the stylists,” she is in many ways the consummate insider, yet she remembers the feeling of being on the outside looking in, of wanting, as she puts it, to “belong in the room.” She has encouraged a much-needed realness in the industry, her dynamic energy a testament to a life lived true to herself. With this issue, we join Black in defining beauty on our own terms.'
+		},
+		{
+			issue: 3,
+			season: 'SPRING/SUMMER 2016',
+			imgSrc: '',
 			copy: 'Beauty may be the ultimate enigma: infinite, immeasurable and timeless. Often found in the darker reaches of pain and suffering, it is in life and death, in struggle and triumph. Beauty\'s one constant is its sphinx-like inscrutability; no two people will see it the same way or find it in the same place. Beauty may be in the eye of the beholder, but it is also something held deep within ourselves. Yet the fact that beauty cannot be defined has not stopped an industry from trying, not only in categorizing our differences but homogenizing them, too. Our cover story, photographed by Nicholas Alan Cope, highlights Patricia Black, a woman who is unapologetically herself in embracing these differences. A curator and “stylist to the stylists,” she is in many ways the consummate insider, yet she remembers the feeling of being on the outside looking in, of wanting, as she puts it, to “belong in the room.” She has encouraged a much-needed realness in the industry, her dynamic energy a testament to a life lived true to herself. With this issue, we join Black in defining beauty on our own terms.'
 		},
 		{
 			issue: 4,
 			season: 'FALL/WINTER 2017',
-			imgSrc: 'issue1_00Cover.jpg',
+			imgSrc: '/magazines/issue4_cover.png',
 			copy: 'Beauty may be the ultimate enigma: infinite, immeasurable and timeless. Often found in the darker reaches of pain and suffering, it is in life and death, in struggle and triumph. Beauty\'s one constant is its sphinx-like inscrutability; no two people will see it the same way or find it in the same place. Beauty may be in the eye of the beholder, but it is also something held deep within ourselves. Yet the fact that beauty cannot be defined has not stopped an industry from trying, not only in categorizing our differences but homogenizing them, too. Our cover story, photographed by Nicholas Alan Cope, highlights Patricia Black, a woman who is unapologetically herself in embracing these differences. A curator and “stylist to the stylists,” she is in many ways the consummate insider, yet she remembers the feeling of being on the outside looking in, of wanting, as she puts it, to “belong in the room.” She has encouraged a much-needed realness in the industry, her dynamic energy a testament to a life lived true to herself. With this issue, we join Black in defining beauty on our own terms.',
 			extra: {
 				"0": 'Stephen Cox and Daniel Silver of cult-cool menswear label Duckie Brown considers the duplicity and dual nature of quality versus quantity, alongside a glimpse of their SS15 collection photographed by Conan Thai. Photographer Paul Jung and designer Melitta Baumeister find solace and solidarity in their ongoing collaborations, most recently for Baumeister\'s SS15 collection, as it appears in this issue shot by Jung. The founders of Street Etiquette, Joshua Kissi and Travis Gumbs, provoke cultural conversations through their stylized storytelling. Photography by Matthew Pandolfe. Jules Hertling, the 90-year-old Brooklyn-bred tailor behind Hertling Trousers, still lives by the old adage: do a few select things, and do them well. Portrait by Conan Thai.',

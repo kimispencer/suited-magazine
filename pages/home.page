@@ -23,7 +23,7 @@
 			</div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
 				<div class="magazine-container">
-					<div class="bg-img magazine" style="background-image: url(/assets/issue4.png);" id="CurrentIssueImg"></div>
+					<div class="bg-img magazine" style="background-image: url(/assets/magazines/issue4_cover.png);" id="CurrentIssueImg"></div>
 				</div>
 			</div>
 		</div>
@@ -51,7 +51,7 @@
 				<h2 class="title feature-page-title" id="BespokenTitle">Ghetto Gastro</h2>
 				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
 				<h4 class="title link-border">Read More</h4>
-				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/ghettoGastro_thumb.png);"></div>
+				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/ghettoGastro_thumb.png);"></div>
 			</div>
 			<div class="half-span bg-img feature-page-mainImg" id="BespokenMainImg" style="background-image: url(http://gdurl.com/XHcs);"></div>
 		</div>

@@ -6,7 +6,7 @@
 		<div class="padded-full-span">
 			<div class="flex-col">
 				<div class="magazine-container">
-					<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="4" id="CurrentIssueImg" style="background-image: url(/assets/issue4.png);">
+					<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="4" id="CurrentIssueImg" style="background-image: url(/assets/magazines/issue4_cover.png);">
 						<div class="overlay black-bg hover-overlay-bottom">
 							<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>4</h3>
 						</div>
@@ -23,7 +23,7 @@
 				<h4 class="title">Past Issues</h4>
 				<div class="flex-col" id="PastIssuesImgs">
 					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/issue4.png);">
+						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/magazines/issue3_cover.jpg);">
 							<div class="overlay black-bg hover-overlay-bottom">
 								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>3</h3>
 							</div>
@@ -31,7 +31,7 @@
 						</div>
 					</div>
 					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/issue4.png);">
+						<div class="bg-img hover-overlay magazine open-modal" style="background-image: url(/assets/magazines/issue2_cover.jpg);">
 							<div class="overlay black-bg hover-overlay-bottom">
 								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>2</h3>
 							</div>
@@ -39,7 +39,7 @@
 						</div>
 					</div>
 					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="1" style="background-image: url(/assets/issue4.png);">
+						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="1" style="background-image: url(/assets/magazines/issue1_cover.jpg);">
 							<div class="overlay black-bg hover-overlay-bottom">
 								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">0</span>1</h3>
 							</div>
