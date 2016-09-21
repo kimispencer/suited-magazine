@@ -1,5 +1,5 @@
 <section id="Home">
-	<div class="page" id="Landing">
+	<div class="page padded-top" id="Landing">
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
 				<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>4</h4>
@@ -18,10 +18,9 @@
 						<li><h5 class="title">Marlowe</h5></li>
 					</ul>
 				</div>
-
 				<h4 class="title link-border">Explore this issue</h4>
+				<!-- <div class="vertical-border"></div> -->
 			</div>
-			<div class="vertical-border"></div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
 				<div class="magazine-container">
 					<div class="bg-img magazine" style="background-image: url(/assets/issue4.png);" id="CurrentIssueImg"></div>
@@ -54,28 +53,28 @@
 				<h4 class="title link-border">Read More</h4>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/ghettoGastro_thumb.png);"></div>
 			</div>
-			<div class="half-span bg-img feature-page-mainImg" id="BespokenMainImg" style="background-image: url(/assets/ghettoGastro_main.png);"></div>
+			<div class="half-span bg-img feature-page-mainImg" id="BespokenMainImg" style="background-image: url(http://gdurl.com/XHcs);"></div>
 		</div>
 	</div>
 
-	<div class="page">
+	<div class="page" id="BespokenNehera">
 		<div class="flex-col">
-			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(/assets/bespoken_main.png);">
+			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(http://gdurl.com/dPJb);">
 				<h4 class="title uppercase">Feature</h4>
-				<h2 class="title" id="BespokenTitle">Bespoken Menswear</h2>
+				<h2 class="title feature-page-title">Bespoken Menswear</h2>
 				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
 				<h4 class="title link-border">Read More</h4>
 			</div>
-			<div class="half-span" id="Nehera">
-				<h2 class="title" id="BespokenTitle">Nehera</h2>
+			<div class="half-span white-bg" id="Nehera">
+				<h2 class="title feature-page-title">Nehera</h2>
 				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
 				<h4 class="title link-border">Read More</h4>
-				<div class="square bg-img" id="BespokenThumbImg" style="background-image: url(/assets/bespoken_thumb.png);"></div>
+				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/bespoken_thumb.png);"></div>
 			</div>
 		</div>
 	</div>
 
-	<div class="page" id="Articles">
+	<div class="page padded-top" id="Articles">
 		<div class="flex-col">
 			<div class="half-span">
 				<div class="large-square bg-img" style="background-image: url(/assets/img_0.png);"></div>

@@ -16,7 +16,6 @@
 	<div class="container">
 
 		<header class="header">
-		xx
 			<squarespace:navigation navigationId="mainNav" template="navigation" />
 		</header>
 		
