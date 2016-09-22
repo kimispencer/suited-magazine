@@ -23,7 +23,7 @@
 				<h4 class="title">Past Issues</h4>
 				<div class="flex-col" id="PastIssuesImgs">
 					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/magazines/issue3_cover.png">
+						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/magazines/issue3_cover.png)">
 							<div class="overlay black-bg hover-overlay-bottom">
 								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>3</h3>
 							</div>
