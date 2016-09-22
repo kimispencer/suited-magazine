@@ -1,15 +1,121 @@
 <section id="About">
-	<div class="page">
-	<div class="page-category" data-current-category="about">
+	<div class="page padded-top">
+		<div class="page-category" data-current-category="about">
 			<p>about</p>
 		</div>
 		<div class="flex-col">
 			<div class="half-span">
-				<div class="padded-full-span">
-					<h4 class="title uppercase">About Suited</h4>
+				<div id="AboutMasthead">
+					<h4 class="title uppercase" id="AboutTitle">About Suited</h4>
 					<p class="paragraph">SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for. Our objective is to showcase independent thinkers passionate about creating work that is at once inspired, influential and timeless.</p>
+					<div class="masthead">
+						<div class="contributor padded-full-span">
+							<p class="title">EDITOR-IN-CHIEF/CREATIVE DIRECTOR</p>
+							<p>Ashley Owens</p>
+						</div>
+
+						<div class="sub-contributors">
+							<div class="contributor-column">
+								<div class="contributor">
+									<p class="title">ART DIRECTOR</p>
+									<p>Hassan Rahim</p>
+								</div>
+								<div class="contributor">
+									<p class="title">GRAPHIC DESIGNER</p>
+									<p>Ben Sifel</p>
+								</div>
+								<div class="contributor">
+									<p class="title">DIGITAL DIRECTOR</p>
+									<p>Debbie Liu</p>
+								</div>
+								<div class="contributor">
+									<p class="title">WEB DEVELOPER</p>
+									<p>Kimi Spencer</p>
+								</div>
+								<div class="contributor">
+									<p class="title">DESIGN INTERN</p>
+									<p>Mary J. Hachey</p>
+								</div>
+							</div>
+
+							<div class="contributor-column">
+								<div class="contributor">
+									<p class="title">DEPUTY EDITOR</p>
+									<p>Libby Peterson</p>
+								</div>
+								<div class="contributor">
+									<p class="title">MANAGING EDITOR</p>
+									<p>Jessica Gordon</p>
+								</div>
+								<div class="contributor">
+									<p class="title">ASSISTANT MANAGING EDITOR</p>
+									<p>Sydney Oberfeld</p>
+								</div>
+								<div class="contributor">
+									<p class="title">ASSISTANT TO THE EDITOR-IN-CHIEF</p>
+									<p>Rachel Karmela</p>
+								</div>
+								<div class="contributor">
+									<p class="title">CASTING DIRECTOR</p>
+									<p>Julia Samersova Garfinkel</p>
+								</div>
+								<div class="contributor">
+									<p>PRODUCER</p>
+									<p>Wojtek Szaulinski</p>
+								</div>
+							</div>
+
+							<div class="contributor-column">
+								<div class="contributor">
+									<p class="title">ART EDITOR</p>
+									<p>Annika Vogt</p>
+								</div>
+								<div class="contributor">
+									<p class="title">WOMEN’S FASHION EDITOR</p>
+									<p>Jessica Willis</p>
+								</div>
+								<div class="contributor">
+									<p class="title">MUSIC EDITOR</p>
+									<p>Matthew Ismael Ruiz</p>
+								</div>
+								<div class="contributor">
+									<p class="title">COPY EDITOR</p>
+									<p>Mariana Nannarone</p>
+								</div>
+								<div class="contributor">
+									<p class="title">ADMINISTRATIVE INTERNS</p>
+									<p>Lena Grundhoefer</p>
+									<p>Melanie McCarthy</p>
+								</div>
+							</div>
+						</div><!-- /.sub-contributors -->
+
+						<div class="sub-contributors">
+							<div class="contributor">
+								<p>CONTRIBUTING WRITERS</p>
+								<p>Jessica Adams, Aria Darcella, Maggie Dolan, Megan M. Garwood, Tsemaye Opubor, Laina Richards, Allison Taylor</p>
+							</div>
+							<div class="contributor">
+								<p>CONTRIBUTING PHOTOGRAPHERS</p>
+								<p>Jason Acton, Evan Browning, Manolo Campion, Bridget Fleming, Hanna & Foulkes, Paul Jung, Chona Kasinger, Olivia Malone, Cyrill Matter, David Pattinson, Paul Phung, Priscillia Saada, Ksenija Savic, Dominik Tarabanski, Benjamin Tietge, Zoltan Tombor, Nico Turner, Grant Yoshino</p>
+							</div>
+							<div class="contributor">
+								<p>CONTRIBUTING STYLISTS</p>
+								<p>Sophie Gaten, Raul Guerrero, Brittany Layton, Alison Mazur, Annina Mislin, Zu SB, Danielle van Camp, Savannah White</p>
+							</div>
+						</div><!-- /.sub-contributors -->
+
+						<div class="sub-contributors">
+							<div class="contributor">
+								<p>ALL INQUIRIES</p>
+								<p>Ashley Owens</p>
+								<p>ashely@suitedmagazine.com</p>
+							</div>
+						</div>
+
+					</div>
 				</div>
 			</div>
-			<div class="half-span bg-img" style="background-image: url(/assets/about.png);"></div>
+			<div class="half-span bg-img" id="AboutBg" style="background-image: url(/assets/about_bg.png);"></div>
 	</div>
 </section>

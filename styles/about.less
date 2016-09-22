@@ -1,0 +1,43 @@
+#About {
+	#AboutMasthead {
+		width: calc(100% ~'-' @gutter*2);
+		max-width: 900px;
+	}
+	#AboutTitle {
+		margin-bottom: @gutter;
+	}
+	.masthead {
+		margin-top: @gutter*2;
+		.contributor {
+			margin-bottom: @gutter*3;
+			.title {
+				margin-bottom: @gutter/2;
+			}
+		}
+		.sub-contributors {
+			.flexbox();
+			.flex-flow(row);
+			.flex-wrap(wrap);
+			.justify-content(center);
+			.contributor {
+				margin: @gutter;
+			}
+		}
+	}
+	#AboutBg {
+		background-size: cover;
+		height: 100vh;
+	}
+}
+
+@media @desktop {
+	#About {
+		#AboutMasthead {
+			margin-left: 20%;
+		}
+		#AboutBg {
+			background-size: cover;
+			background-position: 0 50%;
+		}
+	}
+}
