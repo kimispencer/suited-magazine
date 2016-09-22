@@ -13,7 +13,7 @@ var modalData = {
 		},
 		{
 			issue: 2,
-			season: 'FALL/WINTER 2016',
+			season: 'FALL/WINTER 2015',
 			imgSrc: 'magazines/issue2_cover.jpg',
 			copy: 'The individuals featured in our second issue cannot be easily categorized. Their work—in fashion, art, design, music, activism and more—is, for each of them, a true expression of the Self.<br><br>Model, artist and writer Myla DalBesio explores this concept of the Self for our cover story, photographed by Paul Jung. Her essay—a memoir of the body, a life\’s history told in the flesh—reveals the essential connection between the inner and outer selves. By cataloging the physical she lays bare the emotional life within us all.'
 		},
@@ -30,7 +30,7 @@ var modalData = {
 		},
 		{
 			issue: 4,
-			season: 'FALL/WINTER 2017',
+			season: 'FALL/WINTER 2016',
 			imgSrc: 'magazines/issue4_cover.png',
 			copy: 'With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas. <br /><br /> No one knows this better than the guys that make up Ghetto Gastro, a culinary crew from the Bronx that’s shaking things up in the kitchen and, as SUITED writer Matthew Ismael Ruiz says, “bringing the bodega to the bourgeoisie.” Clever wordsmiths with their dishes, Jon Gray, Lester Walker, Pierre Serrao, and Malcolm Livingston II can boil themselves down to one single expression—two syllables that carry the ethos of their efforts—and that’s “sturdy.” You’re only as strong as your foundation, the Ghetto Gastro guys agree. The term might get dropped next year, they concede, but we never expected them to settle. Eyes on the horizon line, Ghetto Gastro moves ever forward, and we cannot be prouder to have them leading the issue on the cover.',
 			extra: {
@@ -89,8 +89,8 @@ $('.open-modal').on('click', function() {
 						+ '</div>'
 						+ '<div class="magazine-copy">'
 							+ '<h4 class="title" id="IssueNo">Issue N<span class="superscript">O</span>' + data.issue + '</h4>'
-							+ '<h5 class="title uppercase">' + data.season + '</h5>'
-							+ '<h5 class="title uppercase">In This Issue</h5>'
+							+ '<p class="title uppercase">' + data.season + '</p>'
+							+ '<p class="title uppercase" id="InThisIssue">In This Issue</p>'
 							+ '<p class="paragraph">' + data.copy + '</p>'
 						+ '</div>'
 					+ '</div>'

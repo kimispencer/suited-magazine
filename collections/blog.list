@@ -5,7 +5,7 @@
 			<p>{categoryFilter}</p>
 		</div>
 		<div class="padded-full-span">
-			<h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>			
+			<!-- <h2 class="title">Suited exclusives and a sneak peak into our cover story from each issue</h2>			 -->
 		</div>
 		<section class="blog-list flex-col">
 			{.repeated section items}

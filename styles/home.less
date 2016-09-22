@@ -1,4 +1,10 @@
 #Home {
+	.page#Landing {
+		&.padded-top {
+			margin-top: @header_height;
+			min-height: calc(100vh ~'-' @header_height);
+		}
+	}
 	#CurrentIssue {
 		margin-top: @gutter;
 		.vertical-border {
@@ -19,7 +25,7 @@
 			margin: @gutter*2 0;
 		}
 		.magazine#CurrentIssueImg {
-			.box-shadow(~"-10px 10px 5px rgba(0,0,0,0.2)");
+			.box-shadow(~"-10px 10px 5px rgba(0,0,0,0.1)");
 			margin-bottom: @gutter*3;
 		}
 		.featuring-list {

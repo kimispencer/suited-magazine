@@ -109,8 +109,8 @@
 	.page {
 		padding-top: 0;
 		&.padded-top {
-			margin-top: calc(@header_height);
-			min-height: calc(100vh ~'-' @header_height);
+			margin-top: calc(@header_height ~'+' @gutter*2);
+			min-height: calc(100vh ~'-' @header_height ~'-' @gutter*2);
 		}
 	}
 }
@@ -122,12 +122,12 @@
 }
 @media @desktop {
 	.page {
-		position: relative;
+/*		position: relative;
 		.page-category {
 			position: absolute;
 			top: 0;
 			left: -150px;
-		}
+		}*/
 	}
 }
 
