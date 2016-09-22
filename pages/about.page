@@ -1,12 +1,10 @@
 <section id="About">
-	<div class="page padded-top">
+	<div class="page padded-top bg-img" style="background-image: url(/assets/about_bg.png);">
 		<div class="page-category" data-current-category="about">
-			<p>about</p>
+			<p>about suited</p>
 		</div>
-		<div class="flex-col">
-			<div class="half-span">
+			<div class="flex-col padded-full-span">
 				<div id="AboutMasthead">
-					<h4 class="title uppercase" id="AboutTitle">About Suited</h4>
 					<p class="paragraph">SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for. Our objective is to showcase independent thinkers passionate about creating work that is at once inspired, influential and timeless.</p>
 					<div class="masthead">
 						<div class="contributor padded-full-span">
@@ -115,7 +113,5 @@
 
 					</div>
 				</div>
-			</div>
-			<div class="half-span bg-img" id="AboutBg" style="background-image: url(/assets/about_bg.png);"></div>
 	</div>
 </section>

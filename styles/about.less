@@ -1,10 +1,7 @@
 #About {
-	#AboutMasthead {
-		width: calc(100% ~'-' @gutter*2);
-		max-width: 900px;
-	}
-	#AboutTitle {
-		margin-bottom: @gutter;
+	.bg-img {
+		background-size: cover;
+		background-position: 66% 0%;
 	}
 	.masthead {
 		margin-top: @gutter*2;
@@ -24,19 +21,11 @@
 			}
 		}
 	}
-	#AboutBg {
-		background-size: cover;
-		height: 100vh;
-	}
 }
 
 @media @desktop {
 	#About {
-		#AboutMasthead {
-			margin-left: 20%;
-		}
-		#AboutBg {
-			background-size: cover;
+		.bg-img {
 			background-position: 50% 0%;
 		}
 	}
