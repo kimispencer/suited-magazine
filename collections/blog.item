@@ -27,8 +27,8 @@
 						{.section heroCTA_copy}
 							<p>{heroCTA_copy}</p>
 						{.end}
-						{.section heroCTA_url}
-							<a href={heroCTA_url} target="_blank"><p class="link-border">{heroCTA_url}</p></a>
+						{.section heroCTA_url_name}
+							<a href={heroCTA_url_link} target="_blank"><p class="link-border">{heroCTA_url_name}</p></a>
 						{.end}
 					</div>
 				</div>
