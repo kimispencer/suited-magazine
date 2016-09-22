@@ -68,12 +68,12 @@
 		<div class="flex-col">
 			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(http://gdurl.com/dPJb);">
 				<h2 class="title feature-page-title">Bespoken Menswear</h2>
-				<h4 class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</h4>
+				<h4 class="paragraph padded-full-span">With a history built on classical tailoring, the Fayed brothers have a new formula, and it’s breaking every rule.</h4>
 				<a href="/articles/2016/9/21/building-bespoken"><h4 class="title link-border">Read More</h4></a>
 			</div>
 			<div class="half-span white-bg" id="Nehera">
 				<h2 class="title feature-page-title">Nehera</h2>
-				<h4 class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</h4>
+				<h4 class="paragraph padded-full-span">With Samuel Drira’s revival of the minimalist brand Nehera, every decision is purposeful.</h4>
 				<a href="/articles/2016/9/20/by-no-accident"><h4 class="title link-border">Read More</h4></a>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/nehera_thumb.jpg);"></div>
 			</div>
