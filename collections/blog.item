@@ -23,6 +23,10 @@
 								</a>
 							</div>
 						{.end}
+						<!-- if there's a hero CTA -->
+						{.section heroCTA}
+							<p>{heroCta}</p>
+						{.end}
 					</div>
 				</div>
 			</div>
