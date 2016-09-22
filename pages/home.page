@@ -54,7 +54,6 @@
 	<div class="page black-bg feature-page" id="GhettoGastro">
 		<div class="flex-col">
 			<div class="half-span" id="GhettoGastroMainCopy">
-				<p class="title uppercase">Feature</p>
 				<h2 class="title feature-page-title" id="BespokenTitle">Ghetto Gastro</h2>
 				<h4 class="paragraph ultra-padded-full-span">How a crew of friends from the Bronx is capitalizing on the word of the street.</h4>
 				<a href="/articles/2016/9/20/new-school-flavor-1"><h4 class="title link-border">Read More</h4></a>
