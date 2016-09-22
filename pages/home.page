@@ -36,7 +36,6 @@
 					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.jpg)"></div> 
 					<h4 class="title event-title">Dinner with Ghetto Gastro</h4>
 					<p class="paragraph event-copy">Hosted by Editor-in-Chief Ashley Owens</p>
-					<br>
 					<p class="paragraph event-copy">Event specifics to follow</p>
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
@@ -44,7 +43,6 @@
 					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)"></div>
 					<h4 class="title event-title">Celebrate SUITED with a night of music</h4>
 					<p class="paragraph event-copy">Celebrate the first four issues of SUITED magazine with us</p>
-					<br>
 					<p class="paragraph event-copy">Hosted by Meredith Graves</p>
 					<p class="paragraph event-copy">Event specifics to follow</p>
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
