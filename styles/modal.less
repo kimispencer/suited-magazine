@@ -58,9 +58,16 @@
 			}
 		}
 		&.contact-modal {
-			border: 1px dashed red;
-			svg {
-				border: 1px dashed blue;
+			.social-contact-row {
+				margin-top: @gutter;
+				svg {
+					width: 40px;
+					height: 40px;
+					margin: 0 @gutter/2;
+					* {
+						fill: @white;
+					}
+				}
 			}
 		}
 	}

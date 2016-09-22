@@ -113,9 +113,10 @@ $('.open-modal').on('click', function() {
 		// contact modal
 		if(category == 'contact') {
 			$('.modal-content').html(
-				'<h4 class="title">' + data.title + '</h4>'
+				'<a href="mailto:contact@suitedmagazine.com"><h4 class="title">' + data.title + '</h4></a>'
 			);
-			$('.modal-content').append($('#FooterSocial').html()).addClass('contact-modal');
+			$('.modal-content').append($('.social-contact-row').wrap('<div/>').parent().html()).addClass('contact-modal');
+			// $('.modal-content').addClass('contact-modal');
 			$('.modal-dialog').addClass('open');
 		}
 	});
