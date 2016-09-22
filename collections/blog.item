@@ -6,22 +6,24 @@
 			{.section customContent}
 			<div class="page-hero" style="background-image:url({hero.assetUrl})">
 				<div class="overlay {overlayPosition} {overlayColor}">
-					<h1 class="title">{title}</h1>
-					<h3 class="title">{excerpt}</h3>
-					<!-- if there's a hero video -->
-					{.section heroVideo}
-						<div class="hero-video">
-							<a href={heroVideo} target="_blank">
-								<svg width="76px" height="76px" viewBox="169 394 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-								    <g id="noun_419257_cc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(169.000000, 394.000000)">
-								        <g id="Group" fill="#FFFFFF">
-								            <path d="M38,0 C16.9733333,0 0,16.9733333 0,38 C0,59.0266667 16.9733333,76 38,76 C59.0266667,76 76,59.0266667 76,38 C76,16.9733333 59.0266667,0 38,0 Z M51.1733333,40.0266667 L32.1733333,51.8488889 C31.7511111,52.1022222 31.3288889,52.1866667 30.9066667,52.1866667 C30.4844444,52.1866667 30.1466667,52.1022222 29.7244444,51.8488889 C28.9644444,51.4266667 28.5422222,50.6666667 28.5422222,49.7377778 L28.5422222,26.0933333 C28.5422222,25.2488889 29.0488889,24.4044444 29.7244444,23.9822222 C30.4844444,23.56 31.4133333,23.56 32.1733333,24.0666667 L51.1733333,35.9733333 C51.8488889,36.3955556 52.2711111,37.1555556 52.2711111,38 C52.2711111,38.8444444 51.8488889,39.6044444 51.1733333,40.0266667 Z" id="Shape"></path>
-								        </g>
-								    </g>
-								</svg>
-							</a>
-						</div>
-					{.end}
+					<div class="padded-full-span">
+						<h1 class="title">{title}</h1>
+						<h3 class="excerpt">{excerpt}</h3>
+						<!-- if there's a hero video -->
+						{.section heroVideo}
+							<div class="hero-video">
+								<a href={heroVideo} target="_blank">
+									<svg width="76px" height="76px" viewBox="169 394 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+									    <g id="noun_419257_cc" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(169.000000, 394.000000)">
+									        <g id="Group" fill="#FFFFFF">
+									            <path d="M38,0 C16.9733333,0 0,16.9733333 0,38 C0,59.0266667 16.9733333,76 38,76 C59.0266667,76 76,59.0266667 76,38 C76,16.9733333 59.0266667,0 38,0 Z M51.1733333,40.0266667 L32.1733333,51.8488889 C31.7511111,52.1022222 31.3288889,52.1866667 30.9066667,52.1866667 C30.4844444,52.1866667 30.1466667,52.1022222 29.7244444,51.8488889 C28.9644444,51.4266667 28.5422222,50.6666667 28.5422222,49.7377778 L28.5422222,26.0933333 C28.5422222,25.2488889 29.0488889,24.4044444 29.7244444,23.9822222 C30.4844444,23.56 31.4133333,23.56 32.1733333,24.0666667 L51.1733333,35.9733333 C51.8488889,36.3955556 52.2711111,37.1555556 52.2711111,38 C52.2711111,38.8444444 51.8488889,39.6044444 51.1733333,40.0266667 Z" id="Shape"></path>
+									        </g>
+									    </g>
+									</svg>
+								</a>
+							</div>
+						{.end}
+					</div>
 				</div>
 			</div>
 			{.end}
