@@ -120,6 +120,9 @@ $('.close-modal').on('click', function() {
 	$('.modal-dialog').removeClass('open');
 });
 
+/* subscribe form */
+// need to put AJAX here
+
 /* dom ready */
 $(document).ready(function() {
 	// set CurrentIssue Image to be top on mobile

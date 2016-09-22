@@ -1,5 +1,6 @@
 <section id="Home">
 	<div class="page padded-top" id="Landing">
+		<div class="page-category" data-current-category="home"></div>
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
 				<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>4</h4>

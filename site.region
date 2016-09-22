@@ -43,10 +43,11 @@
 	<footer>
 		<div id="FooterSignup">
 			<h4 class="title">Subscribe to Suited's monthly newsletter</h4>
-			<form>
-				<input type="email" placeholder="Email" />
+			<form action="mailto:contact@suitedmagazine.com" method="POST" enctype="text/plain">
+			<!-- <form action="subscribe.php" method="POST"> -->
+				<input name="email" type="email" placeholder="Email" />
+				<input class="floating-submit" type="submit" placeholder="Sign Up" />
 			</form>
-			<!-- <input type="email" /> -->
 		</div>
 		<div id="FooterInfo">
 			<div class="flex-col">
