@@ -5,7 +5,7 @@
 		.justify-content(flex-start);
 	}
 	.blog-list {
-		.justify-content(center);
+		.justify-content(flex-start);
 		.align-items(center);
 		.flex-wrap(wrap);
 		max-width: calc(100vw ~'-' @gutter*2);
@@ -45,6 +45,7 @@
 	@media @desktop {
 		.blog-list {
 			.align-items(flex-start);
+			.justify-content(center);
 		}
 		/* mobile only */
 		.blog-sub-text {
