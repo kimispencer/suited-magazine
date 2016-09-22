@@ -1,5 +1,8 @@
 <section id="About">
 	<div class="page">
+	<div class="page-category" data-current-category="about">
+			<p>about</p>
+		</div>
 		<div class="flex-col">
 			<div class="half-span">
 				<div class="padded-full-span">
@@ -7,6 +10,6 @@
 					<p class="paragraph">SUITED is a biannual fashion and art publication with a singular mission in mind: to celebrate those who have found what they are well-suited for. Our objective is to showcase independent thinkers passionate about creating work that is at once inspired, influential and timeless.</p>
 				</div>
 			</div>
-			<div class="half-span bg-img" style="background-image: url(/assets/img_1.png);"></div>
+			<div class="half-span bg-img" style="background-image: url(/assets/about.png);"></div>
 	</div>
 </section>

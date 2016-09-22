@@ -19,7 +19,7 @@
 						<li><h5 class="title">Marlowe</h5></li>
 					</ul>
 				</div>
-				<h4 class="title link-border">Explore this issue</h4>
+				<h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore this issue</h4>
 				<!-- <div class="vertical-border"></div> -->
 			</div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
