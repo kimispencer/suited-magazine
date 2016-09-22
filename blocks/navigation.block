@@ -37,12 +37,12 @@
 			{.repeated section items}
 				{.section collection}
 				<li data-nav-category="{navigationTitle}">
-					<a href="{fullUrl}" class="{.section active} active-link{.end} link-border invisible">{navigationTitle}</a>
+					<a href="{fullUrl}" class="{.section active} active-link{.end}">{navigationTitle}</a>
 				</li>
 				{.end}
 				{.section externalLink}
 				<li data-nav-category="{title}">
-					<a href={url} {.section newWindow} target="_blank" {.end} class="{.section active} active-link{.end} link-border invisible">{title}</a>
+					<a href={url} {.section newWindow} target="_blank" {.end} class="{.section active} active-link{.end}">{title}</a>
 				</li>
 				{.end}
 			
