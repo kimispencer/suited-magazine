@@ -15,7 +15,7 @@ var modalData = {
 			issue: 2,
 			season: 'FALL/WINTER 2016',
 			imgSrc: 'magazines/issue2_cover.jpg',
-			copy: 'The individuals featured in our second issue cannot be easily categorized. Their work—in fashion, art, design, music, activism and more—is, for each of them, a true expression of the Self.<br><br>Model, artist and writer Myla DalBesio explores this concept of the Self for our cover story, photographed by Paul Jung. Her essay—a memoir of the body, a life\’s history told in the flesh—reveals the essential connection between the inner and outer selves. By cataloging the physical she lays bare the emotional life within us all.',
+			copy: 'The individuals featured in our second issue cannot be easily categorized. Their work—in fashion, art, design, music, activism and more—is, for each of them, a true expression of the Self.<br><br>Model, artist and writer Myla DalBesio explores this concept of the Self for our cover story, photographed by Paul Jung. Her essay—a memoir of the body, a life\’s history told in the flesh—reveals the essential connection between the inner and outer selves. By cataloging the physical she lays bare the emotional life within us all.'
 		},
 		{
 			issue: 3,
