@@ -72,7 +72,9 @@
 					margin: @gutter/2 0;
 					a {color: @white;}
 					&.link-border {
-						border-bottom: 1px solid @white;
+						&:before {
+							border-bottom: 1px solid @white;
+						}
 					}
 				}
 			}
@@ -129,7 +131,9 @@
 						}
 						a {color: @black;}
 						&.link-border {
-							border-bottom: 1px solid @white;
+							&:before {
+								border-bottom: 1px solid @black;
+							}
 						}
 					}
 				}
