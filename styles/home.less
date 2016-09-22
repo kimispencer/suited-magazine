@@ -50,6 +50,10 @@
 		.event-block {
 			margin-bottom: @gutter;
 			display: block;
+			.title {
+				margin-top: @gutter;
+				margin-bottom: @gutter/2;
+			}
 		}
 		.event-title {
 			margin-left: @gutter;
@@ -132,17 +136,20 @@
 		}
 		#Events {
 			min-height: 400px;			// should not be hardcoded
-			max-width: 850px;
+			width: auto;
+			max-width: calc(100vw ~'-' @gutter*2);
 			margin-left: auto;
 			margin-right: auto;
 			padding-bottom: @gutter*6;
 			.event-block-container {
 				.flexbox();
 				.flex-flow(row);
-				.justify-content(space-between);
+				.justify-content(center);
 			}
 			.event-block {
 				margin-bottom: 0;
+				margin-left: @gutter/2;
+				margin-right: @gutter/2;
 			}
 			.event-title {
 				margin-left: 0;
@@ -150,6 +157,7 @@
 			}
 			.event-img, .event-copy, .event-link {
 				margin-left: 0;
+				width: 500px;
 			}
 		}
 		#Bespoken {

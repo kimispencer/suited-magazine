@@ -32,14 +32,19 @@
 			<h4 class="title event-title">Upcoming Suited Events</h4>
 			<div class="flex-col event-block-container">
 				<div class="event-block">
-					<div class="bg-img event-img" style="background: grey;"></div> 
-					<p class="paragraph event-copy">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
-					<p class="uppercase paragraph event-link">Buy Tickets</p>
+					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.jpg)"></div> 
+					<h4 class="title">Dinner with Ghetto Gastro</h4>
+					<p class="paragraph event-copy">Hosted by Editor-in-Chief Ashley Owens</p>
+					<p class="paragraph event-copy">Event specifics to follow</p>
+					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 				<div class="event-block">
-					<div class="bg-img event-img" style="background: grey;"></div>
-					<p class="paragraph event-copy">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
-					<p class="uppercase paragraph event-link">Buy Tickets</p>
+					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)"></div>
+					<h4 class="title">Celebrate SUITED with a night of music</h4>
+					<p class="paragraph event-copy">Celebrate the first four issues of SUITED magazine with us</p>
+					<p class="paragraph event-copy">Hosted by Meredith Graves</p>
+					<p class="paragraph event-copy">Event specifics to follow</p>
+					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 			</div>
 		</div>
