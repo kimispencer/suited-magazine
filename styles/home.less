@@ -118,6 +118,7 @@
 			}
 		}
 		#Events {
+			min-height: 400px;			// should not be hardcoded
 			max-width: 850px;
 			margin-left: auto;
 			margin-right: auto;
@@ -146,10 +147,19 @@
 				padding-top: 0;
 			}
 		}
+		.feature-page {
+			min-height: 100vh;		// safari hardcoded
+		}
 		#Articles {
+			min-height: 200vh;		// safari hardcoded
 			max-width: 1000px;
 			margin-left: auto;
 			margin-right: auto;
 		}
 	}
+}
+
+// safari rules
+@media @desktop {
+
 }
