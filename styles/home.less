@@ -52,7 +52,7 @@
 			display: block;
 			.title {
 				margin-top: @gutter;
-				margin-bottom: @gutter/2;
+				/*margin-bottom: @gutter/2;*/
 			}
 		}
 		.event-title {
@@ -60,7 +60,9 @@
 			margin-right: @gutter;
 			padding-bottom: @gutter;
 			margin-bottom: @gutter;
-			border-bottom: 1px solid @black;
+			&#Intro {
+				border-bottom: 1px solid @black;
+			}
 		}
 		.event-img, .event-copy, .event-link {
 			width: 400px;
@@ -104,6 +106,10 @@
 		.half-span {
 			margin: @gutter 0;
 		}
+		.sub-text {
+			margin-top: @gutter;
+			display: block;
+		}
 	}
 }
 @media @desktop {
@@ -135,7 +141,7 @@
 			}
 		}
 		#Events {
-			min-height: 400px;			// should not be hardcoded
+			min-height: 400px;
 			width: auto;
 			max-width: calc(100vw ~'-' @gutter*2);
 			margin-left: auto;
@@ -169,18 +175,16 @@
 			}
 		}
 		.feature-page {
-			min-height: 100vh;		// safari hardcoded
+			min-height: 100vh;
 		}
 		#Articles {
-			min-height: 200vh;		// safari hardcoded
-			max-width: 1000px;
+			min-height: 200vh;
+			max-width: 1200px;
 			margin-left: auto;
 			margin-right: auto;
+			.sub-text {
+				display: none;
+			}
 		}
 	}
-}
-
-// safari rules
-@media @desktop {
-
 }

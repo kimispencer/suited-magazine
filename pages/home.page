@@ -3,9 +3,9 @@
 		<div class="page-category" data-current-category="home"></div>
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
-				<h4 class="title" id="IssueNo">Issue N<span class="superscript">0</span>4</h4>
+				<h4 class="title" id="IssueNo">Issue N<span class="superscript">O</span>4</h4>
 				<p class="title uppercase" id="IssueSeason">fall/winter 2016</p>
-				<p class="paragraph padded-full-span" id="IssueCopy">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
+				<p class="paragraph padded-full-span" id="IssueCopy">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas. </p>
 
 				<div class="featuring-container">
 					<p class="title uppercase">Highlights</p>
@@ -17,6 +17,7 @@
 						<li><a href="/articles/2016/9/19/the-modern-philosopher"><h5 class="link-border invisible title">Alicja Kwade</h5></a></li>
 						<li><a href="/articles/2016/9/21/shifting-harmony"><h5 class="link-border invisible title">Manolo Campion</h5></a></li>
 						<li><a href="/articles/2016/9/21/brooklyns-caribbean-soul"><h5 class="link-border invisible title">MeLo-X</h5></a></li>
+						<li><a href="articles/2016/9/22/marland-backus"><h5 class="link-border invisible title">Marland Backus</h5></a></li>
 					</ul>
 				</div>
 				<h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore this issue</h4>
@@ -29,19 +30,21 @@
 			</div>
 		</div>
 		<div class="flex-col-unresponsive" id="Events">
-			<h4 class="title event-title">Upcoming Suited Events</h4>
+			<h4 class="title event-title" id="Intro">Upcoming Suited Events</h4>
 			<div class="flex-col event-block-container">
 				<div class="event-block">
 					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.jpg)"></div> 
-					<h4 class="title">Dinner with Ghetto Gastro</h4>
+					<h4 class="title event-title">Dinner with Ghetto Gastro</h4>
 					<p class="paragraph event-copy">Hosted by Editor-in-Chief Ashley Owens</p>
+					<br>
 					<p class="paragraph event-copy">Event specifics to follow</p>
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 				<div class="event-block">
 					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)"></div>
-					<h4 class="title">Celebrate SUITED with a night of music</h4>
+					<h4 class="title event-title">Celebrate SUITED with a night of music</h4>
 					<p class="paragraph event-copy">Celebrate the first four issues of SUITED magazine with us</p>
+					<br>
 					<p class="paragraph event-copy">Hosted by Meredith Graves</p>
 					<p class="paragraph event-copy">Event specifics to follow</p>
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
@@ -53,9 +56,9 @@
 	<div class="page black-bg feature-page" id="GhettoGastro">
 		<div class="flex-col">
 			<div class="half-span">
-				<h4 class="title uppercase">Feature</h4>
+				<p class="title uppercase">Feature</p>
 				<h2 class="title feature-page-title" id="BespokenTitle">Ghetto Gastro</h2>
-				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+				<h4 class="paragraph ultra-padded-full-span">How a crew of friends from the Bronx is capitalizing on the word of the street.</h4>
 				<a href="/articles/2016/9/20/new-school-flavor-1"><h4 class="title link-border">Read More</h4></a>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/ghettoGastro_thumb.png);"></div>
 			</div>
@@ -66,14 +69,13 @@
 	<div class="page feature-page" id="BespokenNehera">
 		<div class="flex-col">
 			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(http://gdurl.com/dPJb);">
-				<h4 class="title uppercase">Feature</h4>
 				<h2 class="title feature-page-title">Bespoken Menswear</h2>
-				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+				<h4 class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</h4>
 				<a href="/articles/2016/9/21/building-bespoken"><h4 class="title link-border">Read More</h4></a>
 			</div>
 			<div class="half-span white-bg" id="Nehera">
 				<h2 class="title feature-page-title">Nehera</h2>
-				<p class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</p>
+				<h4 class="paragraph padded-full-span">Lorem ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum dolor sit amet ipsum</h4>
 				<a href="/articles/2016/9/20/by-no-accident"><h4 class="title link-border">Read More</h4></a>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/nehera_thumb.jpg);"></div>
 			</div>
@@ -87,11 +89,16 @@
 					<a href="/articles/2016/9/19/the-modern-philosopher">
 					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/alicia_kwade.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
 						<p class="title uppercase subject-title">Alicia Kwade</p>
 						<p class="title link-border">The Modern Philosopher</p>
 					</div>
 					</a>
+				</div>
+				<div class="sub-text">
+					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="title uppercase subject-title">Alicia Kwade</p>
+					<p class="title link-border">The Modern Philosopher</p>
 				</div>
 			</div>
 			<div class="half-span">
@@ -99,11 +106,16 @@
 					<a href="/articles/2016/9/21/brooklyns-caribbean-soul">
 					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/melo_x.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
 						<p class="title uppercase subject-title">MeLo-X</p>
 						<p class="title link-border">Brooklyn's Caribbean Soul</p>
 					</div>
 					</a>
+				</div>
+				<div class="sub-text">
+					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="title uppercase subject-title">MeLo-X</p>
+					<p class="title link-border">Brooklyn's Caribbean Soul</p>
 				</div>
 			</div>
 		</div>
@@ -113,11 +125,16 @@
 					<a href="/articles/2016/9/21/shifting-harmony">
 					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/manolo_campion.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
 						<p class="title uppercase subject-title">Manolo Campion</p>
 						<p class="title link-border">Shifting Harmony</p>
 					</div>
 					</a>
+				</div>
+				<div class="sub-text">
+					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="title uppercase subject-title">Manolo Campion</p>
+					<p class="title link-border">Shifting Harmony</p>
 				</div>
 			</div>
 			<div class="half-span vertical-first">
@@ -125,11 +142,16 @@
 					<a href="/articles/2016/9/20/heart-and-soles">
 					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/aurora_james.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">0</span>4</p>
+						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
 						<p class="title uppercase subject-title">Aurora James</p>
 						<p class="title link-border">Heart and Soles</p>
 					</div>
 					</a>
+				</div>
+				<div class="sub-text">
+					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="title uppercase subject-title">Aurora James</p>
+					<p class="title link-border">Heart and Soles</p>
 				</div>
 			</div>
 		</div>
