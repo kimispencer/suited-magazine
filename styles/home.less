@@ -95,9 +95,17 @@
 		.feature-page-mainImg {
 			height: 100vh;
 		}
+		&#GhettoGastro {
+			#GhettoGastroMainCopy {
+				padding-bottom: @header_height;
+			}
+		}
 	}
 	.page#BespokenNehera {
 		padding-top: 0;
+		.half-span#Bespoken {
+			padding: @header_height 0;
+		}
 		.half-span#Nehera {
 			padding-top: @header_height;
 		}
@@ -170,12 +178,20 @@
 			padding-top: 0;
 		}
 		.page#BespokenNehera {
+			.half-span#Bespoken {
+				padding-top: 0;
+			}
 			.half-span#Nehera {
 				padding-top: 0;
 			}
 		}
 		.feature-page {
 			min-height: 100vh;
+			&#GhettoGastro {
+				#GhettoGastroMainCopy {
+					padding-bottom: 0;
+				}
+			}
 		}
 		#Articles {
 			min-height: 200vh;
