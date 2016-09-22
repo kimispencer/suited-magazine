@@ -90,14 +90,14 @@
 					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/alicia_kwade.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
 						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-						<p class="title uppercase subject-title">Alicia Kwade</p>
+						<h5 class="title uppercase subject-title">Alicia Kwade</h5>
 						<p class="title link-border">The Modern Philosopher</p>
 					</div>
 					</a>
 				</div>
 				<div class="sub-text">
 					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-					<p class="title uppercase subject-title">Alicia Kwade</p>
+					<h5 class="title uppercase subject-title">Alicia Kwade</h5>
 					<p class="title link-border">The Modern Philosopher</p>
 				</div>
 			</div>
@@ -107,14 +107,14 @@
 					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/melo_x.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
 						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-						<p class="title uppercase subject-title">MeLo-X</p>
+						<h5 class="title uppercase subject-title">MeLo-X</h5>
 						<p class="title link-border">Brooklyn's Caribbean Soul</p>
 					</div>
 					</a>
 				</div>
 				<div class="sub-text">
 					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-					<p class="title uppercase subject-title">MeLo-X</p>
+					<h5 class="title uppercase subject-title">MeLo-X</h5>
 					<p class="title link-border">Brooklyn's Caribbean Soul</p>
 				</div>
 			</div>
@@ -126,14 +126,14 @@
 					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/manolo_campion.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
 						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-						<p class="title uppercase subject-title">Manolo Campion</p>
+						<h5 class="title uppercase subject-title">Manolo Campion</h5>
 						<p class="title link-border">Shifting Harmony</p>
 					</div>
 					</a>
 				</div>
 				<div class="sub-text">
 					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-					<p class="title uppercase subject-title">Manolo Campion</p>
+					<h4 class="title uppercase subject-title">Manolo Campion</h4>
 					<p class="title link-border">Shifting Harmony</p>
 				</div>
 			</div>
@@ -143,14 +143,14 @@
 					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/aurora_james.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
 						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-						<p class="title uppercase subject-title">Aurora James</p>
+						<h5 class="title uppercase subject-title">Aurora James</h5>
 						<p class="title link-border">Heart and Soles</p>
 					</div>
 					</a>
 				</div>
 				<div class="sub-text">
 					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
-					<p class="title uppercase subject-title">Aurora James</p>
+					<h5 class="title uppercase subject-title">Aurora James</h5>
 					<p class="title link-border">Heart and Soles</p>
 				</div>
 			</div>
