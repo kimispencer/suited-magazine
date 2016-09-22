@@ -3,7 +3,7 @@
 		<div class="page-category" data-current-category="home"></div>
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
-				<h4 class="title" id="IssueNo">Issue N<span class="superscript">O</span>4</h4>
+				<h3 class="title" id="IssueNo">Issue N<span class="superscript">O</span>4</h3>
 				<p class="title uppercase" id="IssueSeason">fall/winter 2016</p>
 				<p class="paragraph padded-full-span" id="IssueCopy">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas. </p>
 
