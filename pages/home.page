@@ -8,13 +8,15 @@
 				<p class="paragraph padded-full-span" id="IssueCopy">This is a summary of the issue lorem ipsum dolor sit amet adiscus lipscum hamburger tomato tomatoe potato potatoe</p>
 
 				<div class="featuring-container">
-					<p class="title uppercase">Featuring</p>
+					<p class="title uppercase">Highlights</p>
 					<ul class="featuring-list">
-						<li><a href="/articles/2016/9/20/new-school-flavor-1"><h5 class="title">Ghetto Gastro</h5></a></li>
-						<li><a href="/articles/2016/9/20/by-no-accident"><h5 class="title">Nehera</h5></a></li>
-						<li><a href="/articles/2016/9/21/building-bespoken"><h5 class="title">Bespoken</h5></a></li>
-						<li><a href="/articles/2016/9/19/the-modern-philosopher"><h5 class="title">Alicja Kwade</h5></a></li>
-						<li><a href="/articles/2016/9/21/brooklyns-caribbean-soul"><h5 class="title">MeLo-X</h5></a></li>
+						<li><a href="/articles/2016/9/20/new-school-flavor-1"><h5 class="link-border invisible title">Ghetto Gastro</h5></a></li>
+						<li><a href="/articles/2016/9/20/by-no-accident"><h5 class="link-border invisible title">Nehera</h5></a></li>
+						<li><a href="/articles/2016/9/21/building-bespoken"><h5 class="link-border invisible title">Bespoken</h5></a></li>
+						<br>
+						<li><a href="/articles/2016/9/19/the-modern-philosopher"><h5 class="link-border invisible title">Alicja Kwade</h5></a></li>
+						<li><a href="/articles/2016/9/21/shifting-harmony"><h5 class="link-border invisible title">Manolo Campion</h5></a></li>
+						<li><a href="/articles/2016/9/21/brooklyns-caribbean-soul"><h5 class="link-border invisible title">MeLo-X</h5></a></li>
 					</ul>
 				</div>
 				<h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore this issue</h4>

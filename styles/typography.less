@@ -78,3 +78,13 @@ p {
 		left: 0;
 	}
 }
+.link-border.invisible {
+	&:before {
+		opacity: 0;
+	}
+	&:hover {
+		&:before {
+			opacity: 1;
+		}
+	}
+}

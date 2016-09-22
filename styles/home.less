@@ -23,10 +23,23 @@
 			margin-bottom: @gutter*3;
 		}
 		.featuring-list {
+			max-width: calc(100vw ~'-' @gutter*2);
+			width: 500px;
+			margin: 0 auto;
+			.flexbox();
+			.flex-flow(row);
+			.justify-content(center);
+			.align-items(center);
+			.flex-wrap(wrap);
 			margin-top: @gutter/2;
 			li {
-				float: left;
-				margin-right: @gutter;
+				/*float: left;*/
+				margin-top: @gutter/4;
+				margin-bottom: @gutter/4;
+				&:after {
+					content: "•";
+					margin: 0 @gutter/2;
+				}
 			}
 		}
 	}
