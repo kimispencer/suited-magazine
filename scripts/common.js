@@ -109,6 +109,9 @@ $('.open-modal').on('click', function() {
 		if(category == 'magazine') {
 			if(v['issue'] == id) {
 				var form = $('#MagazinePurchaseForms #Purchase' + id).html();
+				if(form == undefined) {
+					form = '';
+				}
 				$('.modal-content').html(
 					'<div class="flex-col">'
 						+ '<div class="magazine-image">'
