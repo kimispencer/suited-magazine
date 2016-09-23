@@ -30,19 +30,27 @@
 			</div>
 		</div>
 		<div class="flex-col-unresponsive" id="Events">
-			<h4 class="title event-title" id="Intro">Upcoming Suited Events</h4>
+			<h4 class="title event-title" id="Intro">Upcoming Events</h4>
 			<div class="flex-col event-block-container">
 				<div class="event-block">
-					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.jpg)"></div> 
-					<h4 class="title event-title">Dinner with Ghetto Gastro</h4>
+					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.png)">
+						<div class="overlay">
+							<h4 class="">Dinner with</h4>
+							<h4 class="link-border">Ghetto Gastro</h4>
+						</div>	
+					</div> 
+					<h5 class="title event-title">A feast like no other with the Bronx's own culinary crew.</h5>
 					<p class="paragraph event-copy">Hosted by Editor-in-Chief Ashley Owens</p>
 					<p class="paragraph event-copy">Event specifics to follow</p>
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 				<div class="event-block">
-					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)"></div>
-					<h4 class="title event-title">Celebrate SUITED with a night of music</h4>
-					<p class="paragraph event-copy">Celebrate the first four issues of SUITED magazine with us</p>
+					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)">
+						<div class="overlay">
+							<h4 class="link-border">A Night of Music</h4>
+						</div>	
+					</div>
+					<h5 class="title event-title">Celebrate the first four issues of SUITED magazine with us.</h5>
 					<p class="paragraph event-copy">Hosted by Meredith Graves</p>
 					<p class="paragraph event-copy">Event specifics to follow</p>
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
@@ -51,29 +59,30 @@
 		</div>
 	</div>
 
-	<div class="page black-bg feature-page" id="GhettoGastro">
+	<div class="page black-bg feature-page" id="GhettoGastro" data-link="/articles/2016/9/20/new-school-flavor-1">
 		<div class="flex-col">
 			<div class="half-span" id="GhettoGastroMainCopy">
 				<h2 class="title feature-page-title" id="BespokenTitle">Ghetto Gastro</h2>
 				<h4 class="paragraph ultra-padded-full-span">How a crew of friends from the Bronx is capitalizing on the word of the street.</h4>
-				<a href="/articles/2016/9/20/new-school-flavor-1"><h4 class="title link-border">Read More</h4></a>
+				<h4 class="title link-border">Read More</h4>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/ghettoGastro_thumb.png);"></div>
 			</div>
 			<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(http://gdurl.com/XHcs);"></div>
 		</div>
+		</a>
 	</div>
 
 	<div class="page feature-page" id="BespokenNehera">
 		<div class="flex-col">
-			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(http://gdurl.com/dPJb);">
+			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(http://gdurl.com/dPJb);" data-link="/articles/2016/9/21/building-bespoken">
 				<h2 class="title feature-page-title">Bespoken Menswear</h2>
 				<h4 class="paragraph padded-full-span">With a history built on classical tailoring, the Fayed brothers have a new formula, and it’s breaking every rule.</h4>
-				<a href="/articles/2016/9/21/building-bespoken"><h4 class="title link-border">Read More</h4></a>
+				<h4 class="title link-border">Read More</h4>
 			</div>
-			<div class="half-span white-bg" id="Nehera">
+			<div class="half-span white-bg" id="Nehera" data-link="/articles/2016/9/20/by-no-accident">
 				<h2 class="title feature-page-title">Nehera</h2>
 				<h4 class="paragraph padded-full-span">With Samuel Drira’s revival of the minimalist brand Nehera, every decision is purposeful.</h4>
-				<a href="/articles/2016/9/20/by-no-accident"><h4 class="title link-border">Read More</h4></a>
+				<h4 class="title link-border">Read More</h4>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/nehera_thumb.jpg);"></div>
 			</div>
 		</div>

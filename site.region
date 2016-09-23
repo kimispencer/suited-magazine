@@ -42,7 +42,7 @@
 
 	<footer>
 		<div id="FooterSignup">
-			<h4 class="title">Subscribe to Suited's newsletter</h4>
+			<h4 class="title">Subscribe to SUITED's newsletter</h4>
 			<form action="mailto:contact@suitedmagazine.com" method="POST" enctype="text/plain">
 			<!-- <form action="subscribe.php" method="POST"> -->
 				<input name="email" type="email" placeholder="Email" />
@@ -127,7 +127,7 @@
 			</div>
 		</div>
 		<div id="CopyRight">
-			<p class="paragraph">COPYRIGHT (C) 2016 SUITED LLC</p>
+			<p class="paragraph">COPYRIGHT (C) 2016 SUITED, LLC</p>
 		</div>
 	</footer>
 

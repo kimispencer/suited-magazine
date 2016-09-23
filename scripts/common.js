@@ -55,6 +55,11 @@ $('.close-nav, .main-nav li').on('click', function() {
 	$('.nav-header').removeClass('open');
 });
 
+/* data links */
+$('*[data-link]').on('click', function() {
+	document.location.href = $(this).data('link');
+});
+
 /* modal stuff 
 	* !!! only working for magazineData
 	* MUST set data to populate modal content
@@ -130,6 +135,10 @@ $('.close-modal').on('click', function() {
 
 /* dom ready */
 $(document).ready(function() {
+	// set overlays to parents
+	$('.overlay')
+		.css('position', 'absolute')
+		.parent().css('position', 'relative');
 	// set CurrentIssue Image to be top on mobile
 	if($(window).width() < 1024) {
 		$('.vertical-first').each(function() {
