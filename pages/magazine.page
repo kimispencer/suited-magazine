@@ -8,6 +8,9 @@
 				<input type="submit" class="submit" name="submit" value="Purchase U.S.">
 			</div>
 		</form>
+		<h4 class="title link-border left">
+			<a href="https://www.bruil.info/product/suited-subscription/" class="submit">Pre-Order International</a>
+		</h4>
 	</div>
 
 	<div id="Purchase3">
@@ -18,6 +21,9 @@
 				<input type="submit" class="submit" name="submit" value="Purchase U.S.">
 			</div>
 		</form>
+		<h4 class="title link-border left">
+			<a href="https://www.bruil.info/product/suited-subscription/" class="submit">Purchase International</a>
+		</h4>
 	</div>
 
 	<div id="Purchase2">
@@ -50,62 +56,62 @@
 							// 	+ '</div>'
 							// + '</form>'
 
--->
+						-->
 
 
-</div>
-
-
-<section id="Magazine">
-	<div class="page padded-top full-span">
-		<div class="page-category" data-current-category="magazine">
-			<p>magazine</p>
-		</div>
-		<div class="padded-full-span">
-			<div class="flex-col">
-				<div class="magazine-container">
-					<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="4" id="CurrentIssueImg" style="background-image: url(/assets/magazines/issue4_cover.png);">
-						<div class="overlay black-bg hover-overlay-bottom">
-							<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>4</h3>
-						</div>
 					</div>
-				</div>
-				<div id="CurrentIssueCopy">
-					<h2 class="title" id="IssueNo">Issue N<span class="superscript">O</span>4</h2>
-					<p class="paragraph">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas.</p>
-					<h4 class="title link-border open-modal" id="ReadMore" data-modal-type="magazine" data-modal-id="4">Read More</h4>
-				</div>
-			</div>
-			<div class="horizontal-border"></div>
-			<div id="PastIssuesContainer">
-				<h4 class="title">Past Issues</h4>
-				<div class="flex-col" id="PastIssuesImgs">
-					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/magazines/issue3_cover.png)">
-							<div class="overlay black-bg hover-overlay-bottom">
-								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>3</h3>
+
+
+					<section id="Magazine">
+						<div class="page padded-top full-span">
+							<div class="page-category" data-current-category="magazine">
+								<p>magazine</p>
 							</div>
-							<p class="magazine-subtext">Issue N<span class="superscript">O</span>3</p>
-						</div>
-					</div>
-					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="2" style="background-image: url(/assets/magazines/issue2_cover.jpg);">
-							<div class="overlay black-bg hover-overlay-bottom">
-								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>2</h3>
+							<div class="padded-full-span">
+								<div class="flex-col">
+									<div class="magazine-container">
+										<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="4" id="CurrentIssueImg" style="background-image: url(/assets/magazines/issue4_cover.png);">
+											<div class="overlay black-bg hover-overlay-bottom">
+												<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>4</h3>
+											</div>
+										</div>
+									</div>
+									<div id="CurrentIssueCopy">
+										<h2 class="title" id="IssueNo">Issue N<span class="superscript">O</span>4</h2>
+										<p class="paragraph">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas.</p>
+										<h4 class="title link-border open-modal" id="ReadMore" data-modal-type="magazine" data-modal-id="4">Read More</h4>
+									</div>
+								</div>
+								<div class="horizontal-border"></div>
+								<div id="PastIssuesContainer">
+									<h4 class="title">Past Issues</h4>
+									<div class="flex-col" id="PastIssuesImgs">
+										<div class="magazine-container">
+											<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="3" style="background-image: url(/assets/magazines/issue3_cover.png)">
+												<div class="overlay black-bg hover-overlay-bottom">
+													<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>3</h3>
+												</div>
+												<p class="magazine-subtext">Issue N<span class="superscript">O</span>3</p>
+											</div>
+										</div>
+										<div class="magazine-container">
+											<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="2" style="background-image: url(/assets/magazines/issue2_cover.jpg);">
+												<div class="overlay black-bg hover-overlay-bottom">
+													<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>2</h3>
+												</div>
+												<p class="magazine-subtext">Issue N<span class="superscript">O</span>2</p>
+											</div>
+										</div>
+										<div class="magazine-container">
+											<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="1" style="background-image: url(/assets/magazines/issue1_cover.jpg);">
+												<div class="overlay black-bg hover-overlay-bottom">
+													<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>1</h3>
+												</div>
+												<p class="magazine-subtext">Issue N<span class="superscript">O</span>1</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
-							<p class="magazine-subtext">Issue N<span class="superscript">O</span>2</p>
 						</div>
-					</div>
-					<div class="magazine-container">
-						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="1" style="background-image: url(/assets/magazines/issue1_cover.jpg);">
-							<div class="overlay black-bg hover-overlay-bottom">
-								<h3 class="title link-border" id="IssueNo">Issue N<span class="superscript">O</span>1</h3>
-							</div>
-							<p class="magazine-subtext">Issue N<span class="superscript">O</span>1</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+					</section>

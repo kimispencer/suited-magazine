@@ -115,12 +115,7 @@ $('.open-modal').on('click', function() {
 							+ '<div class="magazine-container">'
 								+ '<div class="bg-img magazine" style="background-image: url(/assets/' + data.imgSrc + ');"></div>'
 							+ '</div>'
-
 							+ form
-							+ '<h4 class="title link-border left">'
-								+ '<a href="https://www.bruil.info/product/suited-subscription/" class="submit">Purchase International</a>'
-							+ '</h4>'
-
 						+ '</div>'
 						+ '<div class="magazine-copy">'
 							+ '<h4 class="title" id="IssueNo">Issue N<span class="superscript">O</span>' + data.issue + '</h4>'
