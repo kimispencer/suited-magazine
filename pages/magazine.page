@@ -5,12 +5,9 @@
 			<input type="hidden" name="cmd" value="_s-xclick">
 			<input type="hidden" name="hosted_button_id" value="BR64MQDR4MY3J">
 			<div class="link-border left title">
-				<input type="submit" class="submit" name="submit" value="Purchase U.S.">
+				<input type="submit" class="submit" name="submit" value="Pre-Order U.S.">
 			</div>
 		</form>
-		<h4 class="title link-border left">
-			<a href="https://www.bruil.info/product/suited-subscription/" class="submit">Pre-Order International</a>
-		</h4>
 	</div>
 
 	<div id="Purchase3">
