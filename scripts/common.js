@@ -51,6 +51,7 @@ var modalData = {
 
 /* subscription form */
 $('.subscribe-form').on('submit', function(e) {
+	var form = $(this);
 	var postData = $(this).serialize();
     var formURL = $(this).attr("action");
 	$.ajax(
@@ -63,12 +64,14 @@ $('.subscribe-form').on('submit', function(e) {
         success:function(data, textStatus, jqXHR) 
         {
             //data: return data from server
-            console.log('success')
+            // console.log('success')
+            $(form).html('<p>Thanks</p>');
         },
         error: function(jqXHR, textStatus, errorThrown) 
         {
             //if fails
-            console.log('error')
+            // console.log('error')
+            $(form).html('<p>Thanks</p>');
         }
     });
 	e.preventDefault(); //STOP default action
