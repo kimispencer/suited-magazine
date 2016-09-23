@@ -56,6 +56,7 @@ var modalData = {
 
 /* subscription form */
 $('.subscribe-form').on('submit', function(e) {
+	console.log('hi')
 	var form = $(this);
 	var postData = $(this).serialize();
     var formURL = $(this).attr("action");
@@ -108,9 +109,7 @@ $('.open-modal').on('click', function() {
 		// magazine detail modal
 		if(category == 'magazine') {
 			if(v['issue'] == id) {
-console.log(id)
 				var form = $('#MagazinePurchaseForms #Purchase' + id).html();
-console.log(form)
 				if(form == undefined) {
 					form = '';
 				}
@@ -159,9 +158,6 @@ console.log(form)
 $('.close-modal').on('click', function() {
 	$('.modal-dialog').removeClass('open');
 });
-
-/* subscribe form */
-// need to put AJAX
 
 /* dom ready */
 $(document).ready(function() {
