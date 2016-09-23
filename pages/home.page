@@ -42,7 +42,7 @@
 							<p class="paragraph event-copy">Event specifics to follow</p>
 						</div>	
 					</div> 
-					<h5 class="title event-title">A feast like no other with the Bronx's own culinary crew.</h5>
+					<!-- <h5 class="title event-title">A feast like no other with the Bronx's own culinary crew.</h5> -->
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 				<div class="event-block">
@@ -54,7 +54,7 @@
 							<p class="paragraph event-copy">Event specifics to follow</p>
 						</div>	
 					</div>
-					<h5 class="title event-title">Celebrate the first four issues of SUITED magazine with us.</h5>
+					<!-- <h5 class="title event-title">Celebrate the first four issues of SUITED magazine with us.</h5> -->
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 			</div>
