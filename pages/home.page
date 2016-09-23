@@ -24,7 +24,7 @@
 				<!-- <div class="vertical-border"></div> -->
 			</div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
-				<div class="magazine-container">
+				<div class="magazine-container open-modal" data-modal-type="magazine" data-modal-id="4">
 					<div class="bg-img magazine" style="background-image: url(/assets/magazines/issue4_cover.png);" id="CurrentIssueImg"></div>
 				</div>
 			</div>
