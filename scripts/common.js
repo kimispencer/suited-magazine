@@ -108,7 +108,9 @@ $('.open-modal').on('click', function() {
 		// magazine detail modal
 		if(category == 'magazine') {
 			if(v['issue'] == id) {
+console.log(id)
 				var form = $('#MagazinePurchaseForms #Purchase' + id).html();
+console.log(form)
 				if(form == undefined) {
 					form = '';
 				}
