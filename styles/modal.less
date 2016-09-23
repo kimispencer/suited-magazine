@@ -33,7 +33,6 @@
 	}
 	.modal-content {
 		padding: @gutter*5 0;
-		margin-top: @header_height;
 		.flexbox();
 		.flex-flow(column);
 		.justify-content(center);
@@ -81,6 +80,7 @@
 @media @desktop {
 	.modal-dialog {
 		.modal-content {
+			margin-top: @header_height;
 			&.magazine-modal {
 				.magazine-image, .magazine-copy {
 					width: 50%;
