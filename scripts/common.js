@@ -65,13 +65,13 @@ $('.subscribe-form').on('submit', function(e) {
         {
             //data: return data from server
             // console.log('success')
-            $(form).html('<p>Thanks</p>');
+            $(form).html('<p>Thank you.</p>');
         },
         error: function(jqXHR, textStatus, errorThrown) 
         {
             //if fails
             // console.log('error')
-            $(form).html('<p>Thanks</p>');
+            $(form).html('<p>Thank you.</p>');
         }
     });
 	e.preventDefault(); //STOP default action
