@@ -154,6 +154,10 @@ $(document).ready(function() {
 			$(this).addClass('link-border');
 		}
 	});
+	/* footer bg color */
+	if($('.page-category').attr('data-current-category').toLowerCase() == 'home') {
+		$('.footer').css('background-color', '#CBCED4');
+	}
 });
 
 $(window).load(function() {
