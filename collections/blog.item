@@ -78,6 +78,8 @@
 					{.if models }<p class="paragraph credit-tag">Models <span class="uppercase">{models}</span></p>{.end}
 					<br />
 					{.if allLooks }<p class="paragraph credit-tag">All looks {allLooks}</p>{.end}
+					{.if shotAt }<p class="paragraph credit-tag">Shot At {shotAt}</p>{.end}
+					{.if shotIn }<p class="paragraph credit-tag">Shot In {shotIn}</p>{.end}
 					{.if imagesCourtesyOf }<p class="paragraph credit-tag">All images courtesy of {imagesCourtesyOf}</p>{.end}
 					{.if specialThanks }<p class="paragraph credit-tag">Special thanks {specialThanks}</p>{.end}
 				</div>
