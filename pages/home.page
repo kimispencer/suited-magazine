@@ -36,7 +36,7 @@
 					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.png)">
 						<div class="overlay">
 							<h4 class="">Dinner with</h4>
-							<h4 class="link-border">Ghetto Gastro</h4>
+							<h4 class="">Ghetto Gastro</h4>
 						</div>	
 					</div> 
 					<h5 class="title event-title">A feast like no other with the Bronx's own culinary crew.</h5>
@@ -47,7 +47,7 @@
 				<div class="event-block">
 					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)">
 						<div class="overlay">
-							<h4 class="link-border">A Night of Music</h4>
+							<h4 class="">A Night of Music</h4>
 						</div>	
 					</div>
 					<h5 class="title event-title">Celebrate the first four issues of SUITED magazine with us.</h5>
