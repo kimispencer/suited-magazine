@@ -177,7 +177,7 @@ $(document).ready(function() {
 	});
 	/* footer bg color */
 	if($('.page-category').attr('data-current-category').toLowerCase() == 'home') {
-		$('.footer').css('background-color', '#CBCED4');
+		$('footer').css('background-color', '#CBCED4');
 	}
 });
 
