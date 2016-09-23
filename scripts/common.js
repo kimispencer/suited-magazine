@@ -75,6 +75,11 @@ $('.open-modal').on('click', function() {
 		// magazine detail modal
 		if(category == 'magazine') {
 			if(v['issue'] == id) {
+
+console.log(id)
+var form = $('#MagazinePurchaseForms #Purchase' + id).html();
+console.log(form)
+
 				$('.modal-content').html(
 					'<div class="flex-col">'
 						+ '<div class="magazine-image">'
@@ -82,16 +87,10 @@ $('.open-modal').on('click', function() {
 								+ '<div class="bg-img magazine" style="background-image: url(/assets/' + data.imgSrc + ');"></div>'
 							+ '</div>'
 
-							// + '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">'
-							// 	+ '<input type="hidden" name="cmd" value="_s-xclick">'
-							// 	+ '<input type="hidden" name="hosted_button_id" value="WK4V3PRHWPHAC">'
-							// 	+ '<div class="link-border left title">'
-							// 		+ '<input type="submit" class="submit" name="submit" value="Purchase U.S.">'
-							// 	+ '</div>'
-							// + '</form>'
-							// + '<h4 class="title link-border left">'
-							// 	+ '<a href="https://www.bruil.info/product/suited-subscription/" class="submit">Purchase International</a>'
-							// + '</h4>'
+							+ form
+							+ '<h4 class="title link-border left">'
+								+ '<a href="https://www.bruil.info/product/suited-subscription/" class="submit">Purchase International</a>'
+							+ '</h4>'
 
 						+ '</div>'
 						+ '<div class="magazine-copy">'

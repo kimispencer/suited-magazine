@@ -1,3 +1,59 @@
+<div style="display: none;" id="MagazinePurchaseForms">
+
+	<div id="Purchase4">
+<!-- 		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="Z34UV7QVRLAD4">
+			<input type="submit" class="submit" name="submit" value="Purchase U.S.">
+		</form> -->
+	</div>
+
+	<div id="Purchase3">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="WK4V3PRHWPHAC">
+			<div class="link-border left title">
+				<input type="submit" class="submit" name="submit" value="Purchase U.S.">
+			</div>
+		</form>
+	</div>
+
+	<div id="Purchase2">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="7UMWKDA27D4EW">
+			<div class="link-border left title">
+				<input type="submit" class="submit" name="submit" value="Purchase U.S.">
+			</div>
+		</form>
+	</div>
+
+	<div id="Purchase1">
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="Z34UV7QVRLAD4">
+			<div class="link-border left title">
+				<input type="submit" class="submit" name="submit" value="Purchase U.S.">
+			</div>
+		</form>
+	</div>
+
+<!--
+
+							// + '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">'
+							// 	+ '<input type="hidden" name="cmd" value="_s-xclick">'
+							// 	+ '<input type="hidden" name="hosted_button_id" value="WK4V3PRHWPHAC">'
+							// 	+ '<div class="link-border left title">'
+							// 		+ '<input type="submit" class="submit" name="submit" value="Purchase U.S.">'
+							// 	+ '</div>'
+							// + '</form>'
+
+-->
+
+
+</div>
+
+
 <section id="Magazine">
 	<div class="page padded-top full-span">
 		<div class="page-category" data-current-category="magazine">
