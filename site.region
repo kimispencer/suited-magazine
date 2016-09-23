@@ -43,11 +43,23 @@
 	<footer>
 		<div id="FooterSignup">
 			<h4 class="title">Subscribe to SUITED's newsletter</h4>
-			<form action="mailto:contact@suitedmagazine.com" method="POST" enctype="text/plain">
+
 			<!-- <form action="subscribe.php" method="POST"> -->
+			<!-- <form action="mailto:contact@suitedmagazine.com" method="POST" enctype="text/plain">
 				<input name="email" type="email" placeholder="Email" />
 				<input class="floating-submit" type="submit" placeholder="Sign Up" />
-			</form>
+			</form> -->
+
+<form class="subscribe-form" action="https://docs.google.com/forms/d/e/1FAIpQLSco3ReedNkWASY8oD8cbZ0d06KCWmcRzPw7mlq5v7vMmF-Mrw/formResponse" target="_self" method="POST" id="mG61Hd">
+	<input type="text" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Email" aria-describedby="i.desc.1298582576 i.err.1298582576" name="entry.1606779970" value="" dir="auto" data-initial-dir="auto" data-initial-value="">
+	<input type="hidden" name="fvv" value="1">
+	<input type="hidden" name="draftResponse" value="[,,&quot;8810625272124621442&quot;]">
+	<input type="hidden" name="pageHistory" value="0">
+	<input type="hidden" name="fbzx" value="8810625272124621442">
+	<input class="floating-submit" type="submit" placeholder="Sign Up" />
+</form>
+
+
 		</div>
 		<div id="FooterInfo">
 			<div class="flex-col">

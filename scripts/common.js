@@ -49,6 +49,31 @@ var modalData = {
 	]
 }
 
+/* subscription form */
+$('.subscribe-form').on('submit', function(e) {
+	var postData = $(this).serialize();
+    var formURL = $(this).attr("action");
+	$.ajax(
+    {
+        url : formURL,
+        type: "POST",
+        data : postData,
+        crossDomain: true,
+        dataType: 'jsonp',
+        success:function(data, textStatus, jqXHR) 
+        {
+            //data: return data from server
+            console.log('success')
+        },
+        error: function(jqXHR, textStatus, errorThrown) 
+        {
+            //if fails
+            console.log('error')
+        }
+    });
+	e.preventDefault(); //STOP default action
+});
+
 /* nav/header stuff */
 $('.open-nav').on('click', function() {
 	$('.nav-header').addClass('open');
@@ -75,11 +100,7 @@ $('.open-modal').on('click', function() {
 		// magazine detail modal
 		if(category == 'magazine') {
 			if(v['issue'] == id) {
-
-console.log(id)
-var form = $('#MagazinePurchaseForms #Purchase' + id).html();
-console.log(form)
-
+				var form = $('#MagazinePurchaseForms #Purchase' + id).html();
 				$('.modal-content').html(
 					'<div class="flex-col">'
 						+ '<div class="magazine-image">'
