@@ -1,7 +1,7 @@
 #Home {
 	.page#Landing {
 		&.padded-top {
-			margin-top: @header_height;
+			margin-top: 0;
 		}
 	}
 	.page-category {
@@ -150,6 +150,11 @@
 }
 @media @desktop {
 	#Home {
+		.page#Landing {
+			&.padded-top {
+				margin-top: @header_height;
+			}
+		}
 		.half-span.bg-img {
 			height: 100vh;
 		}
