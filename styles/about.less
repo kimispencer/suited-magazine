@@ -16,6 +16,8 @@
 			.flex-flow(row);
 			.flex-wrap(wrap);
 			.justify-content(center);
+			.contributor-column {
+			}
 			.contributor {
 				margin: @gutter;
 			}
@@ -27,6 +29,13 @@
 	#About {
 		.bg-img {
 			background-position: 50% 0%;
+		}
+		.masthead {
+			.sub-contributors {
+				.contributor-column {
+					.flex(1);
+				}
+			}
 		}
 	}
 }
