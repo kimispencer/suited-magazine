@@ -25,7 +25,9 @@
 						{.end}
 						<!-- if there's a hero CTA -->
 						{.section heroCTA_copy}
-							<p>{heroCTA_copy}</p>
+							<div class="hero-cta-copy">
+								<p>{heroCTA_copy}</p>
+							</div>
 						{.end}
 						{.section heroCTA_url_name}
 							<a href={heroCTA_url_link} target="_blank"><h4 class="link-border">{heroCTA_url_name}</h4></a>
