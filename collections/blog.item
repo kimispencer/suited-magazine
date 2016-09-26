@@ -55,6 +55,8 @@
 					{.if photographer}<p class="paragraph credit-tag">Photography <span class="uppercase">{photographer}</span></p>{.end}
 					{.if stylist}<p class="paragraph credit-tag">Styling <span class="uppercase">{stylist}</span></p>{.end}
 					{.if artwork}<p class="paragraph credit-tag">Artwork <span class="uppercase">{artwork}</span></p>{.end}
+					{.if artDirection}<p class="paragraph credit-tag">Art Direction <span class="uppercase">{artDirection}</span></p>{.end}
+					{.if curatedBy}<p class="paragraph credit-tag">Curated by <span class="uppercase">{curatedBy}</span></p>{.end}
 					{.if author}<p class="paragraph credit-tag">Words <span class="uppercase">{author}</span></p>{.end}
 					<br />
 					{.if hair}<p class="paragraph credit-tag">Hair <span class="uppercase">{hair}</span></p>{.end}
