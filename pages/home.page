@@ -34,9 +34,10 @@
 			<h4 class="title event-title" id="Intro">Upcoming Events</h4>
 			<div class="flex-col event-block-container">
 				<div class="event-block">
-					<div class="bg-img event-img" style="background-image: url(/assets/events/event_ghettoGastro.png)">
+					<div class="bg-img event-img" style="background: #CBCED4;">
 						<div class="overlay">
-							<h4 class="event-title main">Dinner with<br>Ghetto Gastro</h4>
+							<h3 class="event-title main">Dinner with<br>Ghetto Gastro</h3>
+							<h5 class="event-title sub">A feast like no other with the Bronx's<br>own culinary crew.</h5>
 							<p class="event-copy uppercase">Hosted By</p>
 							<p class="paragraph event-title">SUITED Editor-in-Chief<br>and Creative Director Ashley Owens</p>
 							<p class="paragraph event-copy">Event specifics to follow</p>
@@ -46,9 +47,10 @@
 					<!-- <p class="uppercase paragraph event-link">Buy Tickets</p> -->
 				</div>
 				<div class="event-block">
-					<div class="bg-img event-img" style="background-image: url(/assets/events/event_Issue4.jpg)">
+					<div class="bg-img event-img" style="background: #CBCED4;">
 						<div class="overlay">
-							<h4 class="event-title main"><br>A Night of Music</h4>
+							<h3 class="event-title main"><br>A Night of Music</h3>
+							<h5 class="event-title sub">Celebrate the first four issues of<br>SUITED magazine with us.</h5>
 							<p class="event-copy uppercase">Hosted By</p>
 							<p class="paragraph event-title">Meredith Graves</p>
 							<p class="paragraph event-copy">Event specifics to follow</p>
