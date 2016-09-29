@@ -38,9 +38,9 @@
 						<div class="overlay white">
 							<h3 class="event-title main">Dinner with<br>Ghetto Gastro</h3>
 							<h5 class="event-title sub">A feast like no other with the Bronx's<br>own culinary crew.</h5>
-							<p class="event-copy uppercase">Hosted By</p>
-							<p class="paragraph event-title">SUITED Editor-in-Chief<br>and Creative Director Ashley Owens</p>
-							<p class="paragraph event-copy">Event specifics to follow</p>
+							<p class="event-copy uppercase small">Hosted By</p>
+							<p class="paragraph event-title" style="margin-bottom: 10px;">SUITED Editor-in-Chief<br>and Creative Director Ashley Owens</p>
+							<p class="paragraph event-copy small">Event specifics to follow</p>
 						</div>	
 					</div> 
 					<!-- <h5 class="title event-title">A feast like no other with the Bronx's own culinary crew.</h5> -->
@@ -51,9 +51,9 @@
 						<div class="overlay white">
 							<h3 class="event-title main"><br>A Night of Music</h3>
 							<h5 class="event-title sub">Celebrate the first four issues of<br>SUITED magazine with us.</h5>
-							<p class="event-copy uppercase">Hosted By</p>
-							<p class="paragraph event-title">Meredith Graves</p>
-							<p class="paragraph event-copy">Event specifics to follow</p>
+							<p class="event-copy uppercase small">Hosted By</p>
+							<p class="paragraph event-title" style="margin-bottom: 10px;">Meredith Graves</p>
+							<p class="paragraph event-copy small">Event specifics to follow</p>
 						</div>	
 					</div>
 					<!-- <h5 class="title event-title">Celebrate the first four issues of SUITED magazine with us.</h5> -->
