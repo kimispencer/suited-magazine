@@ -178,11 +178,9 @@ $(document).ready(function() {
 	});
 	/* footer bg color */
 	if($('.page-category').attr('data-current-category').toLowerCase() == 'home') {
-		$('footer').css({
-			'background-color': '#CBCED4',
-			'border-top': 'none'
-		});
-
+		$('footer').addClass('dark-footer');
+	} else {
+		$('footer').removeClass('dark-footer');
 	}
 });
 
