@@ -193,11 +193,14 @@ $(window).load(function() {
 });
 
 var has_scrolled = false;
-$(document).on('scroll', function() {
+$(document).one('scroll', function() {
 	has_scrolled = true;
 	if(has_scrolled) {
 		$('.nav-header').addClass('transparent');
 	}
+});
+
+$(document).on('scroll', function() {
 	// desktop horizontal header bg on scroll change
 	// if($(this).scrollTop() < 1) {
 	// 	if($('.nav-header').hasClass('transparent')) {
