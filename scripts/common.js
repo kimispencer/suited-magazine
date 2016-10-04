@@ -192,13 +192,18 @@ $(window).load(function() {
 	};
 });
 
+var has_scrolled = false;
 $(document).on('scroll', function() {
-	// desktop horizontal header bg on scroll change
-	if($(this).scrollTop() < 1) {
-		if($('.nav-header').hasClass('transparent')) {
-			$('.nav-header').removeClass('transparent');
-		}
-	} else {
+	has_scrolled = true;
+	if(has_scrolled) {
 		$('.nav-header').addClass('transparent');
 	}
+	// desktop horizontal header bg on scroll change
+	// if($(this).scrollTop() < 1) {
+	// 	if($('.nav-header').hasClass('transparent')) {
+	// 		$('.nav-header').removeClass('transparent');
+	// 	}
+	// } else {
+	// 	$('.nav-header').addClass('transparent');
+	// }
 });
