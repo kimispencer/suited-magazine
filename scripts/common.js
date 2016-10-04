@@ -192,11 +192,13 @@ $(window).load(function() {
 	};
 });
 
+$('.nav-header').addClass('on-load');
 var has_scrolled = false;
+
 $(document).one('scroll', function() {
 	has_scrolled = true;
 	if(has_scrolled) {
-		$('.nav-header').addClass('transparent');
+		$('.nav-header').removeClass('on-load').addClass('transparent');
 	}
 });
 
