@@ -3,7 +3,7 @@
 		<div class="page-category" data-current-category="home"></div>
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
-				<h3 class="title" id="IssueNo">Issue N<span class="superscript">O</span>4</h3>
+				<h3 class="title" id="IssueNo">Issue No.4</h3>
 				<p class="title uppercase" id="IssueSeason">fall/winter 2016</p>
 				<p class="paragraph padded-full-span" id="IssueCopy">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas. </p>
 
@@ -136,7 +136,7 @@
 					<a href="/articles/2016/9/19/the-modern-philosopher">
 					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/alicja_kwade.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+						<p class="paragraph">Issue No.4</p>
 						<h5 class="title uppercase subject-title">Alicja Kwade</h5>
 						<p class="title link-border">The Modern Philosopher</p>
 					</div>
@@ -144,7 +144,7 @@
 				</div>
 				<a href="/articles/2016/9/19/the-modern-philosopher">
 				<div class="sub-text">
-					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="paragraph">Issue No.4</p>
 					<h5 class="title uppercase subject-title">Alicja Kwade</h5>
 					<p class="title link-border">The Modern Philosopher</p>
 				</div>
@@ -155,7 +155,7 @@
 					<a href="/articles/2016/9/21/brooklyns-caribbean-soul">
 					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/melo_x.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+						<p class="paragraph">Issue No.4</p>
 						<h5 class="title uppercase subject-title">MeLo-X</h5>
 						<p class="title link-border">Brooklyn's Caribbean Soul</p>
 					</div>
@@ -163,7 +163,7 @@
 				</div>
 				<a href="/articles/2016/9/21/brooklyns-caribbean-soul">
 				<div class="sub-text">
-					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="paragraph">Issue No.4</p>
 					<h5 class="title uppercase subject-title">MeLo-X</h5>
 					<p class="title link-border">Brooklyn's Caribbean Soul</p>
 				</div>
@@ -176,7 +176,7 @@
 					<a href="/articles/2016/9/21/shifting-harmony">
 					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/manolo_campion.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+						<p class="paragraph">Issue No.4</p>
 						<h5 class="title uppercase subject-title">Manolo Campion</h5>
 						<p class="title link-border">Shifting Harmony</p>
 					</div>
@@ -184,7 +184,7 @@
 				</div>
 				<a href="/articles/2016/9/21/shifting-harmony">
 				<div class="sub-text">
-					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="paragraph">Issue No.4</p>
 					<h4 class="title uppercase subject-title">Manolo Campion</h4>
 					<p class="title link-border">Shifting Harmony</p>
 				</div>
@@ -195,7 +195,7 @@
 					<a href="/articles/2016/9/20/heart-and-soles">
 					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/aurora_james.jpg);"></div>
 					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+						<p class="paragraph">Issue No.4</p>
 						<h5 class="title uppercase subject-title">Aurora James</h5>
 						<p class="title link-border">Heart and Soles</p>
 					</div>
@@ -203,7 +203,7 @@
 				</div>
 				<a href="/articles/2016/9/20/heart-and-soles">
 				<div class="sub-text">
-					<p class="paragraph">Issue N<span class="superscript">O</span>4</p>
+					<p class="paragraph">Issue No.4</p>
 					<h5 class="title uppercase subject-title">Aurora James</h5>
 					<p class="title link-border">Heart and Soles</p>
 				</div>

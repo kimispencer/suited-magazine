@@ -122,7 +122,7 @@ $('.open-modal').on('click', function() {
 							+ form
 						+ '</div>'
 						+ '<div class="magazine-copy">'
-							+ '<h4 class="title" id="IssueNo">Issue N<span class="superscript">O</span>' + data.issue + '</h4>'
+							+ '<h4 class="title" id="IssueNo">Issue No.' + data.issue + '</h4>'
 							+ '<p class="title uppercase">' + data.season + '</p>'
 							+ '<p class="title uppercase" id="InThisIssue">In This Issue</p>'
 							+ '<p class="paragraph">' + data.copy + '</p>'

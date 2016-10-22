@@ -16,7 +16,7 @@
 						<article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
 							{.section customContent}
 								{.if issue}
-								<p class="paragraph">Issue N<span class="superscript">O</span>{issue}</p>
+								<p class="paragraph">Issue No.{issue}</p>
 								{.end}
 								<p class="title uppercase subject-title">{subject}</p>
 							{.end}
@@ -26,7 +26,7 @@
 				</section>
 				<div class="blog-sub-text">
 					{.section customContent}
-						<p class="paragraph">Issue N<span class="superscript">O</span>{issue}</p>
+						<p class="paragraph">Issue No.{issue}</p>
 						<p class="title uppercase">{subject}</p>
 					{.end}
 					<p class="title uppercase">{excerpt}</p>
