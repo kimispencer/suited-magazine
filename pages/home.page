@@ -4,8 +4,8 @@
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
 				<h3 class="title" id="IssueNo">Issue No.4</h3>
-				<p class="title uppercase" id="IssueSeason">fall/winter 2016</p>
-				<p class="paragraph padded-full-span" id="IssueCopy">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas. </p>
+				<p class="title uppercase" id="IssueSeason">autumn/winter 2016</p>
+				<p class="paragraph padded-full-span" id="IssueCopy">With social justice at the forefront of our collective mind, rocking a frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiration drawn from unity.</p>
 
 				<div class="featuring-container">
 					<p class="title uppercase">Highlights</p>
@@ -21,7 +21,7 @@
 						<li><a href="/articles/2016/9/20/heart-and-soles"><h5 class="link-border invisible title">Aurora James</h5></a></li>
 					</ul>
 				</div>
-				<h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore this issue</h4>
+				<h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore This Issue</h4>
 				<!-- <div class="vertical-border"></div> -->
 			</div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
@@ -40,15 +40,15 @@
 					<div class="event-text">
 						<p class="event-copy uppercase small top-border">A SUITED Party</p>
 						<br>
-						<h3 class="event-title main">Issue No.4 Private Release<br>Masquerade</h3>
+						<h3 class="event-title main">Issue No.4 Private Release Party<br>Masquerade</h3>
 						<br>
-						<h5 class="event-title sub">You are invited to the private SUITED masquerade and release of Issue No.4 on Friday, October 28th</h5>
+						<h5 class="event-title sub">Friday, October 28,  10 p.m. - 2 a.m., Spring Place</h5>
 						<br>
-						<h5 class="event-title sub">We will be celebrating exclusively at Spring Place -- come masked and dress in your best black-and-white attire.</h5>
+						<h5 class="event-title sub">Come masked and dressed in your best black-and-white attire</h5>
 						<br>
-						<h5 class="event-title sub">Custom offerings all night.</h5>
+						<h5 class="event-title sub">Custom open bar offerings all night</h5>
 						<br>
-						<h5 class="event-title sub">All ticket purchases include a copy of Issue No.4 shipped to your address, a $25 value</h5>
+						<h5 class="event-title sub">Ticket includes a copy of Issue No.4 shipped to your address (a $25 value)</h5>
 						<br>
 						<a href="https://www.eventbrite.com/e/issue-no-4-private-release-masquerade-tickets-28696141933?utm-medium=discovery&utm-campaign=social&utm-content=attendeeshare&aff=escb&utm-source=cp&utm-term=listing" target="_blank"><h3 class="link-border left">Buy Tickets</h3></a>
 					</div>
