@@ -3,30 +3,33 @@
 		<div class="page-category" data-current-category="home"></div>
 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
-				<h3 class="title" id="IssueNo">Issue No.4</h3>
-				<p class="title uppercase" id="IssueSeason">autumn/winter 2016</p>
-				<p class="paragraph padded-full-span" id="IssueCopy">With social justice at the forefront of our collective mind, rocking a frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiration drawn from unity.</p>
+				<h3 class="title" id="IssueNo">SUITED Celebrates Two Years</h3>
+				<p class="title uppercase" id="IssueSeason">Established February 2015</p>
+				<p class="paragraph padded-full-span" id="IssueCopy">To celebrate the first four issues of our limited-edition print magazine, all of our cover stories are now available here.<br><br>As a step beyond print, we proudly present our first online-exclusive fashion editorials photographed by Bridget Fleming, Joshua Woods, and Vera Comploj. Our expansion online will continue to evolve in the coming months, and we welcome your participation.</p>
 
 				<div class="featuring-container">
 					<p class="title uppercase">Highlights</p>
 					<ul class="featuring-list">
-						<li><a href="/articles/2016/9/20/new-school-flavor-1"><h5 class="link-border invisible title">Ghetto Gastro</h5></a></li>
-						<li><a href="/articles/2016/9/20/by-no-accident"><h5 class="link-border invisible title">Nehera</h5></a></li>
-						<li><a href="/articles/2016/9/21/building-bespoken"><h5 class="link-border invisible title">Bespoken</h5></a></li>
+						<li><a href="/articles/2017/1/31/leah-the-oarsman"><h5 class="link-border invisible title">Bridget Fleming</h5></a></li>
+						<li><a href="/articles/2017/1/31/no-borders"><h5 class="link-border invisible title">Vera Comploj</h5></a></li>
+						<li><a href="/articles/2017/1/31/ebbs-flows"><h5 class="link-border invisible title">Joshua Woods</h5></a></li>
 						<br>
-						<li><a href="/articles/2016/9/19/the-modern-philosopher"><h5 class="link-border invisible title">Alicja Kwade</h5></a></li>
-						<li><a href="/articles/2016/9/21/shifting-harmony"><h5 class="link-border invisible title">Manolo Campion</h5></a></li>
-						<li><a href="/articles/2016/9/21/brooklyns-caribbean-soul"><h5 class="link-border invisible title">MeLo-X</h5></a></li>
-						<li><a href="/articles/2016/9/22/marland-backus"><h5 class="link-border invisible title">Marland Backus</h5></a></li>
-						<li><a href="/articles/2016/9/20/heart-and-soles"><h5 class="link-border invisible title">Aurora James</h5></a></li>
+						<li><a href="/articles/modelcitizens"><h5 class="link-border invisible title">Model Citizens</h5></a></li>
+						<li><a href="/articles/2016/9/26/myladalbesio"><h5 class="link-border invisible title">Myla DalBesio</h5></a></li>
+						<li><a href="/articles/2016/9/24/i-keep-coming-back-to-the-room"><h5 class="link-border invisible title">Patricia Black</h5></a></li>
+						<li><a href="/articles/2016/9/20/new-school-flavor-1"><h5 class="link-border invisible title">Ghetto Gastro</h5></a></li>
 					</ul>
 				</div>
-				<h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore This Issue</h4>
+				<a href="/magazine"><h4 class="title link-border" style="margin-bottom:40px;">Explore The Magazine</h4></a>
+				<!-- <h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore This Issue</h4> -->
 				<!-- <div class="vertical-border"></div> -->
 			</div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
-				<div class="magazine-container open-modal" data-modal-type="magazine" data-modal-id="4">
-					<div class="bg-img magazine" style="background-image: url(/assets/magazines/anniversary_2year.png);" id="CurrentIssueImg"></div>
+				<div class="magazine-container">
+					<!-- <div class="magazine-container open-modal" data-modal-type="magazine" data-modal-id="4"> -->
+					<a href="/magazine">
+						<div class="bg-img magazine" style="background-image: url(/assets/magazines/anniversary_2year.png);" id="CurrentIssueImg"></div>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -84,24 +87,24 @@
 				</div>
 			</div>
 		</div>
-		-->
-	</div>
+	-->
+</div>
 
-	<div class="page black-bg feature-page" id="GhettoGastro" data-link="/articles/2016/9/20/new-school-flavor-1">
-		<div class="flex-col">
-			<div class="half-span" id="GhettoGastroMainCopy">
-				<h2 class="title feature-page-title">Ghetto Gastro</h2>
-				<h4 class="paragraph ultra-padded-full-span">How a crew of friends from the Bronx is capitalizing on the word of the street.</h4>
-				<h4 class="title link-border">Read More</h4>
-				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/LEAH_small_tile.jpg);"></div>
-			</div>
-			<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589356f5e6f2e17632f88960/1486051083065/LEAH_big_tile.jpg?format=2500w);"></div>
+<div class="page black-bg feature-page" id="GhettoGastro" data-link="/articles/2017/1/31/leah-the-oarsman">
+	<div class="flex-col">
+		<div class="half-span" id="GhettoGastroMainCopy">
+			<h2 class="title feature-page-title">Bridget Fleming</h2>
+			<h4 class="paragraph ultra-padded-full-span">Leah the Oarsman</h4>
+			<h4 class="title link-border">See More</h4>
+			<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/LEAH_small_tile.jpg);"></div>
 		</div>
-		</a>
+		<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589356f5e6f2e17632f88960/1486051083065/LEAH_big_tile.jpg?format=2500w);"></div>
 	</div>
+</a>
+</div>
 
-	<div class="page feature-page" id="BespokenNehera">
-		<div class="flex-col">
+<div class="page feature-page" id="BespokenNehera">
+	<div class="flex-col">
 			<!-- <div class="half-span" style="position: relative;">
 				<div id="BespokenGif">
 					<img 
@@ -115,15 +118,15 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589357b5893fc0a33ae91cd3/1486051273585/No_Borders_large_tile.jpg?format=2500w);" data-link="/articles/2016/9/21/building-bespoken">
-				<h2 class="title feature-page-title">Bespoken Menswear</h2>
-				<h4 class="paragraph padded-full-span">With a history built on classical tailoring, the Fayed brothers have a new formula, and it’s breaking every rule.</h4>
-				<h4 class="title link-border">Read More</h4>
+			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589357b5893fc0a33ae91cd3/1486051273585/No_Borders_large_tile.jpg?format=2500w);" data-link="/articles/2017/1/31/no-borders">
+				<h2 class="title feature-page-title">Vera Comploj</h2>
+				<h4 class="paragraph padded-full-span">No Boarders</h4>
+				<h4 class="title link-border">See More</h4>
 			</div>
-			<div class="half-span white-bg" id="Nehera" data-link="/articles/2016/9/20/by-no-accident">
-				<h2 class="title feature-page-title">Nehera</h2>
-				<h4 class="paragraph padded-full-span">Every decision is purposeful in Samuel Drira’s revival of the minimalist womenswear brand.</h4>
-				<h4 class="title link-border">Read More</h4>
+			<div class="half-span white-bg" id="Nehera" data-link="/articles/2017/1/31/ebbs-flows">
+				<h2 class="title feature-page-title">Joshua Woods</h2>
+				<h4 class="paragraph padded-full-span">Ebbs and Flows</h4>
+				<h4 class="title link-border">See More</h4>
 				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/KARIME.png);"></div>
 			</div>
 		</div>
@@ -133,80 +136,80 @@
 		<div class="flex-col">
 			<div class="half-span">
 				<div class="hover-overlay">
-					<a href="/articles/2016/9/19/the-modern-philosopher">
-					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue4_Ghetto_Gastro.jpg);"></div>
-					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue No.4</p>
-						<h5 class="title uppercase subject-title">Alicja Kwade</h5>
-						<p class="title link-border">The Modern Philosopher</p>
-					</div>
+					<a href="/articles/2016/9/20/new-school-flavor-1">
+						<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue4_Ghetto_Gastro.jpg);"></div>
+						<div class="overlay black-bg hover-overlay-bottom">
+							<p class="paragraph">Issue No.4</p>
+							<h5 class="title uppercase subject-title">Ghetto Gastro</h5>
+							<p class="title link-border">Cover Story</p>
+						</div>
 					</a>
 				</div>
-				<a href="/articles/2016/9/19/the-modern-philosopher">
-				<div class="sub-text">
-					<p class="paragraph">Issue No.4</p>
-					<h5 class="title uppercase subject-title">Alicja Kwade</h5>
-					<p class="title link-border">The Modern Philosopher</p>
-				</div>
+				<a href="/articles/2016/9/20/new-school-flavor-1">
+					<div class="sub-text">
+						<p class="paragraph">Issue No.4</p>
+						<h5 class="title uppercase subject-title">Ghetto Gastro</h5>
+						<p class="title link-border">Cover Story</p>
+					</div>
 				</a>
 			</div>
 			<div class="half-span">
 				<div class="hover-overlay">
-					<a href="/articles/2016/9/21/brooklyns-caribbean-soul">
-					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue3_Patrica_Black.png);"></div>
-					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue No.4</p>
-						<h5 class="title uppercase subject-title">MeLo-X</h5>
-						<p class="title link-border">Brooklyn's Caribbean Soul</p>
-					</div>
+					<a href="/articles/2016/9/24/i-keep-coming-back-to-the-room">
+						<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue3_Patrica_Black.png);"></div>
+						<div class="overlay black-bg hover-overlay-bottom">
+							<p class="paragraph">Issue No.3</p>
+							<h5 class="title uppercase subject-title">Patricia Black</h5>
+							<p class="title link-border">Cover Story</p>
+						</div>
 					</a>
 				</div>
-				<a href="/articles/2016/9/21/brooklyns-caribbean-soul">
-				<div class="sub-text">
-					<p class="paragraph">Issue No.4</p>
-					<h5 class="title uppercase subject-title">MeLo-X</h5>
-					<p class="title link-border">Brooklyn's Caribbean Soul</p>
-				</div>
+				<a href="/articles/2016/9/24/i-keep-coming-back-to-the-room">
+					<div class="sub-text">
+						<p class="paragraph">Issue No.3</p>
+						<h5 class="title uppercase subject-title">Patricia Black</h5>
+						<p class="title link-border">Cover Story</p>
+					</div>
 				</a>
 			</div>
 		</div>
 		<div class="flex-col">
 			<div class="half-span">
 				<div class="hover-overlay">
-					<a href="/articles/2016/9/21/shifting-harmony">
-					<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue2_Myla.png);"></div>
-					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue No.4</p>
-						<h5 class="title uppercase subject-title">Manolo Campion</h5>
-						<p class="title link-border">Shifting Harmony</p>
-					</div>
+					<a href="/articles/2016/9/26/myladalbesio">
+						<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue2_Myla.png);"></div>
+						<div class="overlay black-bg hover-overlay-bottom">
+							<p class="paragraph">Issue No.2</p>
+							<h5 class="title uppercase subject-title">Myla DalBesio</h5>
+							<p class="title link-border">Shifting Harmony</p>
+						</div>
 					</a>
 				</div>
-				<a href="/articles/2016/9/21/shifting-harmony">
-				<div class="sub-text">
-					<p class="paragraph">Issue No.4</p>
-					<h4 class="title uppercase subject-title">Manolo Campion</h4>
-					<p class="title link-border">Shifting Harmony</p>
-				</div>
+				<a href="/articles/2016/9/26/myladalbesio">
+					<div class="sub-text">
+						<p class="paragraph">Issue No.2</p>
+						<h4 class="title uppercase subject-title">Myla DalBesio</h4>
+						<p class="title link-border">Shifting Harmony</p>
+					</div>
 				</a>
 			</div>
 			<div class="half-span vertical-first">
 				<div class="hover-overlay">
-					<a href="/articles/2016/9/20/heart-and-soles">
-					<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue1_ModelCitizens.png);"></div>
-					<div class="overlay black-bg hover-overlay-bottom">
-						<p class="paragraph">Issue No.4</p>
-						<h5 class="title uppercase subject-title">Aurora James</h5>
-						<p class="title link-border">Heart and Soles</p>
-					</div>
+					<a href="/articles/modelcitizens">
+						<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue1_ModelCitizens.png);"></div>
+						<div class="overlay black-bg hover-overlay-bottom">
+							<p class="paragraph">Issue No.1</p>
+							<h5 class="title uppercase subject-title">Model Citizens</h5>
+							<p class="title link-border">Cover Story</p>
+						</div>
 					</a>
 				</div>
-				<a href="/articles/2016/9/20/heart-and-soles">
-				<div class="sub-text">
-					<p class="paragraph">Issue No.4</p>
-					<h5 class="title uppercase subject-title">Aurora James</h5>
-					<p class="title link-border">Heart and Soles</p>
-				</div>
+				<a href="/articles/modelcitizens">
+					<div class="sub-text">
+						<p class="paragraph">Issue No.1</p>
+						<h5 class="title uppercase subject-title">Model Citizens</h5>
+						<p class="title link-border">Cover Story</p>
+					</div>
 				</a>
 			</div>
 		</div>
