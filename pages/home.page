@@ -127,7 +127,7 @@
 				<h2 class="title feature-page-title">Joshua Woods</h2>
 				<h4 class="paragraph padded-full-span">Ebbs and Flows</h4>
 				<h4 class="title link-border">See More</h4>
-				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/KARIME.png);"></div>
+				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/joshua-woods.jpg);"></div>
 			</div>
 		</div>
 	</div>
@@ -156,7 +156,7 @@
 			<div class="half-span">
 				<div class="hover-overlay">
 					<a href="/articles/2016/9/24/i-keep-coming-back-to-the-room">
-						<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue3_Patrica_Black.png);"></div>
+						<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/patricia-black.jpg);"></div>
 						<div class="overlay black-bg hover-overlay-bottom">
 							<p class="paragraph">Issue No.3</p>
 							<h5 class="title uppercase subject-title">Patricia Black</h5>
@@ -177,7 +177,7 @@
 			<div class="half-span">
 				<div class="hover-overlay">
 					<a href="/articles/2016/9/26/myladalbesio">
-						<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue2_Myla.png);"></div>
+						<div class="medium-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/myla.jpg);"></div>
 						<div class="overlay black-bg hover-overlay-bottom">
 							<p class="paragraph">Issue No.2</p>
 							<h5 class="title uppercase subject-title">Myla DalBesio</h5>
