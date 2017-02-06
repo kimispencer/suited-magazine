@@ -96,7 +96,7 @@
 			<h2 class="title feature-page-title">Bridget Fleming</h2>
 			<h4 class="paragraph ultra-padded-full-span">Leah the Oarsman</h4>
 			<h4 class="title link-border">See More</h4>
-			<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/LEAH_small_tile.jpg);"></div>
+			<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/LEAH_small_tile.jpg); background-position-y:87%;"></div>
 		</div>
 		<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589356f5e6f2e17632f88960/1486051083065/LEAH_big_tile.jpg?format=2500w);"></div>
 	</div>
