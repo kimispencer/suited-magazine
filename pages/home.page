@@ -193,7 +193,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="half-span vertical-first">
+			<div class="half-span"><!-- .vertical-first to change order -->
 				<div class="hover-overlay">
 					<a href="/articles/modelcitizens">
 						<div class="large-square bg-img hover-overlay-top" style="background-image: url(/assets/homepage/Issue1_ModelCitizens.png);"></div>
