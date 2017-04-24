@@ -86,7 +86,7 @@
 					{.if shotIn }<p class="paragraph credit-tag">Shot in {shotIn}</p>{.end}
 					{.if imagesCourtesyOf }<p class="paragraph credit-tag">All images courtesy of {imagesCourtesyOf}</p>{.end}
 					{.if specialThanks }<p class="paragraph credit-tag">Special thanks {specialThanks}</p>{.end}
-					{.if directedBy }<p class="paragraph credit-tag">Directed By {directedBy}</p>{.end}
+					{.if directedBy }<p class="paragraph credit-tag">Directed By {directedBy.html}</p>{.end}
 				</div>
 				{.end}
 			</div>
