@@ -15,7 +15,8 @@
 				<div id="CurrentIssueCopy">
 					<h2 class="title" id="IssueNo">Issue No.4</h2>
 					<p class="paragraph">With social justice at the forefront of our collective minds, rocking the frayed political climate that grapples to understand an ever-evolving cerebral landscape, there’s no better time than now to devote ourselves to the importance of community. Undoubtedly, there is strength in numbers, and in inspiring ideas.</p>
-					<h4 class="title link-border open-modal" id="ReadMore" data-modal-type="magazine" data-modal-id="4">Read More</h4>
+					<!-- <h4 class="title link-border open-modal" id="ReadMore" data-modal-type="magazine" data-modal-id="4">Read More</h4> -->
+					<div class="purchase-links" id="Magazine4"></div>
 				</div>
 			</div>
 			<div class="horizontal-border"></div>
@@ -29,6 +30,7 @@
 							</div>
 							<p class="magazine-subtext">Issue No.3</p>
 						</div>
+						<div class="purchase-links" id="Magazine3"></div>
 					</div>
 					<div class="magazine-container">
 						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="2" style="background-image: url(/assets/magazines/issue2_cover.jpg);">
@@ -37,6 +39,7 @@
 							</div>
 							<p class="magazine-subtext">Issue No.2</p>
 						</div>
+						<div class="purchase-links" id="Magazine2"></div>
 					</div>
 					<div class="magazine-container">
 						<div class="bg-img hover-overlay magazine open-modal" data-modal-type="magazine" data-modal-id="1" style="background-image: url(/assets/magazines/issue1_cover.jpg);">
@@ -45,9 +48,25 @@
 							</div>
 							<p class="magazine-subtext">Issue No.1</p>
 						</div>
+						<div class="purchase-links" id="Magazine1"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+
+<!-- jQuery CDN -->
+<script   
+src="https://code.jquery.com/jquery-2.2.4.min.js"
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   
+crossorigin="anonymous"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.magazine').each(function() {
+			var id = $(this).attr('data-modal-id');
+			var form = $('#MagazinePurchaseForms #Purchase' + id).html();
+			$('.purchase-links#Magazine' + id).html(form);
+		});
+	});
+</script>

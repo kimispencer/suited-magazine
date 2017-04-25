@@ -3,6 +3,23 @@
 		margin-top: @gutter*2;
 		border-top: 1px solid @black;
 	}
+	.purchase-links {
+		margin-top: @gutter;
+		text-align: left;
+		color: @black;
+		font-size: 1em;
+		.title {
+			cursor: pointer;
+			margin-bottom: @gutter/2;
+		}
+		form input {
+			height: auto;
+		}
+		form input[type="submit"], .title {
+			color: @black;
+			font-size: 1em;
+		}
+	}
 	.magazine {
 		.box-shadow(~"-4px 4px 6px 0px #868686");
 		margin-bottom: @gutter*3;
@@ -33,7 +50,6 @@
 		margin-top: @gutter*4;
 		.title {
 			text-align: left;
-			margin-bottom: @gutter*2;
 		}
 		#PastIssuesImgs {
 			.justify-content(space-between);
@@ -65,6 +81,14 @@
 					}
 				}
 			}
+		}
+	}
+}
+
+@media @phone {
+	#Magazine {
+		.magazine-container {
+			margin-top: @gutter*2;
 		}
 	}
 }

@@ -1,7 +1,33 @@
 <section id="Home">
 	<div class="page padded-top" id="Landing">
 		<div class="page-category" data-current-category="home"></div>
-		<div class="flex-col" id="CurrentIssue">
+			<div class="slideshow">
+				<div id="Slide-1" class="slide">
+					<a href="/articles/2017/4/24/the-22-year-old-filmmaker-to-keep-watching">
+						<div class="hero image clickable" style="background-image: url(/assets//homepage/quinn_shephard.jpg);">
+							<div class="hero-text left">
+								<p class="title attribute" id="IssueNo">Quinn Shephard</p>
+								<h3 class="title" id="IssueNo">The 22-Year-Old Filmmaker To Keep Watching</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div id="Slide-2" class="slide">
+					<a href="/articles/2017/4/24/1llmvrdb0z7e6jpzliubv11qes8k6h">
+						<div class="hero image clickable" style="background-image: url(/assets//homepage/rana_plaza.jpg);">
+							<div class="hero-text left">
+								<p class="title attribute" id="IssueNo">Shivam Punjya</p>
+								<h3 class="title" id="IssueNo">Fashioning a Movement</h3>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="slideshow-nav">
+					<div class="nav active" data-slide-nav="Slide-1">1/ Quinn Shephard</div>
+					<div class="nav" data-slide-nav="Slide-2">2/ Shivam Punjya</div>
+				</div>
+			</div>
+<!-- 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
 				<h3 class="title" id="IssueNo">SUITED Celebrates Two Years</h3>
 				<p class="title uppercase" id="IssueSeason">Established February 2015</p>
@@ -21,18 +47,15 @@
 					</ul>
 				</div>
 				<a href="/magazine"><h4 class="title link-border" style="margin-bottom:40px;">Explore The Magazine</h4></a>
-				<!-- <h4 class="title link-border open-modal" data-modal-type="magazine" data-modal-id="4">Explore This Issue</h4> -->
-				<!-- <div class="vertical-border"></div> -->
 			</div>
 			<div class="half-span vertical-first" id="CurrentIssueImgContainer">
 				<div class="magazine-container">
-					<!-- <div class="magazine-container open-modal" data-modal-type="magazine" data-modal-id="4"> -->
 					<a href="/magazine">
 						<div class="bg-img magazine" style="background-image: url(/assets/magazines/anniversary_2year.png);" id="CurrentIssueImg"></div>
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
 <!-- 		<div class="padded-full-span" id="Events">
 			<div class="flex-col">
@@ -90,15 +113,15 @@
 	-->
 </div>
 
-<div class="page black-bg feature-page" id="GhettoGastro" data-link="/articles/2017/1/31/leah-the-oarsman">
+<div class="page black-bg feature-page" id="GhettoGastro" data-link="/articles/2017/4/24/becgls9ou9hcx21bgygp3id2pfph2o">
 	<div class="flex-col">
 		<div class="half-span" id="GhettoGastroMainCopy">
-			<h2 class="title feature-page-title">Bridget Fleming</h2>
-			<h4 class="paragraph ultra-padded-full-span">Leah the Oarsman</h4>
+			<h2 class="title feature-page-title">Three Panels by SUITED</h2>
+			<h4 class="paragraph ultra-padded-full-span">Celebrating Two Years of Dedication to Authenticity </h4>
 			<h4 class="title link-border">See More</h4>
-			<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/LEAH_small_tile.jpg); background-position-y:87%;"></div>
+			<!-- <div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/SuitedPanel_gif_square.gif);"></div> -->
 		</div>
-		<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589356f5e6f2e17632f88960/1486051083065/LEAH_big_tile.jpg?format=2500w);"></div>
+		<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/58ff227fe4fcb5ee3836459e/1493115532576/suited_panel.gif?format=2500w);"></div>
 	</div>
 </a>
 </div>

@@ -104,6 +104,8 @@ $('.open-modal').on('click', function() {
 	var category = $(this).attr('data-modal-type');
 	var id = $(this).attr('data-modal-id');
 
+console.log(id)
+
 	$.each(modalData[category], function(k,v) {
 		var data = modalData[category][k];
 		// magazine detail modal
@@ -176,6 +178,36 @@ $(document).ready(function() {
 			$(this).addClass('link-border');
 		}
 	});
+	// slideshow behavior
+	var slide_on = true;
+	if($('.slideshow').length > 0) {
+		var slides = $('.slide[id^="Slide-"]').hide(),
+		i = 0;
+		var speed = 400;
+
+		(function cycle() { 
+			if(slide_on) {
+				$('.slideshow-nav .nav').removeClass('active');
+				$('.slideshow-nav .nav[data-slide-nav=' + $(slides.eq(i)).attr('id') + ']').addClass('active');
+				slides.eq(i).stop().fadeIn(speed, function() {
+					$(this).delay(3000)
+						.fadeOut(speed, cycle);
+				});
+				i = ++i % slides.length;
+			} else {
+				$('.slide').hide();
+				$('.slide#' + $('.slideshow-nav .nav.active').attr('data-slide-nav')).show();
+			}
+		})();
+
+		$('.slideshow-nav .nav').on('click', function() {
+			slide_on = false;
+			$('.slideshow-nav .nav').removeClass('active');
+			$('.slide').hide();
+			$('.slide#' + $(this).attr('data-slide-nav')).show();
+			$('.slideshow-nav .nav[data-slide-nav=' + $(this).attr('data-slide-nav') + ']').addClass('active');
+		});
+	}
 	/* footer bg color */
 	if($('.page-category').attr('data-current-category').toLowerCase() == 'home') {
 		$('footer').addClass('dark-footer');
@@ -192,15 +224,15 @@ $(window).load(function() {
 	};
 });
 
-$('.nav-header').addClass('on-load');
-var has_scrolled = false;
+// $('.nav-header').addClass('on-load');
+// var has_scrolled = false;
 
-$(document).one('scroll', function() {
-	has_scrolled = true;
-	if(has_scrolled) {
-		$('.nav-header').removeClass('on-load').addClass('transparent');
-	}
-});
+// $(document).one('scroll', function() {
+// 	has_scrolled = true;
+// 	if(has_scrolled) {
+// 		$('.nav-header').removeClass('on-load').addClass('transparent');
+// 	}
+// });
 
 $(document).on('scroll', function() {
 	// desktop horizontal header bg on scroll change
