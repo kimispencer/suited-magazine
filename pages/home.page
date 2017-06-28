@@ -2,17 +2,17 @@
 	<div class="page padded-top" id="Landing">
 		<div class="page-category" data-current-category="home"></div>
 			<div class="slideshow">
-				<div id="Slide-1" class="slide">
-					<a href="/articles/2017/4/24/the-22-year-old-filmmaker-to-keep-watching">
-						<div class="hero image clickable" style="background-image: url(/assets/homepage/quinn_shephard.jpg);">
+				<!-- <div id="Slide-1" class="slide"> -->
+					<a href="/">
+						<div class="hero image clickable" style="background-image: url(/assets/homepage/death_to_tennis.jpg);">
 							<div class="hero-text left">
-								<p class="title attribute" id="IssueNo">Quinn Shephard</p>
-								<h3 class="title" id="IssueNo">The 22-Year-Old Filmmaker To Keep Watching</h3>
+								<p class="title attribute" id="IssueNo">Death to Tennis</p>
+								<h3 class="title" id="IssueNo">lorem ipsum</h3>
 							</div>
 						</div>
 					</a>
-				</div>
-				<div id="Slide-2" class="slide">
+				<!-- </div> -->
+<!-- 				<div id="Slide-2" class="slide">
 					<a href="/articles/2017/4/24/1llmvrdb0z7e6jpzliubv11qes8k6h">
 						<div class="hero image clickable" style="background-image: url(/assets/homepage/rana_plaza.jpg);">
 							<div class="hero-text left">
@@ -21,11 +21,11 @@
 							</div>
 						</div>
 					</a>
-				</div>
-				<div class="slideshow-nav">
+				</div> -->
+<!-- 				<div class="slideshow-nav">
 					<div class="nav active" data-slide-nav="Slide-1">1/ Quinn Shephard</div>
 					<div class="nav" data-slide-nav="Slide-2">2/ Shivam Punjya</div>
-				</div>
+				</div> -->
 			</div>
 <!-- 		<div class="flex-col" id="CurrentIssue">
 			<div class="half-span">
