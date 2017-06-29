@@ -86,9 +86,9 @@
 					{.if shotIn }<p class="paragraph credit-tag">Shot in {shotIn}</p>{.end}
 					{.if imagesCourtesyOf }<p class="paragraph credit-tag">All images courtesy of {imagesCourtesyOf}</p>{.end}
 					{.if specialThanks }<p class="paragraph credit-tag">Special thanks {specialThanks}</p>{.end}
-					{.if directedBy }<p class="paragraph credit-tag">Directed By {directedBy.html}</p>{.end}
-					{.if producedBy }<p class="paragraph credit-tag">Produced By {producedBy.html}</p>{.end}
-					{.if editorVideographer }<p class="paragraph credit-tag">Editor/Videographer {editorVideographer.html}</p>{.end}
+					{.if directedBy }<p class="paragraph credit-tag">Directed By {directedBy}</p>{.end}
+					{.if producedBy }<p class="paragraph credit-tag">Produced By {producedBy}</p>{.end}
+					{.if editorVideographer }<p class="paragraph credit-tag">Editor/Videographer {editorVideographer}</p>{.end}
 				</div>
 				{.end}
 			</div>
