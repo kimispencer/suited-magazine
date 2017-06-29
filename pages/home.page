@@ -4,7 +4,7 @@
 			<div class="slideshow">
 				<!-- <div id="Slide-1" class="slide"> -->
 					<a href="/articles/2017/6/13/death-to-complacency-the-new-classics-are-born-1">
-						<div class="hero image clickable" style="background-image: url(/assets/homepage/death_to_tennis.jpg);">
+						<div class="hero image clickable" style="background-image: url(/assets/homepage/death_to_tennis_hero.jpg);">
 							<div class="hero-text left">
 								<p class="title attribute" id="IssueNo">Death to Tennis</p>
 								<h3 class="title" id="IssueNo">Death to Complacency: The New Classics Are Born</h3>
@@ -126,9 +126,9 @@
 </a>
 </div>
 
-<div class="page black-bg feature-page" id="GhettoGastro" data-link="/2017/6/20/egxkz3xiy77wvo3vv9l2tnxmkqhu2t">
+<div class="page black-bg feature-page" id="GhettoGastro" data-link="/articles/2017/6/20/egxkz3xiy77wvo3vv9l2tnxmkqhu2t">
 	<div class="flex-col">
-		<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(/assets/homepage/myles_bennet.gif);"></div>
+		<div class="half-span bg-img feature-page-mainImg" id="GhettoGastroMainImg" style="background-image: url(/assets/homepage/ghetto_gastro.png);"></div>
 		<div class="half-span" id="GhettoGastroMainCopy">
 			<h2 class="title feature-page-title">From Bronx to Table</h2>
 			<h4 class="paragraph ultra-padded-full-span">Ghetto Gastro Broadens the Conversation Through Food</h4>
@@ -154,7 +154,7 @@
 					</div>
 				</div>
 			</div> -->
-			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(https://static1.squarespace.com/static/57d9763c414fb5fe329c6282/t/589357b5893fc0a33ae91cd3/1486051273585/No_Borders_large_tile.jpg?format=2500w);" data-link="/">
+			<div class="half-span bg-img white" id="Bespoken" style="background-image: url(/assets/homepage/death_to_tennis.jpg);" data-link="/articles/2017/6/13/death-to-complacency-the-new-classics-are-born-1">
 				<h2 class="title feature-page-title">Death to Tennis</h2>
 				<h4 class="paragraph padded-full-span">Death to Complacency: The New Classics Are Born</h4>
 				<h4 class="title link-border">See More</h4>
@@ -163,7 +163,7 @@
 				<h2 class="title feature-page-title">Shivam Punjya</h2>
 				<h4 class="paragraph padded-full-span">Fashioning a Movement</h4>
 				<h4 class="title link-border">See More</h4>
-				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/joshua-woods.jpg);"></div>
+				<div class="square bg-img feature-page-thumb" style="background-image: url(/assets/homepage/shivam_punjya.png);"></div>
 			</div>
 		</div>
 	</div>
